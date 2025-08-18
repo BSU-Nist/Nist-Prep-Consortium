@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bowie State University NIST PREP Consortium - Job Opportunities</title>
+    <meta name="description" content="Browse current job openings and career opportunities for students and alumni at our university job board.">
+    
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="{{ url_for('static', filename='css/output.css') }}" rel="stylesheet">
+
+    
+    <style>
+        .job-posting {
+            transition: all 0.3s ease;
+        }
+        .job-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .job-posting.active .job-content {
+            max-height: 1500px;
+        }
+        .rotate-chevron {
+            transform: rotate(180deg);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-[#FDB913] text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-center items-center">
+                <div>
+                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/bowie-state-bulldogs-barnaby-barnes.jpg" alt="Logo" class="h-12">
+                    <h1 class="text-3xl font-bold">Bowie State University - NIST Prep Consortium Job Opportunities</h1>
+                    <p class="text-black font-bold">Connecting talent with opportunity</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+       
+        <div class="flex  justify-center flex-col md:flex-row gap-8">
+ 
+            <!-- Job Listings -->
+            <section class="md:w-3/4">
+                <div class="flex justify-center items-center mb-6">
+                    <h2 class="text-2xl font-bold text-gray-800">Current Job Openings</h2>
+                    
+                </div>
+                
+                <div class="space-y-4">
+                    <!-- Job Posting 1 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Mechanical Engineer - Robotic Perception</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full-Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> One Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0002689</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">The Intelligent Systems Division at NIST is investigating the performance of 3D machine vision systems for various manufacturing applications. The research will focus on conducting experiments and analyzing data in relation to understanding the performance of 3D machine vision systems to support the development of standards for measuring the depth error and depth resolution of these systems, as well as for measuring the performance of systems used for bin picking applications.</p>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities</h4>
+                                        <p class="text-gray-600 mb-2">Will be tailored to fit the applicant’s qualifications and the applicant will be trained on the use of certain systems needed for the following possible duties: </p>                                        
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Research whether the distribution of the depth error across a single image at a certain distance is “the same” as the distribution of the depth error across a single image taken from a significantly different distance</li>
+                                            <li>Research the effects of various factors (part color, part surface properties, bin color, bin depth, ratio of part size to bin size, part distribution in a bin) on bin picking performance (e.g., cycle time, pose uncertainty, etc.)</li>
+                                            <li>Collect data from various 3D imaging systems</li>
+                                            <li>Program collaborative robot arms for conducting various tasks</li>
+                                            <li>Use metrology systems (e.g., laser trackers, CMMs, etc.) for establishing reference measurements</li>
+                                            <li>Use analysis software (e.g., MATLAB, Spatial Analyzer, Polyworks, Excel, etc.) to interpret results and produce visualizations</li>
+                                            <li>Write reports and contribute to peer-reviewed publications</li>
+                                        </ul>
+                                    </div> 
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications: Not all the qualifications below are required.</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Engineering majors with bachelor’s/master’s degree, or in final or penultimate years of bachelor’s/master’s degree.</li>
+                                            <li>Programming experience in one or more of the following computer languages: C++, Python, Java</li>
+                                            <li>Experience with CAD software such as SolidWorks</li>
+                                            <li>Experience using MATLAB</li>
+                                            <li>Experience using 3D printers</li>
+                                            <li>Basic understanding of robot control theory (DH parameters, kinematics, etc.)</li>
+                                            <li>Basic understanding of 3D sensors such as LiDAR or RGBD cameras</li>
+                                            <li>Basic understanding of the Unix/Linux operating systems</li>
+                                            <li>Basic understanding of programming robot forward and inverse kinematics</li>
+                                            <li>Working knowledge of 3D point cloud data processing techniques using Point Cloud</li>
+                                            <li>Library (PCL - http://pointclouds.org), CloudCompare, or other similar tools</li>
+                                        </ul>
+                                    </div>                                         
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Job Posting 2 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">NCCoE Community Profile Efforts Undergraduate Research Assistant </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Undergraduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 8 Months</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0002778</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">The NCCoE is looking to bring a student on board who is motivated to contribute to the mission of NCCoE “to accelerate the adoption of secure cybersecurity technologies”. While prior experience is not an absolute requirement, students should be willing to embrace the NCCoE mission and demonstrate an aptitude for learning and developing to be successful. The student will work with a mentor and will be integrated into the activities undertaken by the NCCoE Community Profile team. The student will conduct research on specific sectors where a gap exists for Community Profiles and determine methods/solutions for managing Community Profiles efforts. The final output will be for the student to create a research poster of work. The student will be assigned project tasks based on qualifications or interests and will be able to recommend and possibly pursue additional project areas of interest. Students are also encouraged to consider using this project-based learning experience as the focus of undergraduate research projects and/or other academic or research requirements for their degree. The student shall be expected to come in person to NIST Gaithersburg and NCCoE Rockville for meetings and trainings, however, will be able to telework on a case-by-case basis. The student shall work with the mentor on schedule and identify where he/she has a conflict with their schedule.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities will include but are not limited to:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Conducting research on specific sectors where a gap exists for Community Profiles.</li>
+                                            <li>Familiarity with NIST and relevant cybersecurity/privacy frameworks, guidance, and industry best practices.</li>
+                                            <li>Determining methods and solutions for managing and tracking Community Profiles progress, status, and next steps.</li>
+                                            <li>Reviewing website pages to ensure they remain up to date and assisting with getting content over to the appropriate team for posting.</li>
+                                            <li>Assisting with the development of slide decks for Community Profile and Framework Resource Center presentations.</li>
+                                            <li>Presenting results at internal meetings, and occasional meetings with external stakeholders.</li>
+                                            <li>Developing strategies on ways to build and increase the Community of Interest in particular work.</li>
+                                            <li>Exploring tools/technologies that can be utilized to adopt Community Profiles. At the end of the program, it is required to create and present a research poster of work deliverables.</li>
+                                        </ul>
+                                    </div>  
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>While there is a preference for an undergraduate student majoring in a technical discipline including computer science, cybersecurity, engineering, and information systems, this opportunity is open to undergraduate students from a variety of different related academic disciplines including education, business, public policy, information studies, law, criminal justice, and more.</li>
+                                            <li>Ability to conduct research on existing and new programs, projects, and initiatives and provide a synthesis of research that informs findings and recommendations.</li>
+                                            <li>Must be able to manage work time properly.</li>
+                                            <li>Familiarity with technology tools for communication, collaboration, and research.</li>
+                                            <li>Ability to work both independently and as part of a team.</li>
+                                            <li>Ability to effectively communicate in verbal and written form.</li>
+                                            <li>Ability to apply critical thinking and invoke curiosity to address challenges and opportunities in cybersecurity and privacy.</li>
+                                            <li>This position is open to undergraduate students at Bowie State University, Coppin State University, Morgan State University, North Carolina A&T, Tuskegee University, and the University of Maryland Eastern Shore.</li>
+                                        </ul>
+                                    </div>    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 10-15 hours per week.</li>
+                                            <li>Location: hybrid - the participant will work both at the NIST Gaithersburg, MD campus and telework.</li>
+                                            <li>Duration: this is an eight-month position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Job Posting 3 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">GIS Specialist for Community Resilience</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full-Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> One Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003030</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">The Community Resilience Program (CRP) of the National Institute of Standards of Technology (NIST) anticipates the need for a GIS (Geographic Information System) Specialist to work on community resilience and sustainability. The Community Resilience Group conducts research and works with a wide range of stakeholders to provide tools to communities to help improve community resilience for all hazards, with a focus on the built environment(buildings and infrastructure systems) and the role they play in meeting the social needs of the community.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities will include but are not limited to:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Collaborate on data and methods to improve the methodology for measuring the economic impact of community resilience planning, which is organized around the performance metric of ‘cost plus loss’ minimization – i.e., the economically optimal level of investment in prevention and mitigation activities to reduce future disturbance and disaster-related losses, as well as related expenditures that minimize the combined investment cost plus the value of expected losses. </li>
+                                            <li>Development of decision frameworks for community-level choices</li>
+                                            <li>Design and execution of data collection instruments</li>
+                                            <li>Statistical analysis of collected survey data</li>
+                                            <li>Assessment of research and data gaps</li>
+                                            <li>Develop decision-support tools for home residents, homeowners, communities, business operators, industry, and/or government agencies to make more efficient, sustainable, resilient, and/or circular choices.</li>
+                                            <li>Publish within refereed journals and technical research series</li>
+                                            <li>Craft decision-support software</li>
+                                            <li>Communicate research at professional conferences</li>
+                                        </ul>
+                                        <br>
+                                        <p class="text-gray-600 mb-2">The GIS Specialist will have an opportunity to:</p>                                        
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Lead complex geospatial research for Community Resilience Planning and Disaster and Failure Studies, focusing on community resilience to natural, human-caused, and technological hazards, as well as socio-economic and physical community systems.</li>
+                                            <li>Direct the development of geospatial metrology, models, tools, guidance, and standards for community resilience and associated decision-making.</li>
+                                            <li>Engage with internal and external partners to establish best practices for data collection in multi-disciplinary post-disaster field studies, utilizing current technologies and tools to advance disaster research metrology.</li>
+                                            <li>Provide subject matter expertise and strategic direction on resilience-related socio-economic and physical systems science, employing advanced Geographic Information System analysis, diverse quantitative and qualitative methods, data collection instruments, and interdisciplinary methodologies for community resilience measurement and modeling. Offers geospatial expertise and guidance, and actively participates in disaster field studies, technical investigations, and disaster reconnaissance.</li>
+                                        </ul>
+                                    </div>     
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>An advanced (Masters or Postdoc) degree in GIS Research Sociology, Computer Science, Engineering, Economics, Social Science, Planning, Behavioral Social Sciences, or a related field.</li>
+                                            <li>Familiarity with multiple scripting languages</li>
+                                            <li>Strong oral and written communication skills</li>
+                                            <li>Either (1) Advanced knowledge of policies, theories, principles, practices, and methods of a technical professional field of research (in science, engineering, information technology, or mathematics) and the ability, as a significant contributor to the specialty, to conduct and direct an advanced research program, exercise professional leadership, and provide consultation in the specialty. Skill in applying highly valued expertise in a recognized leading-edge research field. Ability to justify, defend, negotiate, or settle matters involving significant or controversial issues and/or programs. OR (2) Ability to perform the full range of supervisory functions, including planning, assigning, and reviewing work, and evaluating performance. Advanced knowledge of the programs directed and the ability to influence, motivate, or persuade persons or groups or take actions related to advancing the program/organization's fundamental goals and objectives, including program planning, managing resources, assigning and reviewing work, and evaluating performance</li>
+                                        </ul>
+                                    </div> 
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is a one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>Applications will be accepted until all positions are filled.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Job Posting 4 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Materials Research Scientist</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 2+ Years</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003261</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">The candidate will join a team of researchers working with advanced metrology methods to characterize local physical and chemical properties and map any variation in these properties of thin, nanometer-scale films (oxides, nitrides, carbides, germinides) deposited on Si and SiC wafers. The candidate will plan and conduct research using X-ray reflectivity, X-ray fluorescence spectroscopy, and X-ray photoelectron spectroscopy to determine, through hybrid metrology, open-source analysis methods, and structural maps for wafers with thin films of essential interest to the semiconductor community.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities will include but are not limited to:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Plan and research advanced X-ray metrologies to determine structural (physical and chemical) properties of blanket (non-patterned) thin films on Si and SiC wafers</li>
+                                            <li>Use X-ray characterization methods, such as X-ray reflectivity, X-ray fluorescence, and X-ray photoelectron spectroscopy, to determine the structural properties of thin film samples</li>
+                                            <li>Use open-source (Python) fitting methods to constrain structural models, determine uncertainties, and combine these properties into a hybrid metrology digital wafer</li>
+                                            <li>Perform wafer dicing, cleaning, and packaging of samples for distribution as a Research Grade Test Material to pair with the previously determined digital wafer model</li>
+                                            <li>Publish results in refereed scientific journals and present results at conferences and meetings</li>
+
+                                        </ul>
+                                    </div>   
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications: Minimum knowledge, skills, and abilities.</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Ph.D. in physics, materials science, or another related field</li>
+                                            <li>Background in X-ray measurement technique(s) required, either X-ray reflectivity, X-ray fluorescence, or X-ray photoelectron spectroscopy</li>
+                                            <li>Background in programming and/or data modeling using Python (or equivalent) recommended</li>
+                                            <li>Familiarity with thin film deposition and clean room access protocols, preferred</li>
+                                            <li>Strong oral and written communication skills</li>
+                                            <li>Ability to work productively as part of a team and independently</li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours per week</li>
+                                            <li>Location: Physically at the NIST Gaithersburg, MD campus</li>
+                                            <li>Duration: this is a two-year and four-month position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Job Posting 6 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Human-Centered Cybersecurity Graduate Research Assistant
+</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003516</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">In direct support of NIST’s mission to advance measurement science and standards, the PREP student will work on Human-Centered Cybersecurity (HCC) projects. Human-centered cybersecurity is an approach that puts people at the forefront when designing and implementing cybersecurity systems, products, and processes by considering human needs, motivations, behaviors, and abilities. Under the guidance of a NIST sponsor, the student will contribute to a project to develop a standard description of human-centered cybersecurity. In addition, the student will help develop guidance, mapped to the NIST Cybersecurity Framework 2.0, on how to apply HCC concepts within organizations. The work will include data collection and analysis for a research study aimed at understanding current perceptions of human-centered cybersecurity among various groups of cybersecurity stakeholders. The student will also assist NIST staff with mapping HCC concepts to the NIST Cybersecurity Framework by searching for and summarizing applicable human factors frameworks, organizing and synthesizing public comments, and writing guidance. This is an excellent opportunity to contribute to community standards for human-centered cybersecurity that may be used around the world.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities will include but are not limited to:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Conduct qualitative and quantitative surveys or interview data collection, and analysis</li>
+                                            <li>Perform searches and syntheses of research literature and industry reports related to the human element of cybersecurity</li>
+                                            <li>Assist in the organization and agenda development of public workshops</li>
+                                            <li>Organize, synthesize, and help to adjudicate public comments/feedback</li>
+                                            <li>Write/prepare reports, research papers, and presentations</li>
+                                            <li>Present results at internal and external meetings</li>
+                                    
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications: Minimum knowledge, skills, and abilities.</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>In-progress graduate degree (Master’s or Ph.D.) in social science, human-computer interaction, human factors, computer science, cybersecurity, or other field related to human-centered cybersecurity</li>
+                                            <li>Competency in quantitative or qualitative research methods and data analysis</li>
+                                            <li>Experience with and working knowledge of cybersecurity is desirable but not required</li>
+                                            <li>Ability to work both in teams and independently</li>
+                                            <li>Strong organizational skills</li>
+                                            <li>Strong oral and written communication skills</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 hours per week.</li>
+                                            <li>Location: Physically at the NIST Gaithersburg campus and Telework</li>
+                                            <li>Duration: This is a one-year position. Extensions are sometimes granted depending on the availability of funds</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Job Posting 8 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Engineering Technician - Robotic Perception </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003540</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">The Intelligent Systems Division at NIST is investigating the performance of 3D machine vision systems for various manufacturing applications. The research will focus on conducting experiments and analyzing data to understand these systems' performance and support the development of standards for measuring their depth error and depth resolution, as well as for measuring the performance of robotic systems used for bin-picking applications.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Programming and maintaining robots (arms, mobile robots, exoskeletons, etc.)</li>
+                                            <li>Operating and maintaining measurement equipment (e.g., laser trackers, laser scanners, oscilloscopes, etc.)</li>
+                                            <li>Preparing and maintaining laboratories to support experiments</li>
+                                            <li>Conducting experiments in support of the development of standards</li>
+                                            <li>Assisting in recording and analyzing test data and preparing test reports</li>
+                                            <li>Performing simple preventative maintenance, troubleshooting, adjustments, and repairs of laboratory equipment</li>
+                                            <li>Keeping laboratories clean and organized</li>
+                                            <li>Assisting in performing market research for purchases required for the laboratories</li>
+                                            <li>Using CAD software to design parts, end-of-arm tooling, and fixtures</li>
+                                            <li>Working with NIST and/or external resources to have parts fabricated</li>
+                                            <li>Recording knowledge and best practices to help improve efficiency and productivity</li>
+                                            <li>Conducting tests in the laboratory as well as in the field</li>
+                                    
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications: Not all the qualifications below are required.</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Associate or bachelor’s degree in physical sciences, engineering, or related field (or a training certificate in robotics, engineering, or automation)</li>
+                                            <li>Experience using gauge blocks and/or micrometers</li>
+                                            <li>A basic understanding of geometric dimensioning and tolerancing (GD&T)</li>
+                                            <li>Experience using digital oscilloscopes, multimeters, and environmental monitoring instruments (thermometers, hygrometers, etc.)</li>
+                                            <li>Experience with CAD software such as Solidworks</li>
+                                            <li>Experience programming robots (using a teach pendant, hand guidance, and a command line interface)</li>
+                                            <li>Experience using basic hand and power tools</li>
+                                            <li>Experience using fused deposition modeling (FDM) 3D printers</li>
+                                            <li>Experience operating in laboratory environments in a safe manner</li>
+                                            <li>Be able to work without close supervision in a team environment</li>
+                                            <li>Experience using software tools such as Matlab, Python, Excel (or other) to analyze data</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Experience using dimensional measurement instruments (such as laser trackers, laser scanners, coordinate measurement machines, etc.)</li>
+                                            <li>Experience using Python, C++, C#, JAVA, etc. for programming/controlling robots</li>
+                                            <li>Experience using the robot operating system (ROS) to program robots</li>
+                                            <li>Experience using simulation software (e.g., MoveIT, RoboDK, etc.) to program robots</li>
+                                            <li>Experience with basic machine tools (e.g., drill press, band saw, lathe, etc.)</li>
+                                            <li>Experience with programming and using CNC milling machines</li>
+
+                                        </ul>
+                                    </div>
+
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week.</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 9 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">AI Evaluation Researcher</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate/Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003666</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Support the NIST artificial intelligence research and evaluation programs.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Assist in finalizing and disseminating the Artificial Intelligence Executive Order outputs</li>
+                                            <li>Assist in developing upcoming reports responsive to the Artificial Intelligence Executive Order, such as the report to the President on priority actions taken pursuant to the plan for global engagement on promoting and developing AI standards</li>
+                                            <li>Support investigations of technical requirements for characteristics of trustworthy AI systems through empirical research</li>
+                                            <li>Support senior leaders in analyzing and reviewing proposed legislation for the impact on the NIST artificial intelligence program</li>
+
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Current graduate student with a social science or related major</li>
+                                            <li>Understanding of American government and politics</li>
+                                            <li>Familiarity with empirical research methods</li>
+                                            <li>Strong oral and written communication skills</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 10 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Digital Watermarking Technologies Developer </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate/Postdoc</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003667</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Developing an Evaluation Framework for Digital Watermarking Technologies: This project focuses on contributing to the development of a study on digital watermarking technologies. The student(s) will explore how watermarking techniques are used for protecting digital content and the challenges involved in evaluating their robustness, imperceptibility, and effectiveness. The project aims to build foundational understanding and draft an initial evaluation strategy, supporting broader work at NIST in digital content integrity.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Conduct a literature survey on state-of-the-art watermarking techniques (image, video, audio, and document-based)</li>
+                                            <li>Familiarize yourself with existing watermarking tools and open-source implementations</li>
+                                            <li>Understand NIST’s role and ongoing efforts in digital content protection and cryptographic standards</li>
+                                            <li>Propose evaluation metrics, transformation pipelines (stress-testing such as compression, cropping, rotation, noise, etc.), and potential testbeds for watermark robustness testing</li>
+                                            <li>Draft a preliminary evaluation plan or roadmap that could guide future benchmarking activities</li>
+
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Deliverables:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Annotated bibliography of key watermarking research</li>
+                                            <li>Summary report of explored tools and their features</li>
+                                            <li>Draft evaluation framework document (with proposed metrics and methodology)</li>
+                                            <li>Prototype implementation or scripts for transformation and detection scenarios</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Graduate student or higher in Computer Science, Electrical Engineering, or a related field</li>
+                                            <li>Strong interest in digital media security, cryptography, or multimedia processing</li>
+                                            <li>Experience with Python, MATLAB, or image/audio processing tools is preferred</li>
+                                            <li>Familiarity with scientific reading and technical writing</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 11 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Interactive Visualization Tools for AI Evaluation Data Developer </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Undergraduate/Graduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003668</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Developing Interactive Visualization Tools for AI Evaluation Data</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Familiarize with NIST’s work on AI risk and impact assessment and measuring contextual robustness, including the need for interactive data visualization in this context</li>
+                                            <li>Create mockups of interactive data visualization tool(s)</li>
+                                            <li>Research different toolkits available for interactive data visualization</li>
+                                            <li>Propose system architecture(s) for the tool(s)</li>
+                                            <li>Develop, test, and document interactive data visualization tool(s)</li>
+                                    
+                                        </ul>
+                                    </div>    
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Deliverables:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Visual mockups of the tool(s)</li>
+                                            <li>Documentation of the proposed system architecture(s)</li>
+                                            <li>Code implementing the tool(s)</li>
+                                            <li>Thorough test suite(s) for the code</li>
+                                            <li>Comprehensive documentation</li>
+                                    
+                                        </ul>
+                                    </div>                                        
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Undergraduate or graduate student in Computer Science, Software Engineering, Data Science, or a related field</li>
+                                            <li>Strong interest in data visualization, software development, and AI measurement</li>
+                                            <li>Experience with software development in Python, version control systems, databases, and the shell</li>
+                                            <li>Experience with building interactive data visualization tools and AI evaluation is preferred</li>
+                                           
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 hours per week.</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 12 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">AI Evaluations and Metrics Scenario Researcher</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate/Postdoc</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003671</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Researching Scenarios for AI Evaluations and Metrics: The National Institute of Standards and Technology (NIST) is building a library of sector-specific scenarios to facilitate AI evaluations and measurements. These scenarios are grounded in real-world AI use cases and developed with input from the broader AI community and sector stakeholders. Well-defined key elements of scenarios will ensure AI evaluations are both realistic and effective. The PREP candidate will be responsible for assisting in refining and documenting the AI scenario collection and generation process. The candidate will actively participate in NIST measurement science and be involved in human-centered research and evaluations of AI technologies.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Developing methodology to assess various dimensions of the “goodness” of scenarios for AI evaluations, such as, but not limited to:</li>
+                                            <li>Measurability of risks and benefits in AI scenarios, both at the individual and organizational levels</li>
+                                            <li>Applicability of scenarios to various evaluation types, such as evaluations to elicit negative impacts (e.g., risks), evaluations to elicit positive impacts (e.g., benefits), and evaluations of human-AI interaction</li>
+                                            <li>Operationalizing higher-level key performance indicators (KPIs) and metrics of AI scenarios into meaningful measures of risks and benefits</li>
+                                            <li>Refining and documenting the AI scenario collection and generation process for replicability and efficient scenario library development</li>
+                                            <li>Presenting results at internal meetings and occasional meetings with external stakeholders</li>
+                                            <li>Ensuring that results, protocols, and documentation have been archived or otherwise transmitted to the larger organization</li>
+
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Graduate student or higher (Postdoc preferred)in Computer Science, Human-Computer Interaction (HCI), Industrial/Organizational (I/O) Psychology, Cognitive Psychology, Human Factors/Engineering Psychology, Psychometrics, Economic</li>
+                                            <li>Strong background in research methodology</li>
+                                            <li>Competency in quantitative and/or qualitative research and data analysis</li>
+                                            <li>Knowledge/interest in human-computer interaction and human-AI interaction</li>
+                                            <li>Knowledge/interest in machine learning and AI test and evaluation</li>
+                                            <li>Ability to work both in teams and independently</li>
+                                            <li>Strong oral and written communication skills</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 13 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">IRC Metric Hub Development Researcher</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003672</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">AIRC Metric Hub Development: This project contributes to the development of the Metrics Hub within the NIST’s Trustworthy and Responsible Artificial Intelligence Resource Center (AIRC). The student will assist in collecting and packaging relevant metrics for AI testing, identifying key metadata that support the creation of accessible resources for the AIRC website, benefiting the broader AI community and the public. This project will support the operationalization of the NIST AI Risk Management Framework (AI RMF 1.0) by providing essential metrics for testing, evaluation, verification, and validation (TEVV) of AI systems.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities will include but are not limited to:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Identify and collect relevant metrics for AI TEVV, aligning with the AI RMF 1.0</li>
+                                            <li>Curate the collected metrics, ensuring they are packaged, accessible, and usable for the users of the AIRC website</li>
+                                            <li>Help design relevant use cases that contextualize metrics for the border AI community</li>
+                                            <li>Collaborate effectively with cross-functional and interdisciplinary stakeholders to ensure successful project outcomes</li>
+                                    
+                                        </ul>
+                                    </div>    
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Deliverables</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>A set of AI metrics are identified, packaged, and made available through the AIRC Metrics Hub. Estimating 2-5 metrics per month</li>
+                                            <li>Draft document outlining at least one use case per metric that illustrates the practical application in AI testing</li>
+                               
+                                        </ul>
+                                    </div>    
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Graduate student in Computer Science, Statistics, HCI, or related field</li>
+                                            <li>Familiarity with concepts related to testing, evaluation, verification, and validation (TEVV) of AI systems</li>
+                                            <li>Strong interest in metrics for AI systems</li>
+                                            <li>Familiarity with scientific reading and technical writing</li>
+                                           
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 hours per week.</li>
+                                            <li>Location: hybrid - the participant will work both at the NIST Gaithersburg campus and telework.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 14 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">AI Dataset Documentation Researcher </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003673</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">AI Dataset Documentation: This project focuses on documenting the Assessing Risks and Impacts of AI (ARIA) dataset, which is used to evaluate risks as part of the NIST ARIA Program. The student will assist in the design and development of a comprehensive dataset card aligned with emerging standards for AI, including the principles of transparency, reliability, and reproducibility. This work supports the advancement of rigorous, standardized data documentation practices consistent with federal and international frameworks.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Collaborate with AI researchers to develop a dataset card documenting the technical and operational parameters of datasets used in AI evaluations and emerging AI standards</li>
+                                            <li>Identify and describe the dataset’s technical parameters, including intended use, limitations, collection methods, and risk-relevant features</li>
+                                            <li>Conduct quality assurance checks to detect anomalies, inconsistencies, and completeness issues in the dataset</li>
+                                            <li>Assist in the preparation of the dataset for public release, including metadata curation, file organization, and access provisioning</li>
+                                            <li>Apply and assess data anonymization techniques to ensure privacy compliance and mitigate re-identification risks</li>
+                                            
+                                        </ul>
+                                    </div>    
+                                  
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Deliverables</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Dataset card following relevant documentation standards</li>
+                                            <li>Finalized version of the dataset curated for public release, with accompanying metadata</li>
+                                            <li>Report summarizing identified data limitations, anonymization procedures applied, and mitigation strategies for potential risks</li>
+                                            <li>Checklist-based audit log of quality assurance checks performed</li>
+                                                                
+                                        </ul>
+                                    </div>    
+                                                                        
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Graduate student in Data Science, Computer Science, Information Science, HCI, or a related field</li>
+                                            <li>Familiarity with dataset documentation standards and risk assessment frameworks (e.g., NIST AI Risk Management Framework)</li>
+                                            <li>Strong written communication skills for technical documentation</li>
+                                        
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 hours per week.</li>
+                                            <li>Location: hybrid - the participant will work both at the NIST Gaithersburg campus and telework.</li>
+                                            <li>Duration: this is an one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 15 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Human and LLM Annotations for AI Risk Assessment Researcher</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003674</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Reliability of Human and LLM Annotations for AI Risk Assessment: This project focuses on using Large Language Models (LLMs) to provide annotations of evaluation data (a.k.a., LLM as judge), and the design of an Inter-Annotator Agreement study to assess the reliability of both human and LLM annotations. The candidate will explore assessing the indicators of a given AI-related risk, determining how to identify them, and providing annotators with examples to annotate the presence of various risks. The project aims to develop an annotation framework for AI risk assessment and establish metrics for data quality in AI risk research, supporting broader work at NIST in assessing and measuring the validity and reliability of AI-related risks in data annotation.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Gain familiarity with existing literature on data annotation and LLM as a judge</li>
+                                            <li>Understand NIST’s role and ongoing efforts in assessing and measuring the validity and reliability of AI-related risks in data annotation</li>
+                                            <li>Contribute to developing an annotation framework for AI risk assessment</li>
+                                            <li>Collaborate effectively with cross-functional and interdisciplinary stakeholders to ensure successful project outcomes</li>
+                                            <li>Contributions to a NIST report that supports ongoing NIST AI evaluation efforts focused on the design of an Inter-Annotator Agreement to assess the reliability of both human and LLM annotations</li>
+                                                                             
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Undergraduate or graduate student in Computer Science, Data Science, or a related field</li>
+                                            <li>Strong interest in data annotation and AI risks</li>
+                                            <li>Familiarity with scientific reading and technical writing</li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 hours per week.</li>
+                                            <li>Location: hybrid - the participant will work both at the NIST Gaithersburg campus and telework.</li>
+                                            <li>Duration: this is an one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 16 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Artificial Intelligence Metrics Researcher</h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003677</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Identifying and developing metrics for NIST’s Artificial Intelligence (AI) efforts to assess industrial uptake and impact.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Become familiar with NIST’s AI outputs and stakeholders</li>
+                                            <li>Perform a literature review and analysis on various approaches and metrics to measure uptake and impact</li>
+                                            <li>Perform a detailed analysis using relevant statistical tools of the status and uptake of NIST AI outputs and provide metrics on impacts and trends</li>
+                                            <li>Through this analysis, provide recommendations on opportunity areas where NIST should dedicate resources to realize a greater impact of our AI outputs</li>
+                                                                        
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Bachelor’s degree (or higher) in Business/Economics, Social Sciences, Engineering, Mathematics or a related field</li>
+                                            <li>Familiarity with artificial intelligence, statistical analysis, and data collection</li>
+                                            <li>Understanding of American government and politics</li>
+                                            <li>Strong oral and written communication skills</li>
+                                           
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Part-time: the participant is expected to work 20 per week.</li>
+                                            <li>Location: hybrid - the participant will work at the NIST Gaithersburg campus and telework.</li>
+                                            <li>Duration: this is an one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 17 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Artificial Intelligence Standards Research Assistant </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003709</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Supporting the NIST artificial intelligence research and evaluation programs in contributing to standards development organizations (SDOs).</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Identifying SDO projects, committees, or calls for input to which NIST experts should contribute</li>
+                                            <li>Crafting NIST written contributions to those projects, committees, or calls for input</li>
+                                            <li>Distributing SDO materials and potential NIST contributions to other NIST experts for input and review</li>
+                                            <li>Submitting NIST contributions in a timely fashion</li>
+                                            <li>Attending SDO committee meetings, including international meetings, to discuss contributions from NIST, other U.S. contributors, and international contributors</li>
+                                            <li>Sharing information about contributions and standards activities with interested NIST experts. If applicable, acting as an editor or in another leadership capacity for standards projects</li>
+                                           
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>A Master’s degree in Computer Science or a related field, OR a Bachelor’s degree in such a field and professional experience equivalent to a Master’s degree in such a field</li>
+                                            <li>Familiarity with machine learning methods, including hands-on implementation experience with at least two machine learning-driven systems</li>
+                                            <li>Familiarity with AI governance guidelines such as the NIST AI Risk Management Framework</li>
+                                            <li>Strong oral and written communication skills, including both envisioning structure and content for nascent documents and line editing mature documents for technical precision and readability</li>
+                                    
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours per week.</li>
+                                            <li>Location: Hybrid - the participant will work at the NIST Gaithersburg Campus and telework.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 18 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Energy-Related AI System Measurement Researcher </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003710</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Surveying existing or possible measurement methods for AI systems’ needs for energy and related resources, and identifying directions for future work.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Desk research to understand and organize the literature on the energy-related needs of AI systems</li>
+                                            <li>Planning and drafting a landscape survey, laying out methodological options for measuring energy needs and usage</li>
+                                            <li>Consulting with experts in the field to inform the report</li>
+                                            <li>Soliciting and incorporating community input on drafts of the report</li>
+                                            <li>Supporting NIST in considering what follow-ups, such as developing new measurement methodologies or proposing standardization activities, might be appropriate</li>
+                                                                             
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>A Bachelor's degree or higher</li>
+                                            <li>Broad awareness of computer architecture and data center operations</li>
+                                            <li>Familiarity with typical computational processes involved in modern machine learning systems (e.g., matrix multiplications)</li>
+                                            <li>Hands-on experience measuring energy usage of AI systems, OR detailed knowledge of academic and/or industry research and reporting on AI systems’ energy usage, ideally including needs for related resources such as water</li>
+                                            <li>Strong oral and written communication skills, including both envisioning structure and content for nascent documents and line editing mature documents for technical precision and readability</li>
+                                         
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: Hybrid - the participant will work at the NIST Gaithersburg Campus and telework.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 19 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Content Tracking Research Assistant </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Part Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> Hybrid</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 8 Months</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003711</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Leading NIST efforts to assess, advance, and potentially standardize methods for tracking content provenance (e.g., watermarking and metadata recording).</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Surveying existing content provenance tracking methods</li>
+                                            <li>Designing or contributing to methods and projects that assess the extent to which provenance tracking methods meet various potential objectives</li>
+                                            <li>Identifying technical or usability flaws in existing methods and proposing solutions</li>
+                                            <li>Contributing to existing standardization projects on content provenance tracking and/or identifying opportunities for new projects</li>
+                                           
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>A bachelor's degree or higher</li>
+                                            <li>Familiarity with the workings of modern generative AI systems</li>
+                                            <li>Detailed knowledge of one or more technical methods for adding watermarks to or associating metadata with content to record the provenance of the content (e.g., SynthID, C2PA, or similar)</li>
+                                            <li>Ability to quickly identify and review relevant computer science research papers and extract relevant conclusions</li>
+                                            <li>Strong written communication skills</li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: Hybrid - the participant will work at the NIST Gaithersburg Campus and telework.</li>
+                                            <li>Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 20 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Microelectronic Recycling Researcher </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003731</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">Developing Critical Material Extraction Methods for Microelectronic Waste Streams: This work will support the development of new processing methods to extract critical materials from microelectronic waste streams and identify potential applications for recovered materials for re-use in the semiconductor industry. Initially, this project will focus on the recovery of critical elements such as In, Ge, and Sb from microelectronic waste. Essential thermodynamic and kinetic measurements will be conducted to improve the efficiency of vacuum distillation efforts to recover critical materials. These data will be used to improve existing computational thermodynamic and kinetic databases. The experimental measurements will be used in conjunction with available literature data to enable extrapolation to multicomponent systems. This work will include the development of new methods to integrate the measured experimental uncertainties with the available literature reported uncertainties.</p>
+                                        <br>
+                                        <p class="text-gray-600">Evaluation of the critical industry needs and analysis of existing extraction, processing, and material criticality will provide the foundation for identifying potential applications to reuse extracted materials. A systems design approach, which employs a variety of mechanistic models, will be used to develop prototype alloys. The prototype alloys will be characterized to evaluate their properties.</p>
+                                    
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Measure and analyze thermodynamic and kinetic data for the key critical material system, In-Ge-Sb</li>
+                                            <li>Characterize critical phase transformations to identify key pathways for accelerating recovery processes</li>
+                                            <li>Determine methods for integrating experimental and literature data into computational thermodynamic and kinetic phase descriptions</li>
+                                            <li>Analyze heterogeneous data sources</li>
+                                            <li>Determine methods to evaluate public data sources</li>
+                                            <li>Presenting results at internal meetings and occasional meetings with external stakeholders. Ensuring that results, protocols, software, and documentation have been archived or otherwise transmitted to the larger organization</li>
+                                                                            
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>A PhD in Materials Science and Engineering, Manufacturing, or a related field</li>
+                                            <li>4 years of relevant experience</li>
+                                            <li>Experience with modeling and characterizing phase transformations in metallic systems</li>
+                                            <li>Background in data analysis, statistical analysis, and design of experiments</li>
+                                            <li>Familiarity with CALPHAD methods and thermodynamic and kinetic phase-based data</li>
+                                            <li>Familiarity with machine learning tools, Python, and R scripting</li>
+                                            <li>Strong oral and written communication skills</li>
+                                           
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 21 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Microelectronics Circular Economy Researcher </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 1 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003794</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">NIST’s Engineering Lab (EL) Systems Integration Division, Life Cycle Engineering Group is seeking a researcher in operations research and industrial engineering. We are expanding our research to develop ways of maximizing the value of U.S. microelectronics and semiconductors based on principles of circular economy. Microelectronics are valued for their processing capabilities and the materials that they contain. Operations research is applied to enable value recovery from the perspective of measuring the flow of materials, used in semiconductors, throughout the economy. We create methods to measure what, when and how much material will become available in the future and viable pathways for reclaiming those materials into the economy. By applying advanced forecasting methods to establish and validate circular pathways for microelectronic recovery, the project will deliver science-based techniques that strengthen domestic semiconductor manufacturing capabilities. The results will include a suite of decision support tools (metrics, models, and published research) to improve recovery outcomes, thereby strengthening supply chain resiliency via new material sources, and enabling stakeholders to respond dynamically to material availability challenges in the future.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Conduct a literature survey including data collection on the state-of-the-art of the microchip manufacturing process and the chip product value chain</li>
+                                            <li>Develop a strong understanding of the microchip market, including the strengths and limitations of U.S. chip-making</li>
+                                            <li>Develop high-fidelity simulation models (across multiple product life cycles and product value chains) to quantify and characterize the material stocks and flows, and uncertainties and risks associated with the domestic chip manufacturing sector</li>
+                                            <li>Propose and develop quantitative evaluation metrics to effectively maximize microchip value</li>
+                                            <li>Regularly synthesize results and analyses of findings and disseminate these via NIST program partners, special reports, high-impact journal publications and as presentations at technical conferences</li>
+                                                                             
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>U.S. citizenship required</li>
+                                            <li>Master's or Ph.D. </li>
+                                            <li>An understanding of micro/nano fabrication processes for chips and first-principle modeling</li>
+                                            <li>Systems thinking, supply chain modeling, and knowledge of integrated production systems</li>
+                                            <li>Data analysis and visualization with Python and/or MATLAB</li>
+                                            <li>Predictive modeling and ML techniques, including dimensionality reduction, regression, and classification (ANOVAs single and multi-factor, non-parametric methods)</li>
+                                            <li>Stochastic Modeling (probabilistic models and their applications to manufacturing systems)</li>
+                                            <li>Principles of integrated production systems, including material handling, material flow and information flow, and scheduling</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Posting 22 -->
+                    <div class="job-posting bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                        <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
+                            <div>
+                                <div class="flex items-center mb-2">
+                                    <h3 class="text-xl font-bold text-black">Circular Microelectronics Research Associate </h3>
+                                    <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Post Degree</span>
+                                </div>
+                                <div class="flex flex-wrap gap-4 text-gray-600">
+                                    <span class="flex items-center"><i class="fas fa-building mr-2 text-[#FDB913]"></i> NIST Gaithersburg Campus</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> Full Time</span>
+                                    <span class="flex items-center"><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i> In Person</span>
+                                    <span class="flex items-center"><i class="fas fa-clock mr-2 text-[#FDB913]"></i> 2 Year</span>
+
+                                </div>
+                            </div>
+                            <i class="fas fa-chevron-down text-[#FDB913] transition-transform duration-300"></i>
+                        </div>
+                        
+                        <div class="job-content px-6">
+                            <div class="border-t border-gray-200 pt-4 pb-6">
+                                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-6">
+                                    <div>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">PREP Research Associate</h4>
+                                        <h4 class="font-bold justify-center text-gray-700 mb-2">Opportunity No.: PREP0003795</h4>
+                                        <h4 class="font-bold text-gray-700 mb-2">Job Description</h4>
+                                        <p class="text-gray-600">NIST’s Engineering Lab (EL) Systems Integration Division, Life Cycle Engineering Group, is seeking a researcher in product design for microelectronic circularity. We are expanding our research to develop ways of maximizing the value of U.S. microelectronics and semiconductors based on principles of the circular economy. Microelectronics are valued for their processing capabilities and the materials that they contain. Our team, together with our external partners, is developing new practices for design that will better enable recovery.</p>
+                                        <br>
+                                        <p class="text-gray-600">The design research aspects of the work explore new ways to integrate circularity assessment into the design of products containing microelectronics. We are developing new metrics and measurement methods to allow designers to assess and plan for the recoverability of these complex products. Additionally, this work focuses on the identification of information and data needs to provide decision support to consumers and enable end-of-life stakeholders (recyclers, municipalities, waste managers, infrastructure providers) that improve the volume of valuable microelectronics to be recovered.</p>                                    
+                                        <br>
+                                        <p class="text-gray-600">The methods developed in this work will be used to inform future product design and may be a basis for corporate or open standards. We will drive the state of the art forward with advanced techniques in life cycle assessment, simulation, and AI- and data-driven design. Results will include a suite of decision support tools (metrics, models, and published research) and new standards to improve recovery outcomes, thereby strengthening supply chain resiliency via new material sources, and enabling stakeholders to respond dynamically to material availability challenges in the future.</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Key Responsibilities:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Conduct a landscape survey documenting the state of the art in chip and microelectronic design, including existing efforts for reuse, recycling, and refurbishment, and current methods to quantify financial and environmental impact</li>
+                                            <li>Partner with stakeholders in the semiconductor ecosystem to develop and test fit-for-purpose recovery metrics</li>
+                                            <li>Outline best design practices for circular and sustainable microelectronic products and support the development of documentary standards to disseminate findings</li>
+                                            <li>Integrate end-of-life data with computational design to enable better recovery outcomes for microelectronics</li>
+                                            <li>Publish and present findings through internal reports, peer-reviewed conferences, and academic journals</li>
+                                                                             
+                                        </ul>
+                                    </div>    
+                                    
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Desired Qualifications:</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>U.S. citizenship required</li>
+                                            <li>Master's or Ph.D. </li>
+                                            <li>An understanding of micro/nano fabrication processes for chips and first-principle modeling</li>
+                                            <li>Experience with systems thinking and supply chain modeling</li>
+                                            <li>Familiarity with LCA and related forms of assessment used to evaluate the environmental performance of products</li>
+                                            <li>Programming, data analysis, and visualization with Python and/or MATLAB</li>
+                                            <li>Experience or study of product design and engineering principles for sustainability</li>
+                                           
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-bold text-gray-700 mb-2">Other Details</h4>
+                                        <ul class="list-disc pl-8 text-gray-600 space-y-1">
+                                            <li>Full-time: the participant is expected to work 40 hours a week</li>
+                                            <li>Location: the participant will work at the NIST Gaithersburg Campus.</li>
+                                            <li>Duration: this is expected to be a two-year position. Extensions are sometimes granted depending on the availability of funds.</li>
+                                            <li>For questions related to the research project, the nature of the work, related to the online application, or NIST PREP more generally, please contact  <span class="font-bold underline">vlatson@bowiestate.edu</span></li>
+                                        </ul>
+                                    </div>                                                                   
+                                </div>
+                                                
+                                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                                    <div></div>
+                                    <div class="flex gap-3">
+                                        <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform"
+                                        class="bg-[#FDB913] text-white px-4 py-2 rounded-md hover:bg-black transition duration-300 inline-block text-center"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Apply Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                       
+                </div>
+                
+                
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Career Center</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">About Us</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Staff Directory</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Mission & Values</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Students</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">Career Counseling</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Resume Help</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Interview Prep</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Career Fairs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Employers</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">Post a Job</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Recruitment Events</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Internship Programs</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Partnerships</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p>careercenter@university.edu</p>
+                    <p>(555) 123-4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 Bowie State University Department of Computer Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleJob(element) {
+            const jobPosting = element.closest('.job-posting');
+            const chevron = element.querySelector('i');
+            
+            jobPosting.classList.toggle('active');
+            chevron.classList.toggle('rotate-chevron');
+            
+            // Close other open job postings
+            if (jobPosting.classList.contains('active')) {
+                document.querySelectorAll('.job-posting').forEach(job => {
+                    if (job !== jobPosting && job.classList.contains('active')) {
+                        job.classList.remove('active');
+                        job.querySelector('i').classList.remove('rotate-chevron');
+                    }
+                });
+            }
+        }
+        
+        // Initialize first job as open by default
+        //document.addEventListener('DOMContentLoaded', function() {
+          //  const firstJob = document.querySelector('.job-posting');
+            //if (firstJob) {
+              //  firstJob.classList.add('active');
+                //firstJob.querySelector('i').classList.add('rotate-chevron');
+        //    }
+        //});
+    </script>
+</body>
+</html>
