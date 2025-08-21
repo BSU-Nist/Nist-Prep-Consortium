@@ -37,25 +37,45 @@
 <body class="bg-gray-50">
     <!-- Header -->
     <header class="bg-[#FDB913] text-white shadow-lg">
-        <div class="container mx-auto px-4 py-6">
-            <div class="flex justify-center items-center">
-                <div>
-                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/bowie-state-bulldogs-barnaby-barnes.jpg" alt="Logo" class="h-12">
-                    <h1 class="text-3xl font-bold">Bowie State University - NIST Prep Consortium Job Opportunities</h1>
-                    <p class="text-black font-bold">Connecting talent with opportunity</p>
-                </div>
+        <div class="container mx-auto px-4 py-6 flex items-center justify-center relative">
+
+            <!-- Logo: position absolute to the left -->
+            <div class="absolute left-4 flex items-center">
+            <img src="bsu-logo.png" alt="Logo" class="h-24 w-24 object-contain">
             </div>
+
+            <!-- Centered Text -->
+            <div class="text-center">
+            <h1 class="text-2xl md:text-3xl font-bold">Bowie State University</h1>
+            <p class="text-black font-bold">NIST Prep Consortium Job Opportunities</p>
+            </div>
+
         </div>
     </header>
 
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
-       
-        <div class="flex  justify-center flex-col md:flex-row gap-8">
- 
+
+
+        <div class="md:w-5/6 justify-center mx-auto font-semibold">
+
+            <h1 class="text-2xl text-center md:text-6xl font-bold mb-8">NIST PREP HMHC Consortium</h1>
+
+            <img src="https://img.freepik.com/premium-photo/team-researchers-wearing-lab-coats-diligently-conducting-experiments-analyzing-data-busy-laboratory-lab-technicians-using-3d-bioprinter-ai-generated_585735-10733.jpg" alt="Researcher" class=" w-full object-cover">
+            
+            <p class="text-gray-600 text-lg mb-4 mt-8">The Professional Research Experience Program (<a href="https://www.nist.gov/iaao/academic-affairs-office/nist-professional-research-experience-program-prep" class="text-[#FDB913]  hover:text-gray-400">PREP</a>) was created by the National Institute of Standards and Technology (<a href="https://www.nist.gov/" class="text-[#FDB913]  hover:text-gray-400">NIST</a>) with the goal of providing valuable laboratory experience and financial assistance to undergraduates, recent graduates, graduate students, postdocs, and faculty. The program is intended to assure continued growth and progress of a highly skilled science, technology, engineering, and math (STEM) workforce in the United States.</p>
+            
+            <p class="text-gray-600 text-lg mb-4">The Hopkins-Morgan HBCU Consortium (HMHC) provides opportunities for students, recent graduates, postdocs and faculty to conduct research in partnership with NIST scientists through the NIST Gaithersburg Campus. In addition to paid research positions, graduate students are eligible for tuition assistance. Our HBCU Consortium makes opportunities available to participants from Morgan State University, Bowie State University, Coppin State University, North Carolina A&T University, Tuskegee University, and University of Maryland Eastern Shore.</p>
+            
+            <!--<p class="text-gray-600 text-lg mb-4">These positions are a part of the National Institute of Standards and Technology (NIST) Professional Research Experience (PREP) program. NIST recognizes that its research staff may wish to collaborate with researchers at academic institutions on specific projects of mutual interest, and thus requires that such institutions must be the recipient of a PREP award. The PREP program requires staff from a wide range of backgrounds to work on scientific research in many areas. Employees in this position will perform technical work that underpins the scientific research of the collaboration.</p>  -->
+        </div>
+
+
+        <div class="flex  justify-center flex-col md:flex-row gap-8">         
+
             <!-- Job Listings -->
             <section class="md:w-3/4">
-                <div class="flex justify-center items-center mb-6">
+                <div class="flex justify-center items-center mt-8 mb-6">
                     <h2 class="text-2xl font-bold text-gray-800">Current Job Openings</h2>
                     
                 </div>
@@ -369,8 +389,7 @@
                                             <li>Familiarity with thin film deposition and clean room access protocols, preferred</li>
                                             <li>Strong oral and written communication skills</li>
                                             <li>Ability to work productively as part of a team and independently</li>
-                                            <li></li>
-                                            <li></li>
+                                    
                                         </ul>
                                     </div>
 
@@ -408,8 +427,7 @@
                         <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
                             <div>
                                 <div class="flex items-center mb-2">
-                                    <h3 class="text-xl font-bold text-black">Human-Centered Cybersecurity Graduate Research Assistant
-</h3>
+                                    <h3 class="text-xl font-bold text-black">Human-Centered Cybersecurity Graduate Research Assistant</h3>
                                     <span class="ml-4 bg-[#F3F3F3] text-black text-xs px-2 py-1 rounded-full">Graduate</span>
                                 </div>
                                 <div class="flex flex-wrap gap-4 text-gray-600">
@@ -1786,50 +1804,27 @@
                 
             </section>
         </div>
+
+        <div class="md:w-5/6 justify-center mx-auto">
+
+            <h4 class="font-bold justify-center text-lg text-gray-700 mt-20 mb-2">Privacy Act Statement</h4>
+            <p class="text-gray-600 text-lg mb-2"><b>Authority:</b> 15 U.S.C. § 278g-1(e)(1) and (e)(3) and 15 U.S.C. § 272(b) and (c).</p>
+            <p class="text-gray-600 text-lg mb-2"><b>Purpose:</b> The National Institute for Standards and Technology (NIST) hosts the <a href="https://www.nist.gov/adlp/open-data-program/how-to-work-with-us/nist-professional-research-experience-program-prep" class="text-[#FDB913] underline hover:text-gray-400">Professional Research Experience Program (PREP)</a> which is designed to provide valuable laboratory experience and financial assistance to undergraduates, post-bachelor’s degree holders, graduate students, master’s degree holders, postdocs, and faculty.</p>
+            <p class="text-gray-600 text-lg mb-2">PREP is a 5-year cooperative agreement between NIST laboratories and participating PREP Universities to establish a collaborative research relationship between NIST and U.S. institutions of higher education in the following disciplines including (but may not be limited to) biochemistry, biological sciences, chemistry, computer science, engineering, electronics, materials science, mathematics, nanoscale science, neutron science, physical science, physics, and statistics. This collection of information is needed to facilitate the administrative functions of the PREP Program.</p>
+            <p class="text-gray-600 text-lg mb-2"><b>Routine Uses:</b> NIST will use the information collected to perform the requisite reviews of the applications to determine eligibility, and to meet programmatic requirements. Disclosure of this information is also subject to all the published routine uses as identified in the Privacy Act System of Records Notices: NIST-1: NIST Associates.</p>
+            <p class="text-gray-600 text-lg mb-8"><b>Disclosure:</b> Furnishing this information is voluntary. When you submit the form, you are indicating your voluntary consent for NIST to use the information you submit for the purpose stated.</p>
+
+        </div>
+
+
     </main>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-8">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Career Center</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-blue-300">About Us</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Staff Directory</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Mission & Values</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Students</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-blue-300">Career Counseling</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Resume Help</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Interview Prep</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Career Fairs</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Employers</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-blue-300">Post a Job</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Recruitment Events</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Internship Programs</a></li>
-                        <li><a href="#" class="hover:text-blue-300">Partnerships</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-xl font-bold mb-4">Connect</h3>
-                    <div class="flex space-x-4 mb-4">
-                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="text-2xl hover:text-blue-300"><i class="fab fa-instagram"></i></a>
-                    </div>
-                    <p>careercenter@university.edu</p>
-                    <p>(555) 123-4567</p>
-                </div>
+                
+
             </div>
             <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
                 <p>&copy; 2025 Bowie State University Department of Computer Technology. All rights reserved.</p>
