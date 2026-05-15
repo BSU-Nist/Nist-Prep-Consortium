@@ -50,7 +50,7 @@
     "mode": "In Person",
     "duration": "2+ Years",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The candidate will join a team of researchers working with advanced metrology methods to characterize local physical and chemical properties and map any variation in these properties of thin, nanometer-scale films (oxides, nitrides, carbides, germinides) deposited on Si and SiC wafers. The candidate will plan and conduct research using X-ray reflectivity, X-ray fluorescence spectroscopy, and X-ray photoelectron spectroscopy to determine, through hybrid metrology, open-source analysis methods, and structural maps for wafers with thin films of essential interest to the semiconductor community.",
     "responsibilities": [
       "Plan and research advanced X-ray metrologies to determine structural (physical and chemical) properties of blanket (non-patterned) thin films on Si and SiC wafers",
       "Use X-ray characterization methods, such as X-ray reflectivity, X-ray fluorescence, and X-ray photoelectron spectroscopy, to determine the structural properties of thin film samples",
@@ -93,7 +93,7 @@
     "mode": "In Person",
     "duration": "6 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The Intelligent Systems Division at NIST is investigating the performance of 3D vision systems for various manufacturing and automation applications. The research will focus on conducting experiments and analyzing data to understand these systems' performance. This will support the development of performance metrics for these systems for various industrial applications.",
     "responsibilities": [
       "Conduct experiments to realize several existing and novel test methods for 3D vision systems",
       "Research the effects of various physical properties of an object and sensor settings on the test metrics",
@@ -141,7 +141,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The Intelligent Systems Division at NIST is investigating the performance of 3D vision systems for various manufacturing and automation applications. The research will focus on conducting experiments and analyzing data to understand these systems' performance. This will support the development of performance metrics for these systems for various industrial applications.",
     "responsibilities": [
       "Conduct experiments to realize several existing and novel test methods for 3D vision systems",
       "Research the effects of various physical properties of an object and sensor settings on the test metrics",
@@ -990,7 +990,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "Position Overview: The National Institute of Standards and Technology (NIST) is seeking a highly motivated postdoctoral researcher with expertise in optical frequency metrology to join the Fundamental Thermodynamics Group through the PREP program. The selected candidate will contribute to the development of next-generation integrated photonics-based temperature sensors: chip-scale devices designed to transform precision thermometry. The role focuses on laser-based interrogation, frequency locking, and frequency comb-enabled measurement techniques for field-deployable precision sensing. The position provides the opportunity to gain advanced experimental skills and research experience valuable for careers in academia, industry, or national laboratories. Based on the candidate\u2019s experience, the position can be extended to a research scientist. Salary levels vary with experience. Project Description: Temperature is one of the most widely measured physical properties and is essential across nearly all scientific and technological fields. To meet the growing need for precise, accurate, and field-deployable temperature metrology, our team is developing an on-chip photonic thermometer that functions as both a sensor and a deployable primary temperature standard . This self-calibrated device offers a transformative alternative to legacy resistance thermometers and has the potential to redefine how temperature is realized and disseminated worldwide. The selected candidate will have the opportunity to: Work on cutting-edge nanophotonics research with real-world metrology impact Shape new research directions and contribute to emerging programs Collaborate with a multidisciplinary team of scientists and engineers Submit invention disclosures and patent applications Publish in leading scientific journals and present at technical conferences",
     "responsibilities": [
       "Development of advanced photonic readout methods for sensing applications, including:\r\n\nLaser spectroscopy\nFrequency locking techniques applied to nanophotonic systems\nOptical frequency metrology methods for high-resolution measurements",
       "Laser spectroscopy",
@@ -3110,7 +3110,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The National Institute of Standards and Technology (NIST) is seeking a driven Postdoctoral Researcher to bridge the gap between fundamental frequency comb spectroscopy and industrial semiconductor fabrication. Joining a multidisciplinary team, you will deploy electro-optic (EO) frequency combs to perform real-time, in-situ mid-IR spectroscopy of Atomic Layer Deposition (ALD) processes. Your work will directly impact the next generation of microelectronics by quantifying the partial pressures of deposition precursors and reaction byproducts with microsecond resolution.",
     "responsibilities": [
       "Experimental Leadership: Drive the development and alignment of high-accuracy EO frequency comb spectrometers",
       "Advanced Optical Metrology: Execute time-resolved molecular spectroscopy experiments; analyze complex data sets by fitting experimental spectra to molecular databases (e.g., HITRAN)",
