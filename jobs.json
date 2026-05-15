@@ -1,38 +1,82 @@
 [
   {
-    "title": "Atomic Thermometry Researcher",
-    "opportunity_number": "PREP0003307",
+    "title": "PCM Reference Material Development Researcher",
+    "opportunity_number": "PREP0002822",
     "level": "Post Degree",
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "The researcher will develop a thermometer based on atomic fluorescence intensity ratios. This research project will explore several novel and high-risk techniques for realizing a primary temperature sensor in a compact package.  This will require operating and locking multiple lasers to atomic transitions, fiber optic design and operation, multilevel rate equation simulations, and careful characterization of systematic effects.",
+    "description": "Commercial phase change materials (PCMs) in the US and EU markets are incorporated in macro- and micro-encapsulations for latent heat storage in building energy applications. The thermal conductivity and the specific heat capacity of these PCM products, which are usually reported in the specification\u2019s datasheet and are measured by a Heat Flow Meter (HFM), are the main thermal data used for installation guidance and energy saving calculations. However, these measurements exhibit non-linear behaviors with temperature due to contributions from the encapsulation materials and other factors. Therefore, the thermal behavior of encapsulated PCMs masks the thermal properties of the actual PCM and its phase change properties. Furthermore, the measurement by an HFM is fundamentally a relative measurement, being heavily correlated with the calibration of internal heat flux transducers using a reference material. This work aims to establish the groundwork needed to develop a reference material for validating the specific heat capacity values, as well as the thermal conductivity of macro-encapsulated PCMs. The research focus is to ultimately provide a new measurement service by developing a PCM reference material with reliable thermal properties and a well-defined phase-temperature relationship.",
     "responsibilities": [
-      "Perform experimental tasks toward realizing a primary thermometer based on rubidium atoms",
-      "Data analysis",
-      "Disseminate project results via peer-reviewed publications and public presentation"
+      "Simulate thermal distributions on empty and PCM-filled encapsulation panels between heating and cooling sources",
+      "Determine thermal conductivity and heat capacity values of the PCM encapsulation panels using computational methods",
+      "Analyze the PCM melting and solidification process in the encapsulations using computational methods",
+      "Present results at internal meetings and occasional meetings with external stakeholders",
+      "Ensure that results, protocols, software, and documentation have been archived"
     ],
     "qualifications": [
-      "U.S. Citizen Preferred",
-      "Ph.D. in Physics or a related field",
-      "Experience is required in two or more of the following areas:\n\nFrequency stabilization of laser systems\nPython programming\nTemperature metrology\nModeling population dynamics with a set of coupled rate equations",
-      "Frequency stabilization of laser systems",
-      "Python programming",
-      "Temperature metrology",
-      "Modeling population dynamics with a set of coupled rate equations"
+      "Master\u2019s degree in computer science, Engineering, Manufacturing, or a related field",
+      "A minimum of 2 years of relevant experience is preferred",
+      "Familiarity with PCM and thermal simulations is a big plus",
+      "Ability to work with a commercial finite element software (experience with COMSOL is preferred but not required)",
+      "Ability to develop an analytical model needed to analyze data",
+      "Strong oral and written communication skills"
     ],
     "other_details": [
       "Full-time: the participant is expected to work 40 hours a week",
       "Location: the participant will work at the NIST Gaithersburg Campus.",
       "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Eric Norrgard (eric.norrgard@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Jae Hyun Kim (jaehyun.kim@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
     ],
     "contacts": [
       {
-        "name": "Dr. Eric Norrgard",
-        "email": "ericnorrgard@nistgov"
+        "name": "Dr. Jae Hyun Kim",
+        "email": "jaehyunkim@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Materials Research Scientist",
+    "opportunity_number": "PREP0003261",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "2+ Years",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "",
+    "responsibilities": [
+      "Plan and research advanced X-ray metrologies to determine structural (physical and chemical) properties of blanket (non-patterned) thin films on Si and SiC wafers",
+      "Use X-ray characterization methods, such as X-ray reflectivity, X-ray fluorescence, and X-ray photoelectron spectroscopy, to determine the structural properties of thin film samples",
+      "Use open-source (Python) fitting methods to constrain structural models, determine uncertainties, and combine these properties into a hybrid metrology digital wafer",
+      "Perform wafer dicing, cleaning, and packaging of samples for distribution as a Research Grade Test Material to pair with the previously determined digital wafer model",
+      "Publish results in refereed scientific journals and present results at conferences and meetings"
+    ],
+    "qualifications": [
+      "Ph.D. in physics, materials science, or another related field",
+      "Background in X-ray measurement technique(s) required, either:\r\n\nX-ray reflectivity, X-ray fluorescence, or X-ray photoelectron spectroscopy",
+      "X-ray reflectivity, X-ray fluorescence, or X-ray photoelectron spectroscopy",
+      "Background in programming and/or data modeling using Python (or equivalent) recommended",
+      "Familiarity with thin film deposition and clean room access protocols, preferred",
+      "Strong oral and written communication skills",
+      "Ability to work productively as part of a team and independently"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours per week",
+      "Location: Physically at the NIST Gaithersburg, MD campus",
+      "Duration: this is a two-year and four-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Donald Windover (donald.windover@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Donald Windover",
+        "email": "donaldwindover@nistgov"
       },
       {
         "name": null,
@@ -609,47 +653,6 @@
     ]
   },
   {
-    "title": "Laser-Ablation Materials Researcher",
-    "opportunity_number": "PREP0004016",
-    "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "7 Months",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "Adhesion and Thermomechanical Property Measurements of Underfill Materials using Laser-Ablation. Design and develop a laser-based measurement platform to quantify the adhesion and mechanical properties of underfill materials commonly used in microelectronics packaging. Temperature and humidity control, along with the development of experimental protocols for the laser-ablation test platform, are necessary to enable successful thermomechanical evaluation of representative underfill materials. The candidate will participate in the design and development of a laser-based mechanical test that can withstand elevated temperatures and humidity levels. Additionally, the collected data will be analyzed to obtain adhesion and mechanical property data, which will aid in the design of the model underfill materials.",
-    "responsibilities": [
-      "Design, construction, and evaluation of an environmental chamber with humidity and temperature control and sensing for laser-ablation experiments",
-      "Evaluate polymeric materials, elastomers, thermosets, and composites for underfills",
-      "Collaborate on the development of mechanical property data sets (e.g., adhesion energies, shear modulus, dissipation factor) to aid in underfill materials development",
-      "Prepare technical documentation, including protocols, data analysis, and NIST best practice guides",
-      "Present research findings to internal NIST teams, external industry, and academic stakeholders"
-    ],
-    "qualifications": [
-      "A Ph.D. in Mechanical Engineering, Materials Science, Chemical Engineering, or a related field",
-      "Research experience with characterizing polymer glasses, thermosets, elastomers, and composites",
-      "Experience integrating devices with optical measurements (e.g., X-ray scattering, atomic force microscopy, electron microscopy), including experience with data collection and analysis of optical signals and images, is a plus",
-      "Strong chemistry or materials background, experimental design, and data analysis skills",
-      "Excellent written and verbal communication skills"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a seven-month position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Christopher Soles(christopher.soles@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Christopher Soles",
-        "email": "christophersoles@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
     "title": "Quantum Magnetometry Physicist",
     "opportunity_number": "PREP0004018",
     "level": "Postdoc",
@@ -770,44 +773,6 @@
       {
         "name": "Dr. Feng Yi",
         "email": "fengyi@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
-    "title": "Thermodynamics and Pressure Metrology Researcher",
-    "opportunity_number": "PREP0004054",
-    "level": "Post Degree",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "The National Institute of Standards and Technology (NIST) Fundamental Thermodynamics Group anticipates an open position performing metrological research to establish a new, higher-accuracy pressure scale based on pneumatic piston gauges. A piston gauge establishes a calculable pressure from the measured piston area and the force (weight) applied to the piston. The uncertainty in pressure is dominated by the uncertainty in \u201ceffective area\u201d associated with the piston gauge, including deformation and fluid corrections. The effective area is the \u201ccalibration factor\u201d of the piston gauge; it is the quantity that when combined with the loaded forces on the gauge produces the pressure in the fluid line connected to the gauge. This research project aims to characterize a set of piston gauges with an accuracy never yet realized at NIST. These will be used to calibrate customer pressure transducers and piston gauges over the pressure range 50 kPa to 10 MPa. At NIST, the selected candidate will gain research experience and measurement skills that are highly valuable for a career in academia, industry, or a national laboratory. Qualified researchers with a bachelor\u2019s, master\u2019s, or doctoral degree in a STEM field are encouraged to apply. Researchers will work on-site at NIST in Gaithersburg, Maryland.",
-    "responsibilities": [
-      "Perform experimental tasks toward realizing a new, higher accuracy pressure scale based on pneumatic piston gauges",
-      "Data and uncertainty analysis",
-      "Disseminating project results via peer-reviewed publications and public presentations"
-    ],
-    "qualifications": [
-      "US Citizen is strongly preferred",
-      "PhD (is preferred) in Physics or a related field",
-      "Experience pressure, vacuum, dimensional and/or temperature metrology,",
-      "Experience with python programming"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Eric Norrgard (eric.norrgard@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Eric Norrgard",
-        "email": "ericnorrgard@nistgov"
       },
       {
         "name": null,
@@ -1672,51 +1637,6 @@
       {
         "name": "Dr. Dustin Cook",
         "email": "dustincook@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
-    "title": "Pyrrhotite Deterioration Modeling Researcher",
-    "opportunity_number": "PREP0004134",
-    "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "Damage to concrete structures in residential and commercial construction in central Connecticut has been attributed to the iron sulfide mineral pyrrhotite. Iron sulfides in concrete aggregate are not desirable as their relative instability results in decomposition with associated staining, expansion, and pop-outs near concrete surfaces or, in severe cases, cracking of the structure. There are no standardized test methods to assess pyrrhotite occurrence and abundance in aggregate or in concrete due to its low concentrations, while still having a significant impact. Developing a standard test method, including a set of calibration reference standards, will provide a means for accurate, consistent analysis of pyrrhotite in concrete.  An improved understanding, based on modeling and experimental data, of the pyrrhotite/aggregate/concrete reaction types, reaction rates, and reaction product impact on concrete expansion, is needed so that the most deleterious reactions can be efficiently reduced or eliminated. In this opportunity, the PREP researcher will develop models to better understand the microstructural characteristics relevant to the internal sulfate expansion phenomena, including their volume expansio",
-    "responsibilities": [
-      "Chemo-mechanical modeling to simulate the expansion and the damage in concrete",
-      "Thermodynamic modeling to evaluate the reactions in cement phases due to pyrrhotite oxidation",
-      "Crack progression modeling using Finite Element Model (FEM) to simulate cracking behavior due to internal phase expansion",
-      "Moisture transport modeling that considers the distressed concrete due to pyrrhotite",
-      "Surface coating simulation modeling",
-      "Interface with NIST experimentalists to support and validate modeling work",
-      "Analyze modeling results and draft manuscripts"
-    ],
-    "qualifications": [
-      "U.S. citizenship preferred",
-      "Ph.D. in Chemistry/ Physics/ Mechanical Engineering/ Chemical Engineering/ Civil Engineering",
-      "Minimum of one year of experience in modeling pyrrhotite reactions and resulting damage in concrete with proof of peer-reviewed publications",
-      "Knowledge of concrete durability, i.e., chemo-mechanical modeling, diffusion, and thermodynamic modeling",
-      "Extensive knowledge of FEM and programming skills in Fortran and C++",
-      "Strong oral and written communication skills",
-      "Currently living in the United States"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Stephanie S. Watson (stephanie.watson@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Stephanie S. Watson",
-        "email": "stephaniewatson@nistgov"
       },
       {
         "name": null,
@@ -3625,6 +3545,511 @@
       {
         "name": "Dr. Andrea Centrone",
         "email": "andreacentrone@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "AI Forensic Toolmark Analysis Researcher",
+    "opportunity_number": "PREP0004499",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Sensor Science Division at the National Institute of Standards and Technology (NIST) is seeking a researcher to advance the application and scientific understanding of Artificial Intelligence and Machine Learning (AI/ML) in forensic firearm and toolmark analysis. Forensic examiners compare toolmarks on cartridge cases or bullets to evaluate whether they were fired from the same firearm. A similar comparison is made with marks from other tools, such as pliers and additive manufacturing systems (e.g. 3D printers). These analyses are currently subjective and rely heavily on examiner expertise. This position will lead the development, evaluation, and characterization of AI/ML methods to improve the objectivity, reproducibility, and accuracy of toolmark pattern evidence analysis. The researcher will address critical challenges in the application of AI/ML to forensic science, including transparency, robustness, and bias, through the development of guidelines for training and validation datasets; procedures to rigorously characterize model performance, uncertainty, and operational limitations; and approaches to provide insight into model decision-making processes. The researcher will collaborate with interdisciplinary teams and communicate findings through technical reports, publications, and presentations, contributing to the development of scientifically grounded and standards-based approaches for forensic evidence evaluation.",
+    "responsibilities": [
+      "Develop a forward-looking research program on AI/ML in forensic firearm and toolmark analysis and collaborate on cross-cutting techniques for other types of pattern evidence",
+      "Lead the development of a computational pipeline for the consistent segmentation of toolmark images using AI/ML methods",
+      "Investigate application of AI/ML to address major challenges in forensic toolmark analysis, such as characterizing toolmark quality and, ultimately, the direct comparison of toolmark images",
+      "Benchmark AI/ML-assisted results against those obtained with procedural algorithms and traditional human examinations. Investigate where AI/ML can provide the most significant improvements in objectivity and efficiency",
+      "Investigate approaches for quantifying the uncertainty of AI/ML outputs to ensure objective communication of the strength of the evidence in courtroom testimony. Explore the feasibility of explainable AI (XAI) frameworks to inform examiners on the toolmark features that drive the model\u2019s output",
+      "Collaborate with the forensic community to translate research findings into actionable standards and best practice guides",
+      "Publish research findings in peer-reviewed journals and present results at scientific conferences"
+    ],
+    "qualifications": [
+      "U.S. Citizen preferred",
+      "Ph.D. or master\u2019s degree in computer science, physics, engineering, statistics, forensic science, or a closely related field",
+      "Research experience in the development and application of AI/ML for image analysis.",
+      "Proficiency with Python or MATLAB",
+      "Evidence of independent research experience and a strong enthusiasm for learning new theoretical, computational, and experimental techniques",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Johannes A. Soons (johannes.soons@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Johannes A. Soons",
+        "email": "johannessoons@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "DNA/RNA Ensemble Modeling Researcher",
+    "opportunity_number": "PREP0004514",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "This position will focus on theory and computation to classify DNA and RNA conformational ensembles using secondary-structure-based distance metrics and clustering. A central goal is to build hierarchical, interpretable ensemble representations that connect simulation-derived clusters to experimental measurements/observables and statistical-physics interpretation (e.g., energetic barriers and kinetic pathways). Work includes developing and validating analysis algorithms, implementing reproducible research software, and collaborating with experimental and device-focused teams to connect theory outputs to measurement needs.",
+    "responsibilities": [
+      "Develop, test, and extend ensemble representations for DNA/RNA and relate these to experimental observables",
+      "Implement and optimize secondary-structure distance metrics based on base-pair reorganization",
+      "Build scalable clustering and model selection for large molecular dynamics datasets",
+      "Presenting results at internal and external meetings and conferences",
+      "Develop well-documented, reproducible research software and publish results"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in physics, chemistry, biophysics, computational biology, applied mathematics, computer science, or a closely related field",
+      "Demonstrated experience with biomolecular simulation and/or trajectory analysis (strong preference for nucleic acids: DNA/RNA)",
+      "Experience with coarse-grained nucleic-acid models, e.g., oxDNA/oxRNA or closely related coarse-grained frameworks",
+      "Practical understanding of clustering/unsupervised learning and distance-metric design",
+      "Strong scientific programming (Python preferred; Julia a plus) and ability to write maintainable, version-controlled code",
+      "Background in statistics/statistical physics; ability to interpret ensembles in terms of kinetics and free-energy landscapes",
+      "Strong written and oral communication skills and ability to collaborate in a multidisciplinary team; experience analyzing experimental data from single-molecule and ensemble techniques is a plus"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Michael Zwolak (michael.zwolak@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Michael Zwolak",
+        "email": "michaelzwolak@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Construction Engineering Senior Researcher",
+    "opportunity_number": "PREP0004533",
+    "level": "Senior Researcher",
+    "location": "the participant will work remotely",
+    "work_type": "Part Time",
+    "mode": "Remote",
+    "duration": "7 Months",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "A part-time senior researcher is sought for a position in Construction Engineering and Cost Modeling to support the development and implementation of a new nonstructural component fragility and consequence database for performance-based hazard assessments of buildings. NIST has recently developed a relational database focusing on nonstructural elements in buildings, NED (Nonstructural Element Database), which collects information from experimental, analytical, and historic performance observations into seismic fragilities and consequence models to support building-specific seismic performance research and assessments, refactoring and expanding upon the FEMA P-58 database as the standard of practice for seismic risk assessment. Currently, the project is still in its active development and does not yet have consequence models or data from historical events, but it has collected over 2500 experimental data points and compiled a fragility data set that includes and expands upon the full FEMA P-58 nonstructural database.  NIST will supplement its capacities with input from PREP Fellow experts in the areas of component damage consequence modeling, repair cost estimation, and construction sequencing. The PREP Fellow will work with NIST researchers to develop and implement a new consequence model data schema and consequence estimation procedures within the NED database. The work, to be completed in collaboration with NIST researchers and other external contractors, will be comprised of the following five major tasks: (1) review, refactoring and forward developing of the current database architecture and data schema, (2) development of a general consequence model database architecture and schema, and (3) implementation of new consequence models into the database, (4) back-end and front-end software development, and (5) documentation of developments and tools and dissemination in technical reports and professional conferences.",
+    "responsibilities": [
+      "Review the current design and data schema of the NED database, paying specific attention to missing data representations, duplicity in data design, points of unclarity, and the capability to scale with new data and meet future use cases",
+      "Conceptualize and design a robust and scalable repair cost and repair time model for integration into the NED architecture",
+      "Work closely with NIST researchers and external collaborators to iterate and improve upon the database design, as well as support the implementation of the database",
+      "Contribute to the publication of a NIST report and data repository documenting the database"
+    ],
+    "qualifications": [
+      "U.S. citizen preferred",
+      "More than 15 years of experience in professional cost estimation and cost modeling in the construction industry",
+      "A strong background in engineering, natural hazards, and probabilistic risk assessment, including uncertainty quantification",
+      "Experience in the development, application, and implementation of the FEMA P-58 performance-based assessment framework and associated fragility database",
+      "Proven and documented experience in developing component-level repair costs and repair time models for seismic damage",
+      "The ability to work both independently and as part of a larger, multi-disciplinary team to achieve project objectives and meet project deadlines and reporting requirements"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 3 hours a week",
+      "Location: the participant will work remotely.",
+      "Duration: this is expected to be a seven-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Dustin Cook (dustin.cook@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Dustin Cook",
+        "email": "dustincook@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Structural Engineering Researcher",
+    "opportunity_number": "PREP0004534",
+    "level": "Academic Affiliate",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "9 Months",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "A structural engineering researcher is being sought to support a project investigating the seismic performance of low-damage structural systems.  Despite progress made in the development of building codes to protect lives, communities continue to face costly and sometimes lengthy recoveries following major earthquakes. Interest in designing structures to achieve post-earthquake functionality has created the opportunity for innovative approaches to be brought into the mainstream of building design. Rocking structural systems are designed to allow all or a portion of the seismic force-resisting system to uplift or rock, providing a form of \u201cisolation\u201d from the earthquake motion, thus minimizing damage.  Over the past several decades, the feasibility of rocking systems has been demonstrated through peer-reviewed research and implementation in buildings and bridges. Particularly, recently constructed buildings have demonstrated that rocking systems can provide cost-effective solutions to help meet recovery-based design objectives (e.g., functional recovery). The successful candidate will conduct research evaluating the performance benefits of rocking structural systems in comparison to conventional systems. This work is intended to help advance the understanding of low-damage rocking systems and provide new comprehensive guidelines for practicing engineers.  Additionally, the researcher will investigate the influence of ground motion selection and scaling procedures and identify ground motion parameters that most affect rocking behavior. This work will contribute to current NIST research projects and will be synergistic with ongoing NIST collaborations with external researchers and practitioners.",
+    "responsibilities": [
+      "Conduct parametric studies of rocking and conventional buildings to understand the most influential ground motion characteristics on a variety of engineering demand parameters",
+      "Develop nonlinear structural models and conduct evaluations of conventional and low-damage systems",
+      "Develop design guidelines for low-damage structural systems to promote wider use",
+      "Develop and test new low-damage technologies that focus on implementation",
+      "Develop a structural component database, utilizing past experimental testing expertise and programming expertise",
+      "Evaluate the cost-benefits of rocking systems over a range of seismic hazards and building types"
+    ],
+    "qualifications": [
+      "U.S. Citizen preferred",
+      "Ph.D. in Civil Engineering or Structural Engineering, with a focus on Earthquake Engineering",
+      "Extensive experience in nonlinear modeling using OpenSees",
+      "Expertise in programming in Python, MATLAB, and Tcl",
+      "Familiarity with performance-based seismic design",
+      "Expertise in rocking structural systems and low-damage structural systems, including past publications demonstrating modeling ability",
+      "Experience in large-scale structural testing, component testing, and shake table testing",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a nine-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Matthew Speicher (matthew.speicher@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Matthew Speicher",
+        "email": "matthewspeicher@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Corrosion Metrology Researcher",
+    "opportunity_number": "PREP0004568",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Infrastructure Materials Group (IMG) at NIST serves as an important resource for developing science-based tools and measurement standards to enhance the resilience and sustainability of the nation's physical infrastructure. The degradation of reinforced concrete as a direct result of embedded steel corrosion remains a monumental challenge, with direct and indirect costs consuming approximately 6 % of the U.S. Gross Domestic Product. Current building codes, testing standards, and common-practice heuristics, such as diffusion coefficient, depth of cover, and chloride per unit mass of cement, are inadequate for assessing the complex environmental factors and novel binder chemistries that most strongly affect structural service life. To address this, the IMG \"Assessing Steel Corrosion Risk in Innovative Cement Concretes\" project aims to combine advanced electrochemical characterization with species transport modeling. We are seeking a highly motivated Postdoctoral Researcher with academic training and experience in corrosion science to develop new metrology standards specific to reinforced concrete structures, which are often in unsaturated conditions. The selected candidate will focus on measuring the precise rates of corrosion initiation and progression, ultimately providing the foundational data needed to build high-fidelity service-life and fragility models for reinforced concrete structures.",
+    "responsibilities": [
+      "Electrochemical Metrology & Testing: Design and conduct advanced bench-top electrochemical assessments of reinforcement steel to measure corrosion initiation and progression rates under varied solution properties and environmental conditions.",
+      "Advanced Data Collection: Utilize Electrochemical Impedance Spectroscopy (EIS), potentiodynamic polarization, open-circuit potential (OCP), and linear polarization resistance (LPR) to accurately quantify corrosion current density, corrosion potential, and charge transfer resistance. Also, develop measurement plans to obtain Point Defect Model (PDM) parameters for modeling rebar passivation and passive film breakdown.",
+      "Microstructural Characterization: Perform high-resolution materials characterization utilizing Scanning Electron Microscopy- Energy Dispersive X-Ray Spectroscopy (SEM-EDS) to study the steel-concrete interface and understand the morphology of localized degradation.",
+      "Model Integration: Translate fundamental bench-top corrosion data and transport property measurements into accurate inputs for numerical and structural models, connecting atomic-level physicochemical mechanisms to building-scale performance."
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Knowledge of cement chemistry, including hydration and the complex pore solutions of traditional or alternative binders",
+      "Knowledge of the Point Defect Model for corrosion, and an understanding of how to obtain the relevant model parameters from laboratory measurements"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Scott Jones (scott.jones@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Scott Jones",
+        "email": "scottjones@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Trace Gas Spectroscopy Researcher",
+    "opportunity_number": "PREP0004583",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "We seek a Post-doctoral Fellow in Cavity Ring-down Spectroscopy of Trace Gas Impurities. The successful Post-doctoral Fellow will construct and align home-built, high-finesse optical resonators coupled with continuous-wave lasers in the near- and mid-infrared. The optical resonators will comprise high-vacuum parts of aluminum, stainless steel, and/or invar, as well as vacuum and gas delivery lines and pumps. They will further comprise high reflectivity, low loss mirrors in the near- and mid-infrared, and require the successful Post-doctoral Fellow to align the optical resonators with various laser sources. Laser control and metrology will be required, using state-of-the-art tools like stabilized continuous-wave lasers and optical frequency combs. Success will also require the completed cavity ring-down spectrometers to be applied to the trace detection of impurities in semiconductor gases. This task will require the implementation of laser- and cavity-scanning software on laboratory personal computers and the routine use of precision hardware like pressure gauges, temperature probes, oscilloscopes, and digitizer cards.",
+    "responsibilities": [
+      "Construction of cavity ring-down spectrometers and vacuum gas-sample cells",
+      "Alignment of lasers to high-finesse optical resonators and gas-sample cells",
+      "Implementation of laser metrology and control techniques using optical frequency combs",
+      "Precision delivery of semiconductor-grade gas samples to optical resonators and gas-sample cells",
+      "Present results at internal meetings, and occasional meetings with external stakeholders",
+      "Ensure that results, protocols, software, and documentation have been archived or otherwise transmitted to the larger organization"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in Physics, Optical Science, Engineering, or a related field",
+      "<5 years of relevant research experience post-Ph.D",
+      "Demonstrated successes (e.g., peer-reviewed publications) in laser spectroscopy",
+      "Demonstrated experience building, stabilizing, and using optical frequency combs",
+      "Ability to align free-space laser spectroscopy systems, including free-space optics for resonators",
+      "Ability to perform instrument control using graphical programming environments (e.g., LabVIEW)",
+      "Familiarity with multiple scripting languages for data analysis and instrument control (e.g., MATLAB)",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Adam Fleisher (adam.fleisher@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Adam Fleisher",
+        "email": "adamfleisher@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Data Standards and Policy Researcher",
+    "opportunity_number": "PREP0004595",
+    "level": "Undergraduate",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "3 Months",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The ADLP Research Data and Computing Office (RDCO) oversees strategic planning and implementation of laboratory data directives and provides leadership for data science, computing and research infrastructure.   To fulfill these goals, this RDCO PREP work will focus on activities relevant to advancing the NIST metrology mission application of modern digitalization standards and best practice using data science, AI and digital technology.   The PREP associate will perform evaluation and mapping of relevant NIST data and software directives (policy, order, guidance and procedures) to external and internal systems and research program areas.   This will include analysis of current government actions and policy, department data strategy, in addition to NIST research data policy and implementation.  The varying levels of scope in this analysis will include collaboration with RDCO leadership.  Software and data tooling, including use of approved AI, will provide a toolkit used to evaluate and synthesize the information.   The results of this effort will be used to develop recommendations for use of digital standards and best practice, and facilitate adapting relevant directives to improve NIST research production in the form of data and software.   The NIST public access plan references will be reviewed for relevant internal and external dependencies.   In the context of the current government priority for the AI Action Plan and Phase 2 of the Evidence Act, this PREP activity will also consider how the analysis may inform NIST research outputs to the new federal metadata standard DCAT-US 3.0.",
+    "responsibilities": [
+      "Investigate NIST research data strategy, frameworks, and program areas",
+      "Review NIST Data and Software directives and related documentation for use",
+      "Analyze application of data standards and best practice at NIST, Government and stakeholder communities",
+      "Present results at RDCO internal meetings, and occasional meetings with external stakeholders",
+      "Ensure that results, protocols, tools, and documentation are well structured and made available for RDCO and NIST"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Undergraduate student in physical sciences, physics, computer science, materials or related field",
+      "2 years of relevant research project experience",
+      "Familiarity with use of software programming python",
+      "Ability to work with application of software to applied research",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a three-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Gretchen Greene (gretchen.greene@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Gretchen Greene",
+        "email": "gretchengreene@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Community Resilience Senior Researcher",
+    "opportunity_number": "PREP0004596",
+    "level": "Senior Researcher",
+    "location": "the participant will telework",
+    "work_type": "Full Time",
+    "mode": "Hybrid",
+    "duration": "6 Months",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "This work supports efforts of the NIST Community Resilience Program https://www.nist.gov/community-resilience to develop the measurement science needed for concepts of recovery and resilience. In this area, the postdoctoral associate will contribute to the development of publications as well as generalized survey and interview instruments that can be used to improve standardized measurement of impacts and recovery for organizations following disruptions such as natural hazards. Additionally, the postdoc will work on the testing and validation of resilience indicators using county level data for the US. Ultimately, these validated indicators, standardized data collection instruments, and associated protocols will be used to support future deployments and investigations of the NIST Disaster and Failure Studies Program https://www.nist.gov/topics/disaster-failure-studies/about-disaster-and-failure-studies-program  while the associated analysis will inform the development of NIST Community Resilience Program guidance and tools to support organizations like schools and hospitals with resilience planning.",
+    "responsibilities": [
+      "Development of data collection instruments (e.g., surveys and interview guides)",
+      "Support in developing documentation required for approvals (e.g., Institutional Review Board, Office of Management and Budget Paperwork Reduction Act),",
+      "Quantitative and qualitative analysis of data collected",
+      "Communication of results through reports, other publications, and presentations",
+      "Research and publications on related topics including organizational resilience, community recovery, data collection following disasters, and measurement using social science methods"
+    ],
+    "qualifications": [
+      "U.S. citizen preferred",
+      "Ph.D. in geography, sociology, or a related social science field",
+      "At least 3 years of relevant expertise in research related to disaster recovery, quantitative and qualitative methodologies, and hazard impacts",
+      "Experience on interdisciplinary research teams",
+      "Strong oral and written communication skills",
+      "Ability to develop scientific presentations and publications"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will telework.",
+      "Duration: this is expected to be a six-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Maria Dillard (maria.dillard@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Maria Dillard",
+        "email": "mariadillard@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Structural Reliability Senior Researcher",
+    "opportunity_number": "PREP0004600",
+    "level": "Senior Researcher",
+    "location": "the participant will work remotely Duration: this is expected to be a one-year position",
+    "work_type": "Part Time",
+    "mode": "Remote",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Next Generation Building Standards \u2013 Structural Reliability. Standard development organizations (SDO) and communities are beginning to address how future hazards and conditions may affect the design and performance of the built environment, and are seeking   improved design and construction practices. NIST has long-standing expertise in reducing natural hazards risk and enhancing the resilience of the built environment. NIST is strategically developing a rigorous technical basis for future hazards and conditions to support engineering practice and the resilience of buildings, infrastructure, and communities. This research will help identify and address research needs for developing next generation codes, standards, and tools. A senior researcher or a faculty member with expertise in structural engineering, and relevant risk and reliability methods, is sought to identify research needs and analysis methods for the incorporation of future hazards, conditions, and data into engineering design codes, standards, and tools to ensure the continued resilience of buildings, infrastructure, and communities.",
+    "responsibilities": [
+      "Technical contributions and finalization of two reports: a research roadmap report and state-of-the-art assessment of research gaps and needs",
+      "Develop nonstationary reliability methods for building standards that account for temporal variations in natural hazards, future conditions, and structural capacity"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in Civil Engineering with a focus on Structural Engineering or a related field",
+      "Expertise/experience in probabilistic structural reliability methods, and associated characterization of natural hazard and structural capacity, for engineering design standards",
+      "At least 5 years of relevant experience",
+      "A strong record of research, publications, and strong communication skills",
+      "The ability to work both independently and as part of a larger, multi-disciplinary team to achieve project objectives, and meet project deadlines and reporting requirements"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 8 hours a week",
+      "Location: the participant will work remotely",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Terri McAllister (therese.mcallister@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Terri McAllister",
+        "email": "theresemcallister@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Convective Wind Hazards Senior Researcher",
+    "opportunity_number": "PREP0004602",
+    "level": "Senior Researcher",
+    "location": "the participant will work remotely",
+    "work_type": "Part Time",
+    "mode": "Remote",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Next Generation Building Standards \u2013 Convective Wind Hazards. Standard development organizations (SDO) and communities are beginning to address how future hazards and conditions may affect the design and performance of the built environment, and are seeking   improved design and construction practices. NIST has long-standing expertise in reducing natural hazards risk and enhancing the resilience of the built environment. NIST is strategically developing a rigorous technical basis for future hazards and conditions to support engineering practice and the resilience of buildings, infrastructure, and communities. This research will help identify and address research needs for developing next generation codes, standards, and tools. A senior researcher or a faculty member is sought with expertise in data collection, forecasting, and modeling of convective wind hazards to identify methods and practices for the incorporation of future hazards, conditions, and data into engineering design codes, standards, and tools to ensure the continued resilience of buildings, infrastructure, and communities.",
+    "responsibilities": [
+      "Technical contributions and finalization of two reports: a research roadmap and state-of-the-art assessment of research gaps and needs",
+      "Develop nonstationary models for convective wind hazards for application in building standards that account for temporal variations in natural hazards and future conditions"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in Meteorology, or a related field",
+      "Expertise/experience in data collection, forecasting, and modeling of convective wind hazards and future conditions for engineering design standards",
+      "At least 5 years of relevant experience",
+      "A strong record of research, publications, and strong communication skills",
+      "The ability to work both independently and as part of a larger, multi-disciplinary team to achieve project objectives, and meet project deadlines and reporting requirements"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 8 hours a week",
+      "Location: the participant will work remotely.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Terri McAllister (therese.mcallister@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Terri McAllister",
+        "email": "theresemcallister@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "AI ONTAM Building Model Researcher",
+    "opportunity_number": "PREP0004606",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Indoor Air Quality Modeling \u2013 Artificial Intelligence to Support CONTAM Model Development.",
+    "responsibilities": [
+      "Gain familiarity with the use of existing CONTAM IAQ modeling software",
+      "Gain a strong understanding of the newly developed CONTAM APIs",
+      "Apply CONTAM APIs to generate, modify, and perform simulations on CONTAM Project files",
+      "Develop AI-based methods to generate CONTAM building models"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in Mechanical Engineering, or a related field",
+      "Familiarity with multiple programming languages, e.g., C, C#, Python, or Java",
+      "Familiarity with Git DevOps and CI/CD pipelines",
+      "Familiarity with developing and applying agent-based AI",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. William Stuart Dols (william.dols@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. William Stuart Dols",
+        "email": "williamdols@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Hurricane Community Resilience Researcher",
+    "opportunity_number": "PREP0004609",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The National Institute of Standards and Technology\u2019s National Windstorm Impact Reduction Program Study of Hurricane Maria\u2019s Impacts and Recovery in Puerto Rico includes a project focused on the recovery of schools and hospitals in Puerto Rico. The objective of the Recovery of Social Functions project is to identify the underlying characteristics and conditions associated with recovery of critical social functions from Hurricane Maria in Puerto Rico and to examine the recovery trajectories of sampled schools and hospitals. This project also includes investigation of the interdependencies of the broader community (e.g., households, businesses) and the social functions provided by schools and hospitals. Data were collected using surveys and interviews of K-12 schools and hospitals in Puerto Rico following Hurricanes Maria and Fiona. https://www.nist.gov/topics/disaster-failure-studies/hurricane-maria/hurricane-maria-projects-0 The primary activities for the research associate include the analysis of school and hospital impacts and recovery in Puerto Rico following Hurricane Fiona. This role requires the application of both quantitative and qualitative methodologies, as well as narrative and technical writing skills. The research associate will contribute to the development of reports, other publications, and presentations that communicate study findings to inform practical guidance and, ultimately, shape broader organizational resilience frameworks. Responsibilities also include supporting the development of data collection instruments (e.g., surveys and interview guides) and documentation required for approvals (e.g., Institutional Review Board, Office of Management and Budget Paperwork Reduction Act). Additionally, the work involves research and publications on related topics such as organizational resilience, community recovery, data collection following disasters, and measurement using social science methods. This work supports additional efforts of the NIST Community Resilience Program https://www.nist.gov/community-resilience to develop the measurement science needed for concepts of recovery and resilience. Specifically, the work overlaps in the area of organizational resilience. In this area, the research associate will contribute to the development of publications as well as generalized survey and interview instruments that can be used to improve standardized measurement of impacts and recovery for organizations following disruptions such as natural hazards.",
+    "responsibilities": [
+      "Quantitative and qualitative analysis of data",
+      "Narrative and technical writing",
+      "Communication of results through reports, other publications, and presentations",
+      "Support the development of data collection instruments (e.g., surveys and interview guides)",
+      "Support in developing documentation required for approvals (e.g., Institutional Review Board, Office of Management and Budget Paperwork Reduction Act),",
+      "Research and publications on related topics including organizational resilience, community recovery, data collection following disasters, and measurement using social science methods"
+    ],
+    "qualifications": [
+      "U.S. Citizen preferred",
+      "Master\u2019s degree in geography, sociology, or a related social science field",
+      "At least 3 years of relevant expertise in research related to community and organizational resilience, quantitative and qualitative methodologies, and hazard impacts",
+      "Experience on interdisciplinary research teams",
+      "Strong oral and written communication skills",
+      "Ability to develop scientific presentations and publications",
+      "Prior experience working on disaster studies preferred"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus and telework.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Kelly Anderson (kelly.anderson@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Kelly Anderson",
+        "email": "kellyanderson@nistgov"
       },
       {
         "name": null,
