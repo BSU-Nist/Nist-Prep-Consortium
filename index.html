@@ -67,7 +67,7 @@
 <script>
 async function loadJobs() {
     try {
-        const res = await fetch('jobs.json'); // make sure file is here
+        const res = await fetch('jobs.json'); // make sure file is here and has this name
         const jobs = await res.json();
 
         const container = document.getElementById('job-container');
