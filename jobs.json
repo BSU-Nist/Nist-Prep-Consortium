@@ -4351,10 +4351,10 @@
     "title": "Critical Minerals Calibration Researcher",
     "opportunity_number": "PREP0005063",
     "level": "Postdoc",
-    "location": "NIST Charleston, SC Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
+    "location": "",
+    "work_type": "",
+    "mode": "",
+    "duration": "",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "The Material Measurement Laboratory (MML), part of the National Institute of Standards and Technology (NIST), is seeking a Post-Doctoral Researcher to support critical minerals chemical composition research. Candidates must be US citizens and will report to the NIST Charleston, SC laboratory, which is co-located with the USDOC NOAA Hollings Marine Laboratory. The candidate will develop both solid and solution sampling calibration methods using inductively coupled plasma mass spectrometry (ICP-MS), laser ablation (LA) and other techniques characterize the elemental composition of complex material streams such as battery black mass and electronic scrap. These streams contain critical minerals and materials that have economic value, but recovery pathways remain nascent. The driver for this research focuses on validating calibration methods that could potentially port to industry and bolster measurement capabilities across domestic critical materials supply chains.",
     "responsibilities": [
@@ -4364,29 +4364,9 @@
       "Communication: Prepare findings for peer-reviewed publications, technical reports, and oral presentations. Deliverables to include internal Reports of Analysis",
       "Safety and Compliance: Maintain strict adherence to institutional safety requirements, including hazardous chemical handling protocols; protect intellectual property of candidate research materials"
     ],
-    "qualifications": [
-      "**U.S. Citizens Only**",
-      "Ph.D. in Chemistry, Chemical Engineering, Materials Science, or a related field.",
-      "Proven experience with acid digestions, and trace element quantification is required; fundamental knowledge about plasma source mass spectrometry and LA-ICP-MS",
-      "Excellent written/oral communication; track record of meeting milestones in multidisciplinary teams; demonstrated first author publications",
-      "Must be comfortable working with caustic and corrosive chemicals and working in a laboratory that maintains strict clean sample preparation protocols ensuring low blanks and cross contamination",
-      "Familiarity with metal extraction and preservation chemistry, Li battery chemistry, rare earth and toxic metals analyses"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Charleston, SC Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Steven J. Christopher",
-        "email": "steven.christopher@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
+    "qualifications": [],
+    "other_details": [],
+    "contacts": []
   },
   {
     "title": "Physical AI Researcher",
@@ -4572,6 +4552,239 @@
       {
         "name": "Dr. Anthony Downs",
         "email": "anthonydowns@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "AI-Ready Publishing Systems Researcher",
+    "opportunity_number": "PREP0005125",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Part Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The candidate will work with NIST staff to conceive of and pilot novel approaches to NIST\u2019s current publication process, including development of AI-ready versions of active NIST publications (e.g., the Cybersecurity Framework) and other digital tools to support implementers of NIST publications.",
+    "responsibilities": [
+      "Investigate emerging AI-ready publication methods at other research institutions",
+      "Investigate emerging technologies, best practices, supporting processes, and KPIs that could transform the NIST publication process into one that supports both human readers and AI agents",
+      "Design options for a publication system and workflow optimized for external AI agents",
+      "Identify options for public-facing tools to support external practitioners that implement NIST cybersecurity and privacy publications like the Cybersecurity Framework",
+      "Design a possible pilot study to assess the feasibility of the proposed AI-ready publication approach and tools",
+      "Present findings and the proposed approach at internal meetings",
+      "Ensure that findings and documentation have been archived or otherwise transmitted to the larger organization"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Bachelor\u2019s degree in Information Systems, Computer Science, or a related field",
+      "Experience building and testing information systems",
+      "Experience in a research environment",
+      "Experience with Python, C, and Java",
+      "Skilled in technical writing, research methodology development, creative problem solving",
+      "Knowledge of markdown, retrieval models, language models, natural language processing, database administration practices a plus"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 20 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Connie LaSalle (connie.lasalle@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Connie LaSalle",
+        "email": "connielasalle@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Research Software Engineer",
+    "opportunity_number": "PREP0005160",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Data Center and Business group (DCB) in the NIST Material Measurement Laboratory is seeking a Research Software Engineer (RSE) to help build sustainable software infrastructure for Measurement Service related projects. The successful candidate will provide both hands-on support for the development, maintenance, deployment, and long-term sustainability of critical software, databases, workflows, and scientific infrastructure. In this role you will work as an embedded technical team member, participating in project planning, code creation and revision, code review, architecture discussions, reproducibility efforts, and deployment decisions. The successful candidate will help prioritize coding work across projects in consultation with DCB programmers, balancing near-term needs with long-term software sustainability.",
+    "responsibilities": [
+      "Design, expand, and deploy to an existing scientific database layout supporting active research and internal NIST datasets",
+      "Develop, refactor, profile, test, and package prototype code for long-term maintainability and performance",
+      "Develop new user-friendly intuitive features based around data input forms and display of data for an existing reference material dataset website",
+      "Develop features to store, retrieve, and manage files related to the data records"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Bachelor\u2019s degree in software engineering, computer science, information technology, a STEM field, or equivalent professional experience",
+      "Proficiency in HTML, CSS, SASS, and JavaScript for user-facing layouts and behavior",
+      "Proficiency in Server-side languages or runtimes (Node.js and PHP), alongside database management (MongoDB)",
+      "Proficiency in Version control systems like Git, API integration, responsive design, and debugging/testing procedures",
+      "Proficiency in Linux based file system and programming",
+      "Experience building data pipelines and reproducible workflows",
+      "Library and API design and release management, documentation for scientific users and developers, automated testing and continuous integration, code review and maintainability practices",
+      "The ability to work alongside researchers in adopting modern, collaborative software development workflows (e.g., git-based collaboration, issue tracking, lightweight project management)",
+      "Experience creating tutorials, examples, API documentation, or other user-facing materials for scientific software"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. William Dinis Camara (william.camara@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. William Dinis Camara",
+        "email": "williamcamara@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Research Software Engineer",
+    "opportunity_number": "PREP0005162",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Data Center and Business group (DCB) in the NIST Material Measurement Laboratory is seeking a Research Software Engineer (RSE) to help build sustainable software infrastructure for Measurement Service related projects. The successful candidate will provide both hands-on support for the development, maintenance, deployment, and long-term sustainability of critical software, databases, workflows, and scientific infrastructure. In this role you will work as an embedded technical team member, participating in project planning, code creation and revision, code review, architecture discussions, reproducibility efforts, and deployment decisions. The successful candidate will help prioritize coding work across projects in consultation with DCB programmers, balancing near-term needs with long-term software sustainability.",
+    "responsibilities": [
+      "Design, expand, and deploy to an existing scientific database layout supporting active research and internal NIST datasets",
+      "Develop, refactor, profile, test, and package prototype code for long-term maintainability and performance",
+      "Develop new user-friendly intuitive features based around data input forms and display of data for an existing reference material dataset website",
+      "Develop features to store, retrieve, and manage files related to the data records"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Master\u2019s degree in software engineering, computer science, information technology, a STEM field, or equivalent professional experience",
+      "Proficiency in HTML, CSS, SASS, and JavaScript for user-facing layouts and behavior",
+      "Proficiency in Server-side languages or runtimes (Node.js and PHP), alongside database management (MongoDB)",
+      "Proficiency in Version control systems like Git, API integration, responsive design, and debugging/testing procedures",
+      "Proficiency in Linux based file system and programming",
+      "Experience building data pipelines and reproducible workflows",
+      "Library and API design and release management, documentation for scientific users and developers, automated testing and continuous integration, code review and maintainability practices",
+      "The ability to work alongside researchers in adopting modern, collaborative software development workflows (e.g., git-based collaboration, issue tracking, lightweight project management)",
+      "Experience creating tutorials, examples, API documentation, or other user-facing materials for scientific software"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. William Dinis Camara (william.camara@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. William Dinis Camara",
+        "email": "williamcamara@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Concrete Corrosion Researcher",
+    "opportunity_number": "PREP0005163",
+    "level": "Senior Researcher",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "",
+    "responsibilities": [
+      "The Research Associate will conduct advanced accelerated corrosion studies of steel embedded in concrete made with innovative cement binders to develop new metrology for assessing corrosion degradation in new and existing reinforced concrete structures.",
+      "Cement and Concrete Material Science",
+      "Advance Measurement Science: Develop and validate novel test methods for characterizing alternative cementitious materials, with a specific focus on linking microstructural development to macro-scale transport properties\nPore Solution Characterization: Lead efforts to standardize X-ray Fluorescence (XRF) techniques for the elemental analysis of concrete pore solutions, establishing protocols for characterizing accuracy and repeatability\nDurability Modeling: Apply thermodynamic modeling to predict phase changes (e.g., carbonation, chloride binding) in Type IL and CSA cements under varying climate scenarios",
+      "Advance Measurement Science: Develop and validate novel test methods for characterizing alternative cementitious materials, with a specific focus on linking microstructural development to macro-scale transport properties",
+      "Pore Solution Characterization: Lead efforts to standardize X-ray Fluorescence (XRF) techniques for the elemental analysis of concrete pore solutions, establishing protocols for characterizing accuracy and repeatability",
+      "Durability Modeling: Apply thermodynamic modeling to predict phase changes (e.g., carbonation, chloride binding) in Type IL and CSA cements under varying climate scenarios",
+      "Corrosion Science",
+      "Advanced Data Collection: Utilize Electrochemical Impedance Spectroscopy (EIS), potentiodynamic polarization, open-circuit potential (OCP), and linear polarization resistance (LPR) to accurately quantify corrosion current density, corrosion potential, and charge transfer resistance. Also, develop measurement plans to obtain Point Defect Model (PDM) parameters for modeling rebar passivation and passive film breakdown\nMicrostructural Characterization: Perform high-resolution materials characterization utilizing Scanning Electron Microscopy- Energy Dispersive X-Ray Spectroscopy (SEM-EDS) to study the steel-concrete interface and understand the morphology of localized degradation\nModel Integration: Translate fundamental bench-top corrosion data and transport property measurements into accurate inputs for numerical and structural models, connecting atomic-level physicochemical mechanisms to building-scale performance",
+      "Advanced Data Collection: Utilize Electrochemical Impedance Spectroscopy (EIS), potentiodynamic polarization, open-circuit potential (OCP), and linear polarization resistance (LPR) to accurately quantify corrosion current density, corrosion potential, and charge transfer resistance. Also, develop measurement plans to obtain Point Defect Model (PDM) parameters for modeling rebar passivation and passive film breakdown",
+      "Microstructural Characterization: Perform high-resolution materials characterization utilizing Scanning Electron Microscopy- Energy Dispersive X-Ray Spectroscopy (SEM-EDS) to study the steel-concrete interface and understand the morphology of localized degradation",
+      "Model Integration: Translate fundamental bench-top corrosion data and transport property measurements into accurate inputs for numerical and structural models, connecting atomic-level physicochemical mechanisms to building-scale performance",
+      "Technology Transfer",
+      "Uncertainty Quantification: Use advanced statistical frameworks (Bayesian inference, Monte Carlo simulations) to analyze experimental data, and to quantify the uncertainty in service-life predictions for code development\nCode & Standard Development: Translate research findings into actionable proposals for ASTM and ACI committees, directly influencing the next generation of building codes",
+      "Uncertainty Quantification: Use advanced statistical frameworks (Bayesian inference, Monte Carlo simulations) to analyze experimental data, and to quantify the uncertainty in service-life predictions for code development\nCode & Standard Development: Translate research findings into actionable proposals for ASTM and ACI committees, directly influencing the next generation of building codes",
+      "Uncertainty Quantification: Use advanced statistical frameworks (Bayesian inference, Monte Carlo simulations) to analyze experimental data, and to quantify the uncertainty in service-life predictions for code development",
+      "Code & Standard Development: Translate research findings into actionable proposals for ASTM and ACI committees, directly influencing the next generation of building codes"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Quantitative Phase Analysis (QPA) using X-ray Diffraction, including the use of the Internal Standard Method to quantify amorphous contents in hydrated cementitious systems",
+      "Composition Analysis using X-ray fluorescence to quantify the elemental composition of solutions",
+      "Proficiency in surface/sample preparation of metals for metallographic analysis and advanced microstructural characterization techniques, specifically Scanning Electron Microscopy- Energy Dispersive X-Ray Spectroscopy (SEM/EDS), Raman spectroscopy, X-Ray Photoelectron Spectroscopy (XPS), optical profilometry, optical microscopy, and ion chromatography"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Scott Jones (scott.jones@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Scott Jones",
+        "email": "scottjones@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Additive Construction Researcher",
+    "opportunity_number": "PREP0005164",
+    "level": "Senior Researcher",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1+ Years",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Infrastructure Materials Group at the Engineering Laboratory of the National Institute of Standards and Technology (NIST) is seeking qualified persons (U.S. Citizens preferred) to develop test and material standards to assess the durability of Additively Constructed elements through accelerated weathering, multi-scale mechanical testing, and non-destructive testing. This PREP Researcher associate should have knowledge of robotic systems, additive manufacturing and construction, evaluating cementitious materials and concrete structures with expertise in the following areas: concrete/ cement characterization, instrumented mechanical testing for strain evolution, structural health monitoring, and material damage analysis or modeling. The researcher should also have a working knowledge of current building codes and testing standards used in the United States. If selected, you will play a significant role in the development of new test methods and design guidance for additive construction as well as be part of NIST\u2019s Additive Construction by Extrusion (ACE) Consortium, which includes working with NIST staff and external partners on planning and executing experimental research.  These findings, if warranted, will lead to proposing guidance, codes, and/or standards provisions for improved resilience of additively constructed structures.",
+    "responsibilities": [
+      "Review literature and test results from previous investigations",
+      "Perform print operations on 7-axis multi component mortar robot printer",
+      "Assist in PLC and other system integration of pumps, fixtures, and various sensors associated with printing operations",
+      "Characterize mechanical performance of cast and printed elements",
+      "Prepare samples for microscopy investigations",
+      "Present results in the group and other related meetings, writing protocols, and technical reports",
+      "Ensure that results, protocols, software, and documentation have been archived"
+    ],
+    "qualifications": [
+      "U.S. citizen preferred; currently living in the United States",
+      "Master\u2019s degree or higher in mechanical, Civil, or Materials Engineering background, or a related science field with an emphasis on multi-scale structural testing",
+      "Hands-on laboratory experiences on mechanical characterization, nanoindentation, TGA, DSC, FTIR spectroscopy, AFM, optical microscopy",
+      "Experience using analysis software (e.g., Excel, Origin)",
+      "Experience using R or Python for database and data analysis is a plus",
+      "Experience in AutoCAD, RHINO, and Grasshopper",
+      "Experience in Ansys, Abaqus, or other FEM modeling software is a plus",
+      "Ability to work with real-time event data at scale",
+      "Ability to develop prototypes of tools needed to analyze data"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year and nine-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Shawn Platt (shawn.platt@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Shawn Platt",
+        "email": "shawnplatt@nistgov"
       },
       {
         "name": null,
