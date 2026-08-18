@@ -3160,7 +3160,7 @@
     "title": "Construction Engineering Senior Researcher",
     "opportunity_number": "PREP0004533",
     "level": "Senior Researcher",
-    "location": "the participant will work remotely",
+    "location": "Remote",
     "work_type": "Part Time",
     "mode": "Remote",
     "duration": "7 Months",
@@ -3284,7 +3284,7 @@
     "title": "Community Resilience Senior Researcher",
     "opportunity_number": "PREP0004596",
     "level": "Senior Researcher",
-    "location": "the participant will telework",
+    "location": "Telework",
     "work_type": "Full Time",
     "mode": "Hybrid",
     "duration": "6 Months",
@@ -3326,7 +3326,7 @@
     "title": "Structural Reliability Senior Researcher",
     "opportunity_number": "PREP0004600",
     "level": "Senior Researcher",
-    "location": "the participant will work remotely Duration: this is expected to be a one-year position",
+    "location": "Remote",
     "work_type": "Part Time",
     "mode": "Remote",
     "duration": "1 Year",
@@ -4129,7 +4129,7 @@
     "location": "NIST Gaithersburg Campus",
     "work_type": "Part Time",
     "mode": "In Person",
-    "duration": "",
+    "duration": "11 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Despite significant progress in science, technology, guidance, and tools related to disaster-mitigation, natural, technological, and human-caused hazard events in the United States still result in significant direct and indirect costs in terms of lives lost, disruption of commerce and financial networks, properties destroyed, and the cost of mobilizing emergency response personnel and equipment. Community resilience, the ability to withstand the impacts of natural, technological, or human-caused hazards and recover community functions quickly, is a local and a national issue. he PREP Research Associate will conduct collaborative research with researchers in the Community Resilience Group in the Engineering Laboratory at the National Institute of Standards and Technology (NIST).  The PREP participant will conduct research on the project entitled Development of a First-Generation Community-Resilience Systems Model.  Under this project, the PREP participant will contribute to a study exploring the joint use of the (NIST) Alternatives for Resilient Communities (NIST ARC) model and the IN-CORE model.  NIST ARC employs mathematical programming methods to facilitate exploration of alternative solutions for increasing a community\u2019s resilience to natural hazards such as floods, tornados, and earthquakes. The associate will set up and conduct the IN-CORE modeling for an earthquake case study involving Shelby County, TN that is subject to seismic hazards, consulting with NIST researchers.",
     "responsibilities": [
@@ -4351,10 +4351,10 @@
     "title": "Critical Minerals Calibration Researcher",
     "opportunity_number": "PREP0005063",
     "level": "Postdoc",
-    "location": "",
-    "work_type": "",
-    "mode": "",
-    "duration": "",
+    "location": "NIST Charleston, SC Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "The Material Measurement Laboratory (MML), part of the National Institute of Standards and Technology (NIST), is seeking a Post-Doctoral Researcher to support critical minerals chemical composition research. Candidates must be US citizens and will report to the NIST Charleston, SC laboratory, which is co-located with the USDOC NOAA Hollings Marine Laboratory. The candidate will develop both solid and solution sampling calibration methods using inductively coupled plasma mass spectrometry (ICP-MS), laser ablation (LA) and other techniques characterize the elemental composition of complex material streams such as battery black mass and electronic scrap. These streams contain critical minerals and materials that have economic value, but recovery pathways remain nascent. The driver for this research focuses on validating calibration methods that could potentially port to industry and bolster measurement capabilities across domestic critical materials supply chains.",
     "responsibilities": [
@@ -4364,9 +4364,29 @@
       "Communication: Prepare findings for peer-reviewed publications, technical reports, and oral presentations. Deliverables to include internal Reports of Analysis",
       "Safety and Compliance: Maintain strict adherence to institutional safety requirements, including hazardous chemical handling protocols; protect intellectual property of candidate research materials"
     ],
-    "qualifications": [],
-    "other_details": [],
-    "contacts": []
+    "qualifications": [
+      "**U.S. Citizens Only**",
+      "Ph.D. in Chemistry, Chemical Engineering, Materials Science, or a related field.",
+      "Proven experience with acid digestions, and trace element quantification is required; fundamental knowledge about plasma source mass spectrometry and LA-ICP-MS",
+      "Excellent written/oral communication; track record of meeting milestones in multidisciplinary teams; demonstrated first author publications",
+      "Must be comfortable working with caustic and corrosive chemicals and working in a laboratory that maintains strict clean sample preparation protocols ensuring low blanks and cross contamination",
+      "Familiarity with metal extraction and preservation chemistry, Li battery chemistry, rare earth and toxic metals analyses"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Charleston, SC Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Steven J. Christopher",
+        "email": "steven.christopher@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
   },
   {
     "title": "Physical AI Researcher",
