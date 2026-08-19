@@ -3,170 +3,2297 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bowie State University NIST PREP Consortium - Job Opportunities</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
 
     <style>
-        .job-posting { transition: all 0.3s ease; }
-        .job-content {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.3s ease;
+        :root {
+            --bsu-gold: #FDB913;
+            --dark: #17191d;
         }
-        .job-posting.active .job-content { max-height: 9999px; }
-        .rotate-chevron { transform: rotate(180deg); }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .job-content {
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 0.3s ease;
+        }
+
+        .job-content > div {
+            overflow: hidden;
+        }
+
+        .job-posting.active .job-content {
+            grid-template-rows: 1fr;
+        }
+
+        .job-chevron {
+            transition: transform 0.3s ease;
+        }
+
+        .job-posting.active .job-chevron {
+            transform: rotate(180deg);
+        }
+
+        .job-posting {
+            transition:
+                border-color 0.2s ease,
+                box-shadow 0.2s ease,
+                transform 0.2s ease;
+        }
+
+        .job-posting:hover {
+            border-color: var(--bsu-gold);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+        }
+
+        .hero-image {
+            object-position: 52% center;
+        }
+
+        @media (max-width: 767px) {
+            .hero-image {
+                object-position: 60% center;
+            }
+        }
     </style>
 </head>
 
-<body class="bg-gray-50">
 
-<!-- Header -->
-<header class="bg-[#FDB913] text-white shadow-lg">
-    <div class="container mx-auto px-4 py-6 flex flex-col items-center text-center">
-        
-        <!-- Logo -->
-        <img src="bsu-logo.png" alt="Logo" class="h-32 object-contain mb-4">
-        
+<body class="bg-slate-50 text-slate-900">
+
+
+<!-- ===================================================== -->
+<!-- INSTITUTIONAL HEADER -->
+<!-- ===================================================== -->
+
+<header class="bg-white">
+
+    <div class="max-w-7xl mx-auto px-5 md:px-8">
+
+        <div class="min-h-[100px] flex items-center justify-between gap-8">
+
+            <!-- Bowie State Logo -->
+            <a href="#" class="shrink-0">
+
+                <img
+                    src="bsu-logo.png"
+                    alt="Bowie State University"
+                    class="h-16 sm:h-20 md:h-20 w-auto object-contain"
+                >
+
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold">
+
+                <a
+                    href="#about"
+                    class="text-gray-700 hover:text-black transition"
+                >
+                    About PREP
+                </a>
+
+                <a
+                    href="#jobs"
+                    class="
+                        bg-[#FDB913]
+                        text-black
+                        px-5 py-2.5
+                        rounded-lg
+                        hover:bg-yellow-400
+                        transition
+                    "
+                >
+                    Current Openings
+                </a>
+
+            </nav>
+
+
+            <!-- Mobile Jobs Button -->
+            <a
+                href="#jobs"
+                class="
+                    md:hidden
+                    bg-[#FDB913]
+                    text-black
+                    px-4 py-2
+                    rounded-lg
+                    font-semibold
+                    text-sm
+                "
+            >
+                Jobs
+            </a>
+
+        </div>
+
     </div>
+
 </header>
 
-<div class="bg-gray-800 h-4 w-full shadow-lg"></div>
 
-<main class="container mx-auto px-4 py-8">
+<!-- ===================================================== -->
+<!-- CONSORTIUM BAR -->
+<!-- ===================================================== -->
 
-    <div class="md:w-5/6 justify-center mx-auto font-semibold">
+<div class="bg-[#FDB913] text-black">
 
-        <h1 class="text-2xl text-center md:text-5xl font-bold mb-2 ">NIST PREP HMHC Consortium</h1>
+    <div
+        class="
+            max-w-7xl
+            mx-auto
+            px-5 md:px-8
+            py-3
+            flex
+            items-center
+            justify-center md:justify-between
+            gap-4
+        "
+    >
 
-        <h1 class="text-center font-bold mb-8">Bowie State University - NIST PREP Job Opportunities</h1>
-    
-        <img src="https://img.freepik.com/premium-photo/team-researchers-wearing-lab-coats-diligently-conducting-experiments-analyzing-data-busy-laboratory-lab-technicians-using-3d-bioprinter-ai-generated_585735-10733.jpg" alt="Researcher" class=" w-full object-cover">
-        
-        <p class="text-gray-600 text-lg mb-4 mt-8 text-justify">The Professional Research Experience Program (<a href="https://www.nist.gov/iaao/academic-affairs-office/nist-professional-research-experience-program-prep" class="text-[#FDB913]  hover:text-gray-400">PREP</a>) was created by the National Institute of Standards and Technology (<a href="https://www.nist.gov/" class="text-[#FDB913]  hover:text-gray-400">NIST</a>) with the goal of providing valuable laboratory experience and financial assistance to undergraduates, recent graduates, graduate students, postdocs, and faculty. The program is intended to assure continued growth and progress of a highly skilled science, technology, engineering, and math (STEM) workforce in the United States.</p>
-        
-        <p class="text-gray-600 text-lg mb-4 text-justify">The Hopkins-Morgan HBCU Consortium (HMHC) provides opportunities for students, recent graduates, postdocs and faculty to conduct research in partnership with NIST scientists through the NIST Gaithersburg Campus. In addition to paid research positions, graduate students are eligible for tuition assistance. Our HBCU Consortium makes opportunities available to participants from Morgan State University, Bowie State University, Coppin State University, North Carolina A&T University, Tuskegee University, and University of Maryland Eastern Shore.</p>
-        
-        <!--<p class="text-gray-600 text-lg mb-4">These positions are a part of the National Institute of Standards and Technology (NIST) Professional Research Experience (PREP) program. NIST recognizes that its research staff may wish to collaborate with researchers at academic institutions on specific projects of mutual interest, and thus requires that such institutions must be the recipient of a PREP award. The PREP program requires staff from a wide range of backgrounds to work on scientific research in many areas. Employees in this position will perform technical work that underpins the scientific research of the collaboration.</p>  -->
+        <p
+            class="
+                font-bold
+                text-xs sm:text-sm
+                tracking-[0.08em]
+                uppercase
+                text-center md:text-left
+            "
+        >
+            NIST PREP
+
+            <span class="mx-2 opacity-50">
+                •
+            </span>
+
+            Hopkins-Morgan HBCU Consortium
+        </p>
+
+
+        <p
+            class="
+                hidden
+                lg:block
+                text-sm
+                font-medium
+            "
+        >
+            Professional Research Experience Program
+        </p>
+
     </div>
-    
-    <section class="md:w-3/4 mx-auto mt-10">
-        <h2 class="text-2xl font-bold text-center mb-6">Current Openings</h2>
 
-        <!-- 🔥 JOBS RENDER HERE -->
-        <div id="job-container" class="space-y-6"></div>
+</div>
+
+
+<!-- ===================================================== -->
+<!-- HERO -->
+<!-- ===================================================== -->
+
+<section
+    class="
+        relative
+        overflow-hidden
+        bg-[#17191d]
+        text-white
+    "
+>
+
+
+    <!-- ================================================= -->
+    <!-- HERO IMAGE -->
+    <!-- ================================================= -->
+
+    <div
+        class="
+            absolute
+            inset-y-0
+            right-0
+            w-full
+            md:w-[64%]
+        "
+    >
+
+        <img
+            src="https://img.freepik.com/premium-photo/team-researchers-wearing-lab-coats-diligently-conducting-experiments-analyzing-data-busy-laboratory-lab-technicians-using-3d-bioprinter-ai-generated_585735-10733.jpg"
+            alt="Researchers working in a laboratory"
+            class="
+                hero-image
+                absolute
+                inset-0
+                w-full
+                h-full
+                object-cover
+            "
+        >
+
+
+        <!-- Desktop Fade -->
+        <div
+            class="
+                absolute
+                inset-0
+                hidden
+                md:block
+            "
+            style="
+                background:
+                    linear-gradient(
+                        90deg,
+                        #17191d 0%,
+                        rgba(23,25,29,0.98) 9%,
+                        rgba(23,25,29,0.88) 20%,
+                        rgba(23,25,29,0.55) 38%,
+                        rgba(23,25,29,0.18) 62%,
+                        rgba(23,25,29,0.02) 100%
+                    );
+            "
+        ></div>
+
+
+        <!-- Mobile Overlay -->
+        <div
+            class="
+                absolute
+                inset-0
+                md:hidden
+            "
+            style="
+                background:
+                    linear-gradient(
+                        90deg,
+                        rgba(23,25,29,0.97) 0%,
+                        rgba(23,25,29,0.91) 45%,
+                        rgba(23,25,29,0.70) 100%
+                    );
+            "
+        ></div>
+
+
+        <!-- Bottom Fade -->
+        <div
+            class="
+                absolute
+                inset-x-0
+                bottom-0
+                h-32
+                bg-gradient-to-t
+                from-black/40
+                to-transparent
+            "
+        ></div>
+
+    </div>
+
+
+    <!-- ================================================= -->
+    <!-- HERO CONTENT -->
+    <!-- ================================================= -->
+
+    <div
+        class="
+            relative
+            max-w-7xl
+            mx-auto
+            min-h-[560px]
+            flex
+            items-center
+            px-5 md:px-8
+            py-16 md:py-24
+        "
+    >
+
+        <div class="max-w-2xl">
+
+
+            <!-- Program Label -->
+            <div
+                class="
+                    inline-flex
+                    items-center
+                    gap-2
+                    border
+                    border-yellow-400/30
+                    bg-yellow-400/10
+                    text-yellow-300
+                    text-sm
+                    font-medium
+                    px-3 py-1.5
+                    rounded-full
+                    mb-6
+                "
+            >
+
+                <span
+                    class="
+                        w-2 h-2
+                        rounded-full
+                        bg-[#FDB913]
+                    "
+                ></span>
+
+                Professional Research Experience Program
+
+            </div>
+
+
+            <!-- Main Heading -->
+            <h1
+                class="
+                    text-4xl
+                    sm:text-5xl
+                    md:text-6xl
+                    font-bold
+                    tracking-tight
+                    leading-[1.05]
+                    max-w-xl
+                "
+            >
+                Build your research career at
+
+                <span class="text-[#FDB913]">
+                    NIST.
+                </span>
+
+            </h1>
+
+
+            <!-- Hero Description -->
+            <p
+                class="
+                    mt-6
+                    text-slate-200
+                    text-base
+                    sm:text-lg
+                    leading-8
+                    max-w-xl
+                "
+            >
+                Explore paid research opportunities for students,
+                recent graduates, postdocs, and faculty through the
+                Hopkins-Morgan HBCU Consortium.
+            </p>
+
+
+            <!-- CTA -->
+            <div class="mt-8">
+
+                <a
+                    href="#jobs"
+                    class="
+                        inline-flex
+                        items-center
+                        gap-3
+                        bg-[#FDB913]
+                        text-black
+                        px-6 py-3.5
+                        rounded-xl
+                        font-bold
+                        hover:bg-yellow-400
+                        transition
+                    "
+                >
+
+                    Explore Opportunities
+
+                    <i class="fa-solid fa-arrow-down"></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- Supporting Details -->
+            <div
+                class="
+                    mt-10
+                    border-t
+                    border-slate-500/50
+                    pt-5
+                    flex
+                    flex-wrap
+                    gap-x-8
+                    gap-y-4
+                    text-sm
+                    text-slate-300
+                "
+            >
+
+                <span>
+
+                    <i
+                        class="
+                            fa-solid
+                            fa-flask
+                            text-[#FDB913]
+                            mr-2
+                        "
+                    ></i>
+
+                    <strong class="text-white">
+                        Paid
+                    </strong>
+
+                    research experience
+
+                </span>
+
+
+                <span>
+
+                    <i
+                        class="
+                            fa-solid
+                            fa-location-dot
+                            text-[#FDB913]
+                            mr-2
+                        "
+                    ></i>
+
+                    <strong class="text-white">
+                        NIST
+                    </strong>
+
+                    Gaithersburg
+
+                </span>
+
+
+                <span>
+
+                    <i
+                        class="
+                            fa-solid
+                            fa-building-columns
+                            text-[#FDB913]
+                            mr-2
+                        "
+                    ></i>
+
+                    <strong class="text-white">
+                        6
+                    </strong>
+
+                    HBCU partners
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================================== -->
+<!-- ABOUT -->
+<!-- ===================================================== -->
+
+<section
+    id="about"
+    class="
+        bg-white
+        border-b
+    "
+>
+
+    <div
+        class="
+            max-w-7xl
+            mx-auto
+            px-5 md:px-8
+            py-16
+        "
+    >
+
+        <div
+            class="
+                grid
+                md:grid-cols-[.75fr_1.25fr]
+                gap-10
+            "
+        >
+
+
+            <!-- Left -->
+            <div>
+
+                <p
+                    class="
+                        text-sm
+                        uppercase
+                        tracking-wider
+                        font-semibold
+                        text-amber-600
+                        mb-3
+                    "
+                >
+                    About the Program
+                </p>
+
+                <h2
+                    class="
+                        text-3xl
+                        md:text-4xl
+                        font-bold
+                        leading-tight
+                    "
+                >
+                    Research experience with real impact
+                </h2>
+
+            </div>
+
+
+            <!-- Right -->
+            <div
+                class="
+                    text-slate-600
+                    text-lg
+                    leading-8
+                    space-y-5
+                "
+            >
+
+                <p>
+                    The Professional Research Experience Program
+                    (
+                    <a
+                        href="https://www.nist.gov/iaao/academic-affairs-office/nist-professional-research-experience-program-prep"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-amber-600 font-semibold hover:text-black"
+                    >
+                        PREP
+                    </a>
+                    )
+                    was created by the National Institute of Standards
+                    and Technology
+                    (
+                    <a
+                        href="https://www.nist.gov/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-amber-600 font-semibold hover:text-black"
+                    >
+                        NIST
+                    </a>
+                    )
+                    to provide valuable laboratory experience and
+                    financial assistance to undergraduates, recent
+                    graduates, graduate students, postdocs, and faculty.
+                </p>
+
+
+                <p>
+                    The Hopkins-Morgan HBCU Consortium provides
+                    opportunities for students, recent graduates,
+                    postdocs, and faculty to conduct research in
+                    partnership with NIST scientists through the
+                    NIST Gaithersburg Campus.
+                </p>
+
+
+                <p>
+                    The consortium makes opportunities available to
+                    participants from Morgan State University,
+                    Bowie State University, Coppin State University,
+                    North Carolina A&amp;T University,
+                    Tuskegee University, and the
+                    University of Maryland Eastern Shore.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ===================================================== -->
+<!-- JOBS -->
+<!-- ===================================================== -->
+
+<main>
+
+    <section
+        id="jobs"
+        class="
+            max-w-7xl
+            mx-auto
+            px-5 md:px-8
+            py-16
+        "
+    >
+
+        <div class="max-w-6xl mx-auto">
+
+
+            <!-- Jobs Heading -->
+            <div class="mb-8">
+
+                <p
+                    class="
+                        text-sm
+                        uppercase
+                        tracking-wider
+                        font-semibold
+                        text-amber-600
+                        mb-2
+                    "
+                >
+                    Current Openings
+                </p>
+
+
+                <h2
+                    class="
+                        text-3xl
+                        md:text-4xl
+                        font-bold
+                    "
+                >
+                    Find your next research opportunity
+                </h2>
+
+
+                <p
+                    class="
+                        text-slate-600
+                        mt-3
+                        text-lg
+                    "
+                >
+                    Search titles, qualifications, responsibilities,
+                    keywords, or opportunity numbers.
+                </p>
+
+            </div>
+
+
+
+            <!-- ================================================= -->
+            <!-- SEARCH / FILTERS -->
+            <!-- ================================================= -->
+
+            <div
+                class="
+                    bg-white
+                    border
+                    rounded-2xl
+                    p-5 md:p-6
+                    shadow-sm
+                "
+            >
+
+
+                <!-- Search -->
+                <div>
+
+                    <label
+                        for="job-search"
+                        class="
+                            block
+                            text-sm
+                            font-semibold
+                            mb-2
+                        "
+                    >
+                        Search opportunities
+                    </label>
+
+
+                    <div class="relative">
+
+                        <i
+                            class="
+                                fa-solid
+                                fa-magnifying-glass
+                                absolute
+                                left-4
+                                top-1/2
+                                -translate-y-1/2
+                                text-slate-400
+                            "
+                        ></i>
+
+
+                        <input
+                            id="job-search"
+                            type="search"
+                            placeholder="Try Python, robotics, postdoc, PREP0003261..."
+                            class="
+                                w-full
+                                border
+                                rounded-xl
+                                py-3
+                                pl-11
+                                pr-4
+                                text-base
+                                focus:outline-none
+                                focus:ring-2
+                                focus:ring-[#FDB913]/40
+                                focus:border-[#FDB913]
+                            "
+                        >
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Filters -->
+                <div
+                    class="
+                        grid
+                        md:grid-cols-3
+                        gap-4
+                        mt-5
+                    "
+                >
+
+
+                    <!-- Level -->
+                    <div>
+
+                        <label
+                            for="level-filter"
+                            class="
+                                block
+                                text-sm
+                                font-semibold
+                                mb-2
+                            "
+                        >
+                            Level
+                        </label>
+
+
+                        <select
+                            id="level-filter"
+                            class="
+                                w-full
+                                border
+                                rounded-xl
+                                px-3 py-3
+                                bg-white
+                            "
+                        >
+
+                            <option value="">
+                                All levels
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- Work Type -->
+                    <div>
+
+                        <label
+                            for="work-filter"
+                            class="
+                                block
+                                text-sm
+                                font-semibold
+                                mb-2
+                            "
+                        >
+                            Work Type
+                        </label>
+
+
+                        <select
+                            id="work-filter"
+                            class="
+                                w-full
+                                border
+                                rounded-xl
+                                px-3 py-3
+                                bg-white
+                            "
+                        >
+
+                            <option value="">
+                                All work types
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+
+                    <!-- Mode -->
+                    <div>
+
+                        <label
+                            for="mode-filter"
+                            class="
+                                block
+                                text-sm
+                                font-semibold
+                                mb-2
+                            "
+                        >
+                            Mode
+                        </label>
+
+
+                        <select
+                            id="mode-filter"
+                            class="
+                                w-full
+                                border
+                                rounded-xl
+                                px-3 py-3
+                                bg-white
+                            "
+                        >
+
+                            <option value="">
+                                All modes
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Count -->
+                <div
+                    class="
+                        mt-5
+                        flex
+                        justify-between
+                        items-center
+                        gap-4
+                    "
+                >
+
+                    <p
+                        id="results-count"
+                        class="
+                            text-sm
+                            font-semibold
+                            text-slate-700
+                        "
+                    >
+                        Loading opportunities...
+                    </p>
+
+
+                    <button
+                        id="clear-filters"
+                        type="button"
+                        class="
+                            text-sm
+                            font-semibold
+                            text-amber-700
+                            hover:text-black
+                        "
+                    >
+                        Clear filters
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================================================= -->
+            <!-- JOB LIST -->
+            <!-- ================================================= -->
+
+            <div
+                id="job-container"
+                class="
+                    space-y-5
+                    mt-7
+                "
+            ></div>
+
+
+
+            <!-- ================================================= -->
+            <!-- EMPTY STATE -->
+            <!-- ================================================= -->
+
+            <div
+                id="empty-state"
+                class="
+                    hidden
+                    mt-7
+                    bg-white
+                    border
+                    border-dashed
+                    rounded-2xl
+                    p-12
+                    text-center
+                "
+            >
+
+                <i
+                    class="
+                        fa-solid
+                        fa-magnifying-glass
+                        text-3xl
+                        text-slate-300
+                        mb-4
+                    "
+                ></i>
+
+
+                <h3
+                    class="
+                        text-xl
+                        font-bold
+                    "
+                >
+                    No opportunities found
+                </h3>
+
+
+                <p
+                    class="
+                        text-slate-600
+                        mt-2
+                    "
+                >
+                    Try another keyword or remove one of your filters.
+                </p>
+
+
+                <button
+                    id="empty-clear"
+                    type="button"
+                    class="
+                        mt-5
+                        bg-[#FDB913]
+                        text-black
+                        font-semibold
+                        px-5 py-2.5
+                        rounded-lg
+                    "
+                >
+                    Clear Filters
+                </button>
+
+            </div>
+
+        </div>
+
     </section>
 
 </main>
 
-<footer class="bg-gray-800 text-white py-6 mt-12 text-center">
-    <p>&copy; 2025 Bowie State University</p>
+
+
+<!-- ===================================================== -->
+<!-- FOOTER -->
+<!-- ===================================================== -->
+
+<footer
+    class="
+        bg-[#17191d]
+        text-white
+        mt-10
+    "
+>
+
+    <div
+        class="
+            max-w-7xl
+            mx-auto
+            px-5 md:px-8
+            py-10
+        "
+    >
+
+        <div
+            class="
+                flex
+                flex-col
+                md:flex-row
+                justify-between
+                gap-6
+            "
+        >
+
+
+            <div>
+
+                <p class="font-semibold">
+                    Bowie State University
+                </p>
+
+
+                <p
+                    class="
+                        text-sm
+                        text-slate-400
+                        mt-1
+                    "
+                >
+                    NIST PREP HMHC Consortium
+                </p>
+
+            </div>
+
+
+            <div
+                class="
+                    text-sm
+                    text-slate-400
+                "
+            >
+                Professional Research Experience Program
+            </div>
+
+        </div>
+
+
+        <div
+            class="
+                border-t
+                border-slate-700
+                mt-7
+                pt-6
+                text-sm
+                text-slate-500
+            "
+        >
+
+            &copy;
+            <span id="year"></span>
+            Bowie State University
+
+        </div>
+
+    </div>
+
 </footer>
 
+
+
+<!-- ===================================================== -->
+<!-- JAVASCRIPT -->
+<!-- ===================================================== -->
+
 <script>
-async function loadJobs() {
-    try {
-        const res = await fetch('jobs.json'); // make sure file is here and has this name
-        const jobs = await res.json();
 
-        const container = document.getElementById('job-container');
+    let allJobs = [];
 
-        jobs.forEach(job => {
-            const el = document.createElement('div');
-            el.className = "job-posting bg-white rounded-lg shadow-md border";
 
-            el.innerHTML = `
-                <div class="p-6 cursor-pointer flex justify-between items-center" onclick="toggleJob(this)">
-                    <div>
-                        <div class="flex items-center mb-2">
-                            <h3 class="text-xl font-bold">${job.title || ''}</h3>
-                            <span class="ml-3 text-xs bg-gray-100 px-2 py-1 rounded">
-                                ${job.level || ''}
-                            </span>
-                        </div>
+    const container =
+        document.getElementById('job-container');
 
-                        <div class="flex flex-wrap gap-4 text-gray-600 text-sm">
-                            <span><i class="fas fa-building mr-2 text-[#FDB913]"></i>${job.location || ''}</span>
-                            <span><i class="fas fa-clock mr-2 text-[#FDB913]"></i>${job.work_type || ''}</span>
-                            <span><i class="fas fa-map-marker-alt mr-2 text-[#FDB913]"></i>${job.mode || ''}</span>
-                            <span><i class="fas fa-hourglass-half mr-2 text-[#FDB913]"></i>${job.duration || ''}</span>
-                        </div>
-                    </div>
-                    <i class="fas fa-chevron-down text-[#FDB913]"></i>
+
+    const searchInput =
+        document.getElementById('job-search');
+
+
+    const levelFilter =
+        document.getElementById('level-filter');
+
+
+    const workFilter =
+        document.getElementById('work-filter');
+
+
+    const modeFilter =
+        document.getElementById('mode-filter');
+
+
+    const resultsCount =
+        document.getElementById('results-count');
+
+
+    const emptyState =
+        document.getElementById('empty-state');
+
+
+
+    // =====================================================
+    // LOAD JOBS.JSON
+    // =====================================================
+
+    async function loadJobs() {
+
+        try {
+
+            const response =
+                await fetch('jobs.json');
+
+
+            if (!response.ok) {
+
+                throw new Error(
+                    `Unable to load jobs.json (${response.status})`
+                );
+
+            }
+
+
+            allJobs =
+                await response.json();
+
+
+            buildFilters();
+
+            renderJobs(allJobs);
+
+        }
+
+        catch (error) {
+
+            console.error(
+                'Error loading jobs:',
+                error
+            );
+
+
+            resultsCount.textContent =
+                'Unable to load opportunities.';
+
+
+            container.innerHTML = `
+
+                <div
+                    class="
+                        bg-white
+                        border
+                        rounded-2xl
+                        p-8
+                        text-center
+                    "
+                >
+
+                    <i
+                        class="
+                            fa-solid
+                            fa-triangle-exclamation
+                            text-2xl
+                            text-amber-500
+                            mb-3
+                        "
+                    ></i>
+
+
+                    <h3
+                        class="
+                            font-bold
+                            text-lg
+                        "
+                    >
+                        Opportunities could not be loaded
+                    </h3>
+
+
+                    <p
+                        class="
+                            text-slate-600
+                            mt-2
+                        "
+                    >
+                        Make sure jobs.json is in the same folder
+                        as index.html.
+                    </p>
+
                 </div>
 
-                <div class="job-content px-6">
-                    <div class="border-t pt-4 pb-6 space-y-6">
-
-                        <div>
-                            <h4 class="font-bold">Opportunity No.: ${job.opportunity_number || ''}</h4>
-                        </div>
-
-                        ${renderSection("Job Description", job.description)}
-                        ${renderList("Responsibilities", job.responsibilities)}
-                        ${renderList("Qualifications", job.qualifications)}
-                        ${renderList("Other Details", job.other_details)}
-
-                        <div class="text-right">
-                            <a href="${job.apply_link}" target="_blank"
-                               class="bg-[#FDB913] text-white px-4 py-2 rounded hover:bg-black">
-                                Apply Now
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
             `;
 
-            container.appendChild(el);
-        });
-
-    } catch (err) {
-        console.error("Error loading jobs:", err);
-    }
-}
-
-function renderSection(title, content) {
-    if (!content) return '';
-    return `
-        <div>
-            <h4 class="font-bold mb-2">${title}</h4>
-            <p class="text-gray-600">${content}</p>
-        </div>
-    `;
-}
-
-function renderList(title, items) {
-    if (!items || items.length === 0) return '';
-    return `
-        <div>
-            <h4 class="font-bold mb-2">${title}</h4>
-            <ul class="list-disc pl-6 text-gray-600 space-y-1">
-                ${items.map(i => `<li>${i}</li>`).join('')}
-            </ul>
-        </div>
-    `;
-}
-
-function toggleJob(element) {
-    const job = element.closest('.job-posting');
-    const icon = element.querySelector('i');
-
-    job.classList.toggle('active');
-    icon.classList.toggle('rotate-chevron');
-
-    document.querySelectorAll('.job-posting').forEach(j => {
-        if (j !== job) {
-            j.classList.remove('active');
-            const i = j.querySelector('i');
-            if (i) i.classList.remove('rotate-chevron');
         }
-    });
-}
 
-document.addEventListener('DOMContentLoaded', loadJobs);
+    }
+
+
+
+    // =====================================================
+    // BUILD FILTER OPTIONS
+    // =====================================================
+
+    function buildFilters() {
+
+        populateSelect(
+            levelFilter,
+            allJobs.map(
+                job => job.level
+            )
+        );
+
+
+        populateSelect(
+            workFilter,
+            allJobs.map(
+                job => job.work_type
+            )
+        );
+
+
+        populateSelect(
+            modeFilter,
+            allJobs.map(
+                job => job.mode
+            )
+        );
+
+    }
+
+
+
+    function populateSelect(
+        select,
+        values
+    ) {
+
+        const uniqueValues =
+            [
+                ...new Set(
+                    values.filter(Boolean)
+                )
+            ]
+            .sort();
+
+
+        uniqueValues.forEach(
+            value => {
+
+                const option =
+                    document.createElement(
+                        'option'
+                    );
+
+
+                option.value =
+                    value;
+
+
+                option.textContent =
+                    value;
+
+
+                select.appendChild(
+                    option
+                );
+
+            }
+        );
+
+    }
+
+
+
+    // =====================================================
+    // FILTER JOBS
+    // =====================================================
+
+    function filterJobs() {
+
+        const searchTerm =
+            searchInput
+                .value
+                .trim()
+                .toLowerCase();
+
+
+        const selectedLevel =
+            levelFilter.value;
+
+
+        const selectedWork =
+            workFilter.value;
+
+
+        const selectedMode =
+            modeFilter.value;
+
+
+
+        const filteredJobs =
+            allJobs.filter(
+                job => {
+
+
+                    const searchableText = [
+
+                        job.title,
+
+                        job.opportunity_number,
+
+                        job.level,
+
+                        job.location,
+
+                        job.work_type,
+
+                        job.mode,
+
+                        job.duration,
+
+                        job.description,
+
+                        ...(job.responsibilities || []),
+
+                        ...(job.qualifications || []),
+
+                        ...(job.other_details || [])
+
+                    ]
+
+                    .filter(Boolean)
+
+                    .join(' ')
+
+                    .toLowerCase();
+
+
+
+                    const matchesSearch =
+                        !searchTerm ||
+                        searchableText.includes(
+                            searchTerm
+                        );
+
+
+
+                    const matchesLevel =
+                        !selectedLevel ||
+                        job.level ===
+                        selectedLevel;
+
+
+
+                    const matchesWork =
+                        !selectedWork ||
+                        job.work_type ===
+                        selectedWork;
+
+
+
+                    const matchesMode =
+                        !selectedMode ||
+                        job.mode ===
+                        selectedMode;
+
+
+
+                    return (
+                        matchesSearch &&
+                        matchesLevel &&
+                        matchesWork &&
+                        matchesMode
+                    );
+
+                }
+            );
+
+
+        renderJobs(
+            filteredJobs
+        );
+
+    }
+
+
+
+    // =====================================================
+    // RENDER JOBS
+    // =====================================================
+
+    function renderJobs(
+        jobs
+    ) {
+
+        container.innerHTML =
+            '';
+
+
+        resultsCount.textContent =
+            jobs.length === 1
+                ? '1 opportunity'
+                : `${jobs.length} opportunities`;
+
+
+        emptyState.classList.toggle(
+            'hidden',
+            jobs.length !== 0
+        );
+
+
+
+        jobs.forEach(
+            job => {
+
+
+                const article =
+                    document.createElement(
+                        'article'
+                    );
+
+
+                article.className =
+                    `
+                        job-posting
+                        bg-white
+                        border
+                        rounded-2xl
+                        overflow-hidden
+                    `;
+
+
+
+                article.innerHTML = `
+
+
+                    <button
+                        type="button"
+
+                        class="
+                            job-toggle
+                            w-full
+                            text-left
+                            px-5
+                            md:px-6
+                            py-5
+                        "
+
+                        aria-expanded="false"
+                    >
+
+
+                        <div
+                            class="
+                                flex
+                                justify-between
+                                gap-5
+                            "
+                        >
+
+
+                            <div
+                                class="
+                                    min-w-0
+                                    flex-1
+                                "
+                            >
+
+
+                                <!-- Title / Level -->
+                                <div
+                                    class="
+                                        flex
+                                        flex-wrap
+                                        items-center
+                                        gap-3
+                                    "
+                                >
+
+
+                                    <h3
+                                        class="
+                                            text-xl
+                                            font-bold
+                                        "
+                                    >
+                                        ${escapeHTML(
+                                            job.title || ''
+                                        )}
+                                    </h3>
+
+
+
+                                    ${
+                                        job.level
+                                            ? `
+
+                                                <span
+                                                    class="
+                                                        bg-amber-50
+                                                        text-amber-800
+                                                        text-xs
+                                                        font-semibold
+                                                        px-3
+                                                        py-1
+                                                        rounded-full
+                                                    "
+                                                >
+
+                                                    ${escapeHTML(
+                                                        job.level
+                                                    )}
+
+                                                </span>
+
+                                            `
+                                            : ''
+                                    }
+
+
+                                </div>
+
+
+
+                                <!-- Location -->
+                                ${
+                                    job.location
+                                        ? `
+
+                                            <p
+                                                class="
+                                                    text-slate-600
+                                                    text-sm
+                                                    mt-2
+                                                "
+                                            >
+
+                                                <i
+                                                    class="
+                                                        fa-solid
+                                                        fa-building
+                                                        text-[#FDB913]
+                                                        mr-2
+                                                    "
+                                                ></i>
+
+
+                                                ${escapeHTML(
+                                                    job.location
+                                                )}
+
+                                            </p>
+
+                                        `
+                                        : ''
+                                }
+
+
+
+                                <!-- Metadata -->
+                                <div
+                                    class="
+                                        mt-5
+                                        grid
+                                        grid-cols-2
+                                        sm:flex
+                                        sm:flex-wrap
+                                        gap-4
+                                        sm:gap-7
+                                        text-sm
+                                    "
+                                >
+
+
+                                    ${
+                                        job.work_type
+                                            ? metadata(
+                                                'Work',
+                                                job.work_type
+                                            )
+                                            : ''
+                                    }
+
+
+                                    ${
+                                        job.mode
+                                            ? metadata(
+                                                'Mode',
+                                                job.mode
+                                            )
+                                            : ''
+                                    }
+
+
+                                    ${
+                                        job.duration
+                                            ? metadata(
+                                                'Duration',
+                                                job.duration
+                                            )
+                                            : ''
+                                    }
+
+
+                                    ${
+                                        job.opportunity_number
+                                            ? metadata(
+                                                'Opportunity',
+                                                job.opportunity_number
+                                            )
+                                            : ''
+                                    }
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+                            <!-- Expand Button -->
+                            <div
+                                class="
+                                    shrink-0
+                                    flex
+                                    items-start
+                                    gap-2
+                                    text-amber-700
+                                    font-semibold
+                                    text-sm
+                                "
+                            >
+
+
+                                <span
+                                    class="
+                                        hidden
+                                        sm:inline
+                                    "
+                                >
+                                    Details
+                                </span>
+
+
+                                <i
+                                    class="
+                                        fa-solid
+                                        fa-chevron-down
+                                        job-chevron
+                                        mt-1
+                                    "
+                                ></i>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </button>
+
+
+
+                    <!-- ================================================= -->
+                    <!-- EXPANDED CONTENT -->
+                    <!-- ================================================= -->
+
+                    <div
+                        class="
+                            job-content
+                        "
+                    >
+
+
+                        <div>
+
+
+                            <div
+                                class="
+                                    border-t
+                                    px-5
+                                    md:px-6
+                                    py-6
+                                "
+                            >
+
+
+                                <div
+                                    class="
+                                        grid
+                                        lg:grid-cols-[1fr_250px]
+                                        gap-8
+                                    "
+                                >
+
+
+
+                                    <!-- Details -->
+                                    <div
+                                        class="
+                                            space-y-7
+                                        "
+                                    >
+
+
+                                        ${renderSection(
+                                            'Job Description',
+                                            job.description
+                                        )}
+
+
+                                        ${renderList(
+                                            'Responsibilities',
+                                            job.responsibilities
+                                        )}
+
+
+                                        ${renderList(
+                                            'Qualifications',
+                                            job.qualifications
+                                        )}
+
+
+                                        ${renderList(
+                                            'Additional Information',
+                                            job.other_details
+                                        )}
+
+
+                                    </div>
+
+
+
+                                    <!-- Application Box -->
+                                    <aside
+                                        class="
+                                            bg-slate-50
+                                            rounded-xl
+                                            p-5
+                                            h-fit
+                                        "
+                                    >
+
+
+                                        <p
+                                            class="
+                                                text-xs
+                                                uppercase
+                                                tracking-wide
+                                                font-semibold
+                                                text-slate-500
+                                            "
+                                        >
+                                            Opportunity Number
+                                        </p>
+
+
+
+                                        <p
+                                            class="
+                                                font-bold
+                                                text-lg
+                                                mt-1
+                                            "
+                                        >
+
+                                            ${escapeHTML(
+                                                job.opportunity_number || ''
+                                            )}
+
+                                        </p>
+
+
+
+                                        <p
+                                            class="
+                                                text-sm
+                                                text-slate-600
+                                                mt-4
+                                                leading-6
+                                            "
+                                        >
+                                            Specify this opportunity number
+                                            when completing the general
+                                            application.
+                                        </p>
+
+
+
+                                        ${
+                                            job.apply_link
+                                                ? `
+
+                                                    <a
+                                                        href="${escapeAttribute(
+                                                            job.apply_link
+                                                        )}"
+
+                                                        target="_blank"
+
+                                                        rel="noopener noreferrer"
+
+                                                        class="
+                                                            block
+                                                            text-center
+                                                            bg-[#FDB913]
+                                                            text-black
+                                                            font-semibold
+                                                            rounded-lg
+                                                            px-4
+                                                            py-3
+                                                            mt-5
+                                                            hover:bg-yellow-400
+                                                            transition
+                                                        "
+                                                    >
+
+                                                        Apply Now
+
+                                                        <i
+                                                            class="
+                                                                fa-solid
+                                                                fa-arrow-right
+                                                                ml-2
+                                                            "
+                                                        ></i>
+
+                                                    </a>
+
+                                                `
+                                                : ''
+                                        }
+
+
+                                    </aside>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                `;
+
+
+
+                const toggle =
+                    article.querySelector(
+                        '.job-toggle'
+                    );
+
+
+
+                toggle.addEventListener(
+                    'click',
+                    () => {
+
+
+                        const isOpen =
+                            article
+                                .classList
+                                .toggle(
+                                    'active'
+                                );
+
+
+
+                        toggle.setAttribute(
+                            'aria-expanded',
+                            String(
+                                isOpen
+                            )
+                        );
+
+
+                    }
+                );
+
+
+
+                container.appendChild(
+                    article
+                );
+
+
+            }
+        );
+
+    }
+
+
+
+    // =====================================================
+    // METADATA
+    // =====================================================
+
+    function metadata(
+        label,
+        value
+    ) {
+
+        return `
+
+            <div>
+
+                <span
+                    class="
+                        text-slate-400
+                    "
+                >
+                    ${escapeHTML(
+                        label
+                    )}
+                </span>
+
+
+                <br>
+
+
+                <strong>
+                    ${escapeHTML(
+                        value
+                    )}
+                </strong>
+
+            </div>
+
+        `;
+
+    }
+
+
+
+    // =====================================================
+    // TEXT SECTION
+    // =====================================================
+
+    function renderSection(
+        title,
+        content
+    ) {
+
+        if (!content) {
+            return '';
+        }
+
+
+        return `
+
+            <section>
+
+                <h4
+                    class="
+                        font-bold
+                        text-lg
+                        mb-3
+                    "
+                >
+                    ${escapeHTML(
+                        title
+                    )}
+                </h4>
+
+
+                <p
+                    class="
+                        text-slate-600
+                        leading-7
+                    "
+                >
+                    ${linkify(
+                        escapeHTML(
+                            content
+                        )
+                    )}
+                </p>
+
+            </section>
+
+        `;
+
+    }
+
+
+
+    // =====================================================
+    // LIST SECTION
+    // =====================================================
+
+    function renderList(
+        title,
+        items
+    ) {
+
+        if (
+            !items ||
+            items.length === 0
+        ) {
+
+            return '';
+
+        }
+
+
+
+        return `
+
+            <section>
+
+                <h4
+                    class="
+                        font-bold
+                        text-lg
+                        mb-3
+                    "
+                >
+                    ${escapeHTML(
+                        title
+                    )}
+                </h4>
+
+
+                <ul
+                    class="
+                        list-disc
+                        pl-6
+                        text-slate-600
+                        space-y-2
+                        leading-7
+                    "
+                >
+
+                    ${
+                        items
+
+                            .map(
+                                item => `
+
+                                    <li>
+
+                                        ${linkify(
+                                            escapeHTML(
+                                                item
+                                            )
+                                        )}
+
+                                    </li>
+
+                                `
+                            )
+
+                            .join('')
+                    }
+
+                </ul>
+
+            </section>
+
+        `;
+
+    }
+
+
+
+    // =====================================================
+    // ESCAPE HTML
+    // =====================================================
+
+    function escapeHTML(
+        value = ''
+    ) {
+
+        return String(
+            value
+        )
+
+        .replaceAll(
+            '&',
+            '&amp;'
+        )
+
+        .replaceAll(
+            '<',
+            '&lt;'
+        )
+
+        .replaceAll(
+            '>',
+            '&gt;'
+        )
+
+        .replaceAll(
+            '"',
+            '&quot;'
+        )
+
+        .replaceAll(
+            "'",
+            '&#039;'
+        );
+
+    }
+
+
+
+    function escapeAttribute(
+        value = ''
+    ) {
+
+        return escapeHTML(
+            value
+        );
+
+    }
+
+
+
+    // =====================================================
+    // MAKE EMAILS CLICKABLE
+    // =====================================================
+
+    function linkify(
+        text
+    ) {
+
+        return text.replace(
+
+            /([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,})/gi,
+
+            '<a href="mailto:$1" class="text-amber-700 font-medium hover:underline">$1</a>'
+
+        );
+
+    }
+
+
+
+    // =====================================================
+    // CLEAR FILTERS
+    // =====================================================
+
+    function clearFilters() {
+
+        searchInput.value =
+            '';
+
+
+        levelFilter.value =
+            '';
+
+
+        workFilter.value =
+            '';
+
+
+        modeFilter.value =
+            '';
+
+
+        renderJobs(
+            allJobs
+        );
+
+    }
+
+
+
+    document
+        .getElementById(
+            'clear-filters'
+        )
+        .addEventListener(
+            'click',
+            clearFilters
+        );
+
+
+
+    document
+        .getElementById(
+            'empty-clear'
+        )
+        .addEventListener(
+            'click',
+            clearFilters
+        );
+
+
+
+    // =====================================================
+    // FILTER EVENT LISTENERS
+    // =====================================================
+
+    searchInput.addEventListener(
+        'input',
+        filterJobs
+    );
+
+
+    levelFilter.addEventListener(
+        'change',
+        filterJobs
+    );
+
+
+    workFilter.addEventListener(
+        'change',
+        filterJobs
+    );
+
+
+    modeFilter.addEventListener(
+        'change',
+        filterJobs
+    );
+
+
+
+    // =====================================================
+    // COPYRIGHT YEAR
+    // =====================================================
+
+    document
+        .getElementById(
+            'year'
+        )
+        .textContent =
+            new Date()
+                .getFullYear();
+
+
+
+    // =====================================================
+    // START
+    // =====================================================
+
+    document.addEventListener(
+        'DOMContentLoaded',
+        loadJobs
+    );
+
 </script>
+
 
 </body>
 </html>
