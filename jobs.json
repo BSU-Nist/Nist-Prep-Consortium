@@ -8,7 +8,7 @@
     "mode": "In Person",
     "duration": "2+ Years",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The candidate will join a team of researchers working with advanced metrology methods to characterize local physical and chemical properties and map any variation in these properties of thin, nanometer-scale films (oxides, nitrides, carbides, germinides) deposited on Si and SiC wafers. The candidate will plan and conduct research using X-ray reflectivity, X-ray fluorescence spectroscopy, and X-ray photoelectron spectroscopy to determine, through hybrid metrology, open-source analysis methods, and structural maps for wafers with thin films of essential interest to the semiconductor community.",
     "responsibilities": [
       "Plan and research advanced X-ray metrologies to determine structural (physical and chemical) properties of blanket (non-patterned) thin films on Si and SiC wafers",
       "Use X-ray characterization methods, such as X-ray reflectivity, X-ray fluorescence, and X-ray photoelectron spectroscopy, to determine the structural properties of thin film samples",
@@ -51,7 +51,7 @@
     "mode": "In Person",
     "duration": "6 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The Intelligent Systems Division at NIST is investigating the performance of 3D vision systems for various manufacturing and automation applications. The research will focus on conducting experiments and analyzing data to understand these systems' performance. This will support the development of performance metrics for these systems for various industrial applications.",
     "responsibilities": [
       "Conduct experiments to realize several existing and novel test methods for 3D vision systems",
       "Research the effects of various physical properties of an object and sensor settings on the test metrics",
@@ -99,7 +99,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The Intelligent Systems Division at NIST is investigating the performance of 3D vision systems for various manufacturing and automation applications. The research will focus on conducting experiments and analyzing data to understand these systems' performance. This will support the development of performance metrics for these systems for various industrial applications.",
     "responsibilities": [
       "Conduct experiments to realize several existing and novel test methods for 3D vision systems",
       "Research the effects of various physical properties of an object and sensor settings on the test metrics",
@@ -450,7 +450,7 @@
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
-    "duration": "",
+    "duration": "1+ Years",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "NIST is actively seeking a candidate for a postdoctoral research position as part of a project related to the CHIPS for America Act. The project seeks to develop quantitative, atomic-resolution methods for the three-dimensional characterization of complex semiconductor devices via electron tomography. By coupling advanced specimen preparation, cutting-edge electron microscopy instrumentation, and AI-driven data collection and reconstruction, we will deliver a robust suite of measurement tools to the semiconductor industry.",
     "responsibilities": [
@@ -569,7 +569,7 @@
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
-    "duration": "",
+    "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Quantum sensing based on optically active spin defects in semiconductors (color center spins) is an emerging opportunity to deploy SI-traceable measurements in widespread application areas, including transportation, medicine, and resource exploration. The Nanoscale Spectroscopy Group seeks a research physicist to conduct optically and photoelectrically detected spin resonance sensing of magnetic fields for such applications. The successful candidate will study the physics and control of color center spins using a combination of metrologies, including optical and magnetic spectroscopies, advanced microscopies, and simulations to develop quantum sensing platforms. With limited supervision, the candidate will develop high-resolution spectral characterization of NV centers in diamond and other color center spins; investigate promising new color center spins in systems such as GaN, Si, and SiC, etc.; use judgment and literature precedents to research, interpret, and apply available guiding principles to characterize nanoscale optical and spin measurements of color centers, including single-defect emission, time-resolved detection, stroboscopic and spectroscopic methods, and nanoscale magnetometry using diverse readout schemes. The candidate will also integrate Bayesian algorithms for efficient measurements and develop automated measurement systems. The candidate will undertake numerical modelling of spin dynamics to understand device performance and improve on sensor design. The work impacts the goals of the nanoscale spectroscopy program to advance the development of engineered artificial atoms for nanoscale sensing and quantum applications. The candidate will interact with a broader team consisting of spectroscopy and materials chemistry expertise. The candidate will disseminate research results through open literature publication and technical talks at conferences.",
     "responsibilities": [
@@ -900,7 +900,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "Position Overview: The National Institute of Standards and Technology (NIST) is seeking a highly motivated postdoctoral researcher with expertise in optical frequency metrology to join the Fundamental Thermodynamics Group through the PREP program. The selected candidate will contribute to the development of next-generation integrated photonics-based temperature sensors: chip-scale devices designed to transform precision thermometry. The role focuses on laser-based interrogation, frequency locking, and frequency comb-enabled measurement techniques for field-deployable precision sensing. The position provides the opportunity to gain advanced experimental skills and research experience valuable for careers in academia, industry, or national laboratories. Based on the candidate\u2019s experience, the position can be extended to a research scientist. Salary levels vary with experience. Project Description: Temperature is one of the most widely measured physical properties and is essential across nearly all scientific and technological fields. To meet the growing need for precise, accurate, and field-deployable temperature metrology, our team is developing an on-chip photonic thermometer that functions as both a sensor and a deployable primary temperature standard . This self-calibrated device offers a transformative alternative to legacy resistance thermometers and has the potential to redefine how temperature is realized and disseminated worldwide. The selected candidate will have the opportunity to: Work on cutting-edge nanophotonics research with real-world metrology impact Shape new research directions and contribute to emerging programs Collaborate with a multidisciplinary team of scientists and engineers Submit invention disclosures and patent applications Publish in leading scientific journals and present at technical conferences",
     "responsibilities": [
       "Development of advanced photonic readout methods for sensing applications, including:\r\n\nLaser spectroscopy\nFrequency locking techniques applied to nanophotonic systems\nOptical frequency metrology methods for high-resolution measurements",
       "Laser spectroscopy",
@@ -1394,7 +1394,7 @@
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
-    "duration": "",
+    "duration": "1+ Years",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "The fire modeling community is working to predict material flammability behavior quantitatively (e.g., ignition, burning rate, fire growth). State-of-the-art fire models require input parameters (material properties) that describe combustible solids' decomposition reaction mechanism (and associated kinetics and thermodynamics) and relevant heat/mass transport properties. To address this need, the NIST Fire Research Division has been developing experimental and analytical tools to calibrate these material properties and validate their ability to predict flammability response across a range of configurations/scales (i.e., mg-scale thermal decomposition, g-scale gasification/burning, and flame spread over panels between 0.5 m and 2.5 m tall). Working with the project leader, the researcher will develop and then lead the execution of experiments associated with the following tasks. Developing a material flammability database that maintains the tools (experimental and analytical), measurement data (for model calibration and validation), and material property sets necessary to quantitatively predict material flammability behavior (e.g., ignition, steady burning, and fire growth) Conduct and analyze the data from bench to full-scale thermal and fire property tests for fire model calibration and validation Produce and present publications on research findings",
     "responsibilities": [
@@ -1473,9 +1473,9 @@
     "title": "Seismic Risk Modeling Senior Researcher",
     "opportunity_number": "PREP0004133",
     "level": "Senior Researcher",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Part Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "6 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "A senior researcher or a faculty member is sought for a position in Structural Engineering to support the development and implementation of a new nonstructural component fragility and consequence database for performance-based hazard assessments of buildings. NIST has recently developed a relational database focusing on nonstructural elements in buildings, NED (Nonstructural Element Database), which collects information from experimental, analytical, and historic performance observations into seismic fragilities and consequence models to support building-specific seismic performance research and assessments, refactoring and expanding upon the FEMA P-58 database as the standard of practice for seismic risk assessment. Currently, the project is still in its active development and does not yet have consequence models or data from historical events, but it has collected over 2500 experimental data points and compiled a fragility data set that includes and expands upon the full FEMA P-58 nonstructural database. NIST will supplement its capacities with input from PREP Fellow experts in the areas of component damage consequence modeling and database schema design. The PREP Fellow will work with NIST researchers to develop and implement a new consequence model data schema and consequence estimation procedures within the NED database. The work, to be completed in collaboration with NIST researchers and other external contractors, will be comprised of the following five major tasks: (1) review, refactoring and forward developing of the current database architecture and data schema, (2) development of a general consequence model database architecture and schema, and (3) implementation of new consequence models into the database, (4) back-end and front-end software development, and (5) documentation of developments and tools and dissemination in technical reports and professional conferences.",
@@ -1606,10 +1606,10 @@
     "title": "Engineering Biology AI Researcher",
     "opportunity_number": "PREP0004155",
     "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "",
+    "mode": "Remote",
+    "duration": "11 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Plan and conduct research to advance measurement capabilities to aid in the predictive engineering of biological systems, such as proteins, as part of the NIST Engineering Biology Program. Develop artificial intelligence and machine learning analysis pipelines to support automation and protocol development for wetlab procedures, as well as development of platforms for new, quantitative measurements and validated methods for evaluating the functional performance of engineered biological parts and systems. Develop automation workflows for bottleneck processes in biosecurity screening and synthetic biology. Support NIST's mission through service as a subject matter expert in the application of artificial intelligence and machine learning to measurement innovation in synthetic biology. Engage stakeholders and identify opportunities for standards development.",
     "responsibilities": [
@@ -2163,7 +2163,7 @@
   {
     "title": "Polymer Materials Science Researcher",
     "opportunity_number": "PREP0004199",
-    "level": "Postdoc",
+    "level": "Senior Researcher",
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
@@ -2348,9 +2348,9 @@
     "title": "Applied Economics & Decision Science Researcher",
     "opportunity_number": "PREP0004224",
     "level": "Post Degree",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Full Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "The position will collaborate with NIST researchers and NIST\u2019s external collaborators in a variety of topics relevant to their work, including social scientists, engineers, and scientists \u2013 connecting economics to fundamental research, multi-disciplinary analysis, and decision support tools related to activities across a range of research topic areas, building and infrastructure, circular economy, resilience, and decision science. The position is in the Applied Economics Office (AEO), a part of the Engineering Laboratory (EL) at NIST, provides economic products and services through research and consulting to industry and government agencies in support of productivity enhancement, economic growth, and international competitiveness, with a focus on improving the life-cycle quality and economy of constructed facilities and manufacturing processes that support social and economic functions. The AEO is integrated within EL\u2019s major research thrusts: energy conservation, community resilience planning, manufacturing, fire, smart grid, building construction, and safety. The AEO delivers high-quality research and tool development that informs and assists stakeholders in their decision-making processes.",
@@ -2627,9 +2627,9 @@
     "title": "Software Engineer",
     "opportunity_number": "PREP0004317",
     "level": "Undergraduate/Graduate",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Part Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "We are seeking a senior undergraduate or graduate student with strong software engineering skills to support the Guardians of Forensic Evidence Initiative\u2014an effort to strengthen the scientific reliability of AI-based deepfake detection systems used in forensic and judicial contexts. This role emphasizes AI related software development, evaluation pipeline implementation, AI system benchmarking infrastructure, and web platform development. The selected candidate will contribute directly to the development of the Deepfake Challenge Kit, including dataset management systems, scoring packages, and a secure evaluation website with user authentication and leaderboard functionality.",
@@ -2665,7 +2665,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The National Institute of Standards and Technology (NIST) is seeking a driven Postdoctoral Researcher to bridge the gap between fundamental frequency comb spectroscopy and industrial semiconductor fabrication. Joining a multidisciplinary team, you will deploy electro-optic (EO) frequency combs to perform real-time, in-situ mid-IR spectroscopy of Atomic Layer Deposition (ALD) processes. Your work will directly impact the next generation of microelectronics by quantifying the partial pressures of deposition precursors and reaction byproducts with microsecond resolution.",
     "responsibilities": [
       "Experimental Leadership: Drive the development and alignment of high-accuracy EO frequency comb spectrometers",
       "Advanced Optical Metrology: Execute time-resolved molecular spectroscopy experiments; analyze complex data sets by fitting experimental spectra to molecular databases (e.g., HITRAN)",
@@ -2879,49 +2879,6 @@
     ]
   },
   {
-    "title": "Advanced Packaging Reliability Researcher",
-    "opportunity_number": "PREP0004384",
-    "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "The Infrastructure Materials Group at the National Institute of Standards and Technology seeks a researcher with extensive expertise in finite element analysis and knowledge of one or more of the following technical areas: instrumented mechanical testing, adhesion testing, polymer degradation characterization, and material damage analysis and modeling. If selected, you will play a significant role in the projects related to modeling and reliability testing of advanced chip packaging and other electronics applications. This includes working with NIST staff and external partners on setting up models to predict the behavior and investigate possible points of failure during the service lifetime of heterogeneous multilayered polymeric, metal, and semiconductor structures, identify crucial material parameters, and plan and execute experimental research to evaluate changes of these material parameters after aging. The results will be used to understand the root causes of the multilayer failures, providing a scientific basis for test method development, material selection, and product quality assurance for the semiconductor industry.",
-    "responsibilities": [
-      "Develop finite element models of thermomechanical behavior of heterogeneous multilayered systems",
-      "Characterize the degradation of materials and interfaces before, during, and after exposure to accelerated laboratory aging",
-      "Develop reliability models for complex advanced packaging systems",
-      "Provide technical leadership on finite element modeling of failure mechanisms in multilayered polymeric structures",
-      "Disseminate research results through presentations at conferences, publication of journal papers, and technical reports"
-    ],
-    "qualifications": [
-      "U.S. citizenship is preferred",
-      "Currently live in the United States",
-      "Ph.D. in Physics, Mechanical Engineering, Electrical Engineering, Materials Science, or Chemical Engineering",
-      "Experience in nano- and micro-scale mechanical testing and materials characterization",
-      "Experience in finite element modeling of heterogeneous systems",
-      "Experience in advanced semiconductor packaging is preferred",
-      "Strong oral and written communication skills"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Xiaohong Gu (xiaohong.gu@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Xiaohong Gu",
-        "email": "xiaohonggu@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
     "title": "Digital Twins for ALD Processes Researcher",
     "opportunity_number": "PREP0004401",
     "level": "Postdoc",
@@ -3105,50 +3062,6 @@
       {
         "name": "Dr. Johannes A. Soons",
         "email": "johannessoons@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
-    "title": "DNA/RNA Ensemble Modeling Researcher",
-    "opportunity_number": "PREP0004514",
-    "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "This position will focus on theory and computation to classify DNA and RNA conformational ensembles using secondary-structure-based distance metrics and clustering. A central goal is to build hierarchical, interpretable ensemble representations that connect simulation-derived clusters to experimental measurements/observables and statistical-physics interpretation (e.g., energetic barriers and kinetic pathways). Work includes developing and validating analysis algorithms, implementing reproducible research software, and collaborating with experimental and device-focused teams to connect theory outputs to measurement needs.",
-    "responsibilities": [
-      "Develop, test, and extend ensemble representations for DNA/RNA and relate these to experimental observables",
-      "Implement and optimize secondary-structure distance metrics based on base-pair reorganization",
-      "Build scalable clustering and model selection for large molecular dynamics datasets",
-      "Presenting results at internal and external meetings and conferences",
-      "Develop well-documented, reproducible research software and publish results"
-    ],
-    "qualifications": [
-      "U.S. Citizen Preferred",
-      "Ph.D. in physics, chemistry, biophysics, computational biology, applied mathematics, computer science, or a closely related field",
-      "Demonstrated experience with biomolecular simulation and/or trajectory analysis (strong preference for nucleic acids: DNA/RNA)",
-      "Experience with coarse-grained nucleic-acid models, e.g., oxDNA/oxRNA or closely related coarse-grained frameworks",
-      "Practical understanding of clustering/unsupervised learning and distance-metric design",
-      "Strong scientific programming (Python preferred; Julia a plus) and ability to write maintainable, version-controlled code",
-      "Background in statistics/statistical physics; ability to interpret ensembles in terms of kinetics and free-energy landscapes",
-      "Strong written and oral communication skills and ability to collaborate in a multidisciplinary team; experience analyzing experimental data from single-molecule and ensemble techniques is a plus"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Michael Zwolak (michael.zwolak@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Michael Zwolak",
-        "email": "michaelzwolak@nistgov"
       },
       {
         "name": null,
@@ -3365,7 +3278,7 @@
     "title": "Convective Wind Hazards Senior Researcher",
     "opportunity_number": "PREP0004602",
     "level": "Senior Researcher",
-    "location": "the participant will work remotely",
+    "location": "Remote",
     "work_type": "Part Time",
     "mode": "Remote",
     "duration": "1 Year",
@@ -3445,9 +3358,9 @@
     "title": "Hurricane Community Resilience Researcher",
     "opportunity_number": "PREP0004609",
     "level": "Post Degree",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Full Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "The National Institute of Standards and Technology\u2019s National Windstorm Impact Reduction Program Study of Hurricane Maria\u2019s Impacts and Recovery in Puerto Rico includes a project focused on the recovery of schools and hospitals in Puerto Rico. The objective of the Recovery of Social Functions project is to identify the underlying characteristics and conditions associated with recovery of critical social functions from Hurricane Maria in Puerto Rico and to examine the recovery trajectories of sampled schools and hospitals. This project also includes investigation of the interdependencies of the broader community (e.g., households, businesses) and the social functions provided by schools and hospitals. Data were collected using surveys and interviews of K-12 schools and hospitals in Puerto Rico following Hurricanes Maria and Fiona. https://www.nist.gov/topics/disaster-failure-studies/hurricane-maria/hurricane-maria-projects-0 The primary activities for the research associate include the analysis of school and hospital impacts and recovery in Puerto Rico following Hurricane Fiona. This role requires the application of both quantitative and qualitative methodologies, as well as narrative and technical writing skills. The research associate will contribute to the development of reports, other publications, and presentations that communicate study findings to inform practical guidance and, ultimately, shape broader organizational resilience frameworks. Responsibilities also include supporting the development of data collection instruments (e.g., surveys and interview guides) and documentation required for approvals (e.g., Institutional Review Board, Office of Management and Budget Paperwork Reduction Act). Additionally, the work involves research and publications on related topics such as organizational resilience, community recovery, data collection following disasters, and measurement using social science methods. This work supports additional efforts of the NIST Community Resilience Program https://www.nist.gov/community-resilience to develop the measurement science needed for concepts of recovery and resilience. Specifically, the work overlaps in the area of organizational resilience. In this area, the research associate will contribute to the development of publications as well as generalized survey and interview instruments that can be used to improve standardized measurement of impacts and recovery for organizations following disruptions such as natural hazards.",
@@ -3665,56 +3578,12 @@
     ]
   },
   {
-    "title": "Digital Twin Modeling Researcher",
-    "opportunity_number": "PREP0004778",
-    "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "Digital Twin (DT) Framework Development for Laser-Based Metal Additive Manufacturing (AM) Processes. The Digital Twin integrates multi-physics, multi-scale process models, including computational fluid dynamics (CFD), heat transfer, and thermo-mechanical stress analysis at the macroscale, coupled with microstructure evolution models at the mesoscale and microscale. Model predictions will be validated using experimental data generated through NIST Additive Manufacturing Benchmark (AM-Bench) activities and NIST additive manufacturing testbeds.",
-    "responsibilities": [
-      "Develop, implement, and apply microstructure evolution models, including ExaCA and/or custom Cellular Automata (CA), Kinetic Monte Carlo (KMC), and Potts-model-based approaches, to simulate solidification, phase transformation, grain nucleation, and grain growth during LPBF processing",
-      "Integrate microstructure models with macroscale process simulations (e.g., CFD, thermal, and thermo-mechanical models) to enable coupled, multi-scale Digital Twin predictions of process-structure-property relationships",
-      "Validate model predictions against experimental characterization data, including Electron Backscatter Diffraction (EBSD) measurements and other microstructural datasets. Develop and apply quantitative metrics for assessing model fidelity, including grain morphology, grain size distributions, crystallographic texture, and phase fraction comparisons",
-      "Support the deployment, optimization, and execution of computational models on high-performance computing (HPC) platforms and computing clusters to enable large-scale simulations and uncertainty quantification studies",
-      "Assist in deploying and integrating Digital Twin software components with NIST additive manufacturing testbeds and experimental platforms to support model verification, validation, and real-time data-driven Digital Twin development. Investigating storage methods for maintenance data"
-    ],
-    "qualifications": [
-      "U.S. Citizen Preferred",
-      "Ph.D. in Materials Science and Engineering, Mechanical Engineering, Solid Mechanics, or a closely related computational engineering field",
-      "Minimum of 4 years of relevant research experience in computational materials modeling",
-      "Strong foundational experience with microstructure modeling techniques, specifically phase-field, diffuse interface, or level-set methods",
-      "Demonstrated experience developing or utilizing multi-scale, physics-based engineering models",
-      "Proficiency with scientific Python environments and toolkits (e.g., NumPy, SciPy, Git)",
-      "Highly Desirable: Exposure to, or a strong interest in, machine learning frameworks (e.g., PyTorch) or surrogate modeling concepts",
-      "Excellent oral and written communication skills for cross-disciplinary collaboration"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Dilip K. Banerjee (dilip.banerjee@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Dilip K. Banerjee",
-        "email": "dilipbanerjee@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
     "title": "Emergency Response Communications Researcher",
     "opportunity_number": "PREP0004814",
     "level": "Senior Researcher",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Full Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Despite significant progress in science, technology, guidance, and tools related to disaster-mitigation, natural, technological, and human-caused hazard events in the United States still result in significant direct and indirect costs in terms of lives lost, disruption of commerce and financial networks, properties destroyed, and the cost of mobilizing emergency response personnel and equipment. Community resilience, the ability to withstand the impacts of natural, technological, or human-caused hazards and recover community functions quickly, is a local and a national issue. The associate may be engaged in supporting two distinct and related efforts: Hurricane Maria National Construction Safety Team Investigation: Public Response to Emergency Communications Project - The objective of this project is to investigate the role of emergency communications in public response for those under imminent threat from Hurricane Maria. This project will also examine the use of communications during response and recovery (during and immediately after the hurricane). The associate will support revisions to the Emergency Communications Project report and the NCST investigation report to address comments from the NIST review process and from the public comment period. In addition to finalizing the publication of these reports, the associate will help finalize other important investigation products for publication, including: a dataset of public messages issued before, during, and immediately after Hurricane Maria made landfall in Puerto Rico; and peer-reviewed journal articles on analysis of household decision-making for hurricane protective actions. Community Resilience Assessment Methodology Project \u2013 The objective of this project is to develop a simplified, science-based community resilience assessment methodology that can be applied to communities of any size for the purpose of assessing baseline resilience as well as changes over time. The associate will support indicator development, as well as statistical analysis, econometrics, scale development, validation studies, and communication of results in various formats to support the goals of developing a community resilience assessment methodology.",
@@ -3763,7 +3632,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "CHIPS Project: Nondestructive defect detection metrology for advanced semiconductor packaging The work will entail: The candidate will join a multidisciplinary team of scientists working to advance nondestructive defect detection metrology for advanced semiconductor packaging by developing reference artifacts and benchmark datasets. The candidate will also contribute to sample preparation and to making destructive (e.g., FIB/SEM) and nondestructive measurements (e.g., XCT). The candidate will contribute to the development of reference artifacts. The candidate may contribute to designing CAD models, running X-ray computed tomography (XCT) simulations, and performing XCT reconstructions to generate datasets. The candidate will support the development of a Python script or package to automate these processes as needed. The datasets will be used to evaluate defect detection and image segmentation algorithms, including those based on deep learning principles. The incumbent will analyze the resulting measurements, perform image processing, and extract meaningful information to support the research goals outlined in the experiment plan. They will organize the measured and analyzed datasets for publication and communicate with the team.",
     "responsibilities": [
       "Prepare samples for focused ion beam or scanning electron microscopy measurements",
       "Make X-ray computed tomography or laminography measurements",
@@ -3808,7 +3677,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The work will entail: The candidate will join a multidisciplinary team of scientists working to advance nondestructive defect detection metrology for advanced semiconductor packaging by developing reference artifacts and benchmark datasets. The candidate will contribute to various aspects of the project, including, but not limited to, designing CAD models, running X-ray computed tomography (XCT) simulations, performing XCT reconstructions to generate datasets, preparing samples for FIB/SEM, and nanofabrication. The candidate will develop a Python script or package to automate these processes. Additionally, the candidate will use a team-developed generative modeling process to produce 3D models with seeded defects. The datasets will be used to evaluate defect detection and image segmentation algorithms, including those based on deep learning principles. The incumbent will analyze the resulting measurements, perform image processing, and extract meaningful information to support the research goals outlined in the experiment plan. They will organize the measured and analyzed datasets for publication, communicate with the team, and share the results at conferences and in publications.",
     "responsibilities": [
       "Design 3D models for simulation, run XCT simulations, carry out XCT reconstruction, and execute image analysis",
       "Organize and prepare data sets for publication",
@@ -3852,7 +3721,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The work will entail: The candidate will join a multidisciplinary team of scientists working to advance nondestructive defect detection metrology for advanced semiconductor packaging by developing reference artifacts and benchmark datasets. The candidate will contribute to designing CAD models, running X-ray computed tomography (XCT) simulations, and performing XCT reconstructions to generate datasets. The candidate will develop a Python script or package to automate these processes. Additionally, the candidate will utilize a generative modeling process created by the team to help generate 3D models with seeded defects. The datasets will be used to evaluate defect detection and image segmentation algorithms, including those based on deep learning principles. The candidate may contribute to sample preparation and nondestructive and destructive measurements. The incumbent will analyze the resulting measurements, perform image processing, and extract meaningful information to support the research goals outlined in the experiment plan. They will organize the measured and analyzed datasets for publication, communicate with the team, and share the results at conferences and in publications.",
     "responsibilities": [
       "Design 3D models for simulation, run XCT simulations, carry out XCT reconstruction, and execute image analysis.",
       "Organize and prepare data sets for publication.",
@@ -4126,9 +3995,9 @@
     "title": "Community Resilience Systems Modeling Researcher",
     "opportunity_number": "PREP0004926",
     "level": "Graduate Student",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Part Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "11 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Despite significant progress in science, technology, guidance, and tools related to disaster-mitigation, natural, technological, and human-caused hazard events in the United States still result in significant direct and indirect costs in terms of lives lost, disruption of commerce and financial networks, properties destroyed, and the cost of mobilizing emergency response personnel and equipment. Community resilience, the ability to withstand the impacts of natural, technological, or human-caused hazards and recover community functions quickly, is a local and a national issue. he PREP Research Associate will conduct collaborative research with researchers in the Community Resilience Group in the Engineering Laboratory at the National Institute of Standards and Technology (NIST).  The PREP participant will conduct research on the project entitled Development of a First-Generation Community-Resilience Systems Model.  Under this project, the PREP participant will contribute to a study exploring the joint use of the (NIST) Alternatives for Resilient Communities (NIST ARC) model and the IN-CORE model.  NIST ARC employs mathematical programming methods to facilitate exploration of alternative solutions for increasing a community\u2019s resilience to natural hazards such as floods, tornados, and earthquakes. The associate will set up and conduct the IN-CORE modeling for an earthquake case study involving Shelby County, TN that is subject to seismic hazards, consulting with NIST researchers.",
@@ -4169,9 +4038,9 @@
     "title": "Structural Engineering & Data Integration Researcher",
     "opportunity_number": "PREP0004938",
     "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
+    "location": "NIST Gaithersburg Campus and Remote",
     "work_type": "Full Time",
-    "mode": "In Person",
+    "mode": "Remote",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "A postdoctoral fellow is sought for a position in Structural Engineering to contribute to cutting-edge work on the development of a relational database for structural components.  The researcher will collaborate closely with a multidisciplinary team to create a unified database of the seismic performance of structural components to inform the development of future codes and standards. This open-source SQL repository will capture experimental and reconnaissance data on damage, capacity, and repair needs for various structural systems, with the potential to extend to other hazards. This opportunity is part of a high-impact research effort focused on advancing the science of seismic performance and data integration for next-generation codes and standards, directly supporting research transparency and data reuse in performance-based earthquake engineering.",
@@ -4205,6 +4074,49 @@
       {
         "name": "Dr. Siamak Sattar",
         "email": "siamaksattar@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Quantum Scattering Researcher",
+    "opportunity_number": "PREP0004975",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1+ Years",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Quantum Scattering Calculations of Rates and Ion-Molecule Cross Sections of PFAS Compounds",
+    "responsibilities": [
+      "Algorithm development, implementation and analysis",
+      "Scientific and technical programming",
+      "Computation and analysis of data",
+      "Presentation of results at internal meetings, and occasional meetings with external stakeholders",
+      "Publication of results in appropriate journals and publication of data to a web-based database",
+      "Ensure that results, protocols, software, and documentation have been archived or otherwise transmitted to the larger organization"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. degree in Chemistry, Physics, Mathematics, Computer Science, Data Science, or a related field",
+      "4+ years of relevant experience. Experience in quantum scattering calculations is required",
+      "Significant course work in one or more of chemistry, physics, mathematics, statistics and/or computer science",
+      "Ability to program in a modern computational language (e.g., Fortran, C/C++, Python)",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year and five-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Thomas C. Allison (thomas.allison@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Thomas C. Allison",
+        "email": "thomasallison@nistgov"
       },
       {
         "name": null,
@@ -4256,12 +4168,57 @@
     ]
   },
   {
-    "title": "Research Engineer Assistant",
-    "opportunity_number": "PREP0005038",
+    "title": "Research Software Engineer",
+    "opportunity_number": "PREP0005030",
     "level": "Post Degree",
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "he Data Science and Artificial Intelligence group (DSAI) in the NIST Material Measurement Laboratory is  seeking a Research Software Engineer (RSE) to help build sustainable software infrastructure for AI enabled materials and chemical science. The successful candidate will provide both leadership and hands on engineering support for the development, maintenance, deployment, and long-term sustainability of  critical research software, databases, workflows, and public scientific infrastructure. In this role you will work as an embedded technical team member across multiple DSAI projects,  participating in project planning, code review, architecture discussions, reproducibility efforts, and  deployment decisions. You will have the opportunity to shape software practices in a growing AI for  science group, contribute to public scientific datasets and benchmarks, and help translate research  prototypes into reliable software tools, simulation and benchmarking workflows, and measurement  capabilities used by NIST researchers and the broader community to accelerate development and  deployment of new materials technologies. The successful candidate will help prioritize engineering work  across projects in consultation with DSAI scientists, balancing near-term research needs with long-term  software sustainability.",
+    "responsibilities": [
+      "Design and deploy scientific databases supporting active research and public datasets.",
+      "Build and maintain infrastructure for self-driving laboratory projects, including ongoing  work on an autonomous metal-organic framework synthesis platform and high-speed  synchrotron characterization project.",
+      "Refactor, profile, test, and package prototype research code for long-term maintainability  and performance.",
+      "Support scientific machine learning workflows, benchmark suites, and reproducible ML  evaluation pipelines.",
+      "Develop a user-friendly, intuitive website for unique scientific datasets, for example  DSAI\u2019s newly curated quantum transport database of semiconductor interfaces."
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Master\u2019s degree in a STEM field, computer science, software engineering, or equivalent  professional experience.",
+      "Software Engineering Practice: Library and API design and release management, documentation  for scientific users and developers, automated testing and continuous integration, code review  and maintainability practices.",
+      "Collaborative Leadership: The ability to work alongside researchers in adopting modern,  collaborative software development workflows (e.g., git-based collaboration, issue tracking,  lightweight project management).",
+      "Data Engineering: Experience building data pipelines and reproducible workflows, for example  designing SQL-backed data storage and provenance systems to support computational research. \u25aa Scientific Computing: Demonstrated software engineering experience handling numerical and  scientific data, with deep familiarity with the Python numerical computing ecosystem \u25aa Documentation: Experience creating tutorials, examples, API documentation, or other user facing materials for scientific software.",
+      "Machine Learning Operations: Experience evaluating and deploying ML systems in  reproducible research or production environments, with specific proficiency in PyTorch. o Open-source software: the ideal candidate will have a track record of contributions to  open-source projects and community engagement.",
+      "Computational materials science: Familiarity with databases and workflows. o Performance Engineering: A track record of optimizing code for speed and efficiency,  with experience using profiling and debugging tools.",
+      "GPU Computing: Familiarity with GPU-based packages, particularly those relating to  machine learning interatomic potentials.",
+      "Web Development: Experience building and deploying robust web applications using  frameworks such as FastAPI, Django, or similar."
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Francesca Tavazza (francesca.tavazza@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Francesca Tavazza",
+        "email": "francescatavazza@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Research Engineer Assistant",
+    "opportunity_number": "PREP0005038",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus and Remote",
+    "work_type": "Full Time",
+    "mode": "Remote",
     "duration": "10 Months",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Providing essential technical support to multiple research projects conducted within the Division's laboratories by utilizing advanced apparatuses, under close supervision from senior technician staff and researchers. Contributes technical expertise to the development, evaluation, and refinement of research plans and experimental testing procedures, focused on 3D Concrete printing, tensile testing of structural welds specimens under high temperature (up to 1,000 deg C), testing of concrete specimens with fiber reinforced polymers (FRP), including materials and large-scale structural testing (structural steel specimens and/or 3D printed concrete specimens). Under the supervision of senior technician staff, executes complex experimental tasks, ensuring the successful execution of research projects with a focus on material properties and structural testing.",
@@ -4723,7 +4680,7 @@
     "mode": "In Person",
     "duration": "1 Year",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "",
+    "description": "The Infrastructure Materials Group (IMG) is seeking a highly motivated Research Associate to be a part of the Next-Generation Building Standards i nitiative within NIST. Degradation of reinforced concrete due to embedded steel corrosion remains a monumental challenge, with direct and indirect costs accounting for approximately 6% of the U.S. Gross Domestic Product. Current building codes, testing standards, and common-practice heuristics, such as diffusion coefficient, depth of cover, and chloride per unit mass of cement , are inadequate for assessing the complex environmental factors and novel binder chemistries that most strongly affect structural service life. To address this, the IMG \" Assessing Steel Corrosion Risk in Innovative Cement Concretes \" project aims to integrate advanced electrochemical characterization with species-transport modeling. We are seeking a highly motivated Postdoctoral Researcher with academic training and experience in corrosion science to develop new metrology standards specific to reinforced concrete structures, which are often in unsaturated conditions. The selected candidate will focus on measuring the precise rates of corrosion initiation and progression, ultimately providing the foundational data needed to build high-fidelity service-life and fragility models for reinforced concrete structures. The National Institute of Standards and Technology (NIST) promotes U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology to enhance economic security and improve our quality of life. Located in Gaithersburg, Maryland, NIST offers a collaborative, interdisciplinary culture where you will work alongside some of the world\u2019s leading scientists and engineers to solve critical national challenges. IMG at NIST serves as an important resource for developing science-based tools and measurement standards to enhance the resilience and sustainability of the nation's physical infrastructure. As part of the Engineering Laboratory, the IMG focuses on predicting the service life of infrastructure components under real-world and accelerated weathering conditions. We are specifically targeting a researcher with a rigorous background in developing accelerated corrosion studies to inform long-term modeling and prediction of degradation. The ideal candidate does not just run standard tests; they understand the thermodynamic mechanisms that drive durability and those that drive corrosion initiation and propagation. You should be comfortable moving between the wet lab (extracting and analyzing pore solutions) and the computer (modeling phase assemblages and quantifying uncertainty). Experience with cement pore solution chemistry and concrete transport properties, such as determining the Formation Factor using XRF for pore solution analysis or modeling hydration kinetics using GEMS/PHREEQC , is a critical skill needed for this position. Experience designing and conducting advanced electrochemical assessments of reinforcement steel to measure corrosion initiation and progression rates under varied solution properties and environmental conditions are required.",
     "responsibilities": [
       "The Research Associate will conduct advanced accelerated corrosion studies of steel embedded in concrete made with innovative cement binders to develop new metrology for assessing corrosion degradation in new and existing reinforced concrete structures.",
       "Cement and Concrete Material Science",
@@ -4811,5 +4768,364 @@
         "email": "msu-nistprep@morganedu"
       }
     ]
+  },
+  {
+    "title": "Thermophysical Measurement Researcher",
+    "opportunity_number": "PREP0005214",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "NIST seeks a postdoctoral researcher with an interest in the precision measurement of thermophysical quantities.  Example quantities of interest include thermodynamic temperature, pressure, refractive index, thermal expansion, density virial coefficients, magnetic susceptibility.  A unifying principle of the work is that all measurements are based on precision optical interferometry. For example, one branch of interest is to develop a cryogenic gas thermometer.  The working principle is refractive index gas thermometry, using a Fabry-Perot cavity resonator filled with helium gas; temperature is derived from the ideal gas law.  The system targets a temperature range of 4 K to 303 K, with current art performance realizing the SI unit kelvin. Another branch of interest is the development of an accurate, air-based dilatometer to measure the thermal expansion coefficient of materials important to dimensional metrology.  The working principle is displacement interferometry with a linear slide translation stage.  The system targets accuracy of about 3\u00d710-8 /K on the thermal expansion coefficient in the temperature range 283 K to 313 K. A third branch of interest is to measure the magnetic susceptibility of gases important to thermodynamic metrology.  The working principle is a \u201cFaraday balance\u201d, which consists of balancing a suspended dumbbell in a magnetic field; as the volume around the dumbbell is filled with the test (diamagnetic) gas, the dumbbell will rotate, and the magnetic susceptibility is proportional to the rotation.  The undertaking aims to resolve large disagreements between historic measurement and recent ab initio calculation of the magnetic susceptibility of helium, neon, argon, and nitrogen.",
+    "responsibilities": [
+      "Conduct research and development into precision interferometry, and its application to the measurement of thermophysical quantities",
+      "Instrumentation of apparatus, including optical, electrical, mechanical, and control automation",
+      "Instrument control, data acquisition and curation, and final analysis all performed in python",
+      "Publishing results of research to relevant journals and presentation at conferences"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in Physics, Chemistry, or Chemical or Electrical Engineering",
+      "Experience with optics, laser control and feedback electronics, and temperature and pressure measurements",
+      "Experience with frequency metrology (optical and rf)",
+      "Familiarity with measurement uncertainty and error analysis",
+      "Ability to work with the python programming language"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Patrick Egan (patrick.egan@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Patrick Egan",
+        "email": "patrickegan@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Digital Twin Framework Researcher",
+    "opportunity_number": "PREP0005220",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "9 Months",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "This project focuses on developing a foundational framework to support organizations in understanding, evaluating, and leveraging digital twin technologies specifically in the built environment. As digital twins (DTs) continue to gain traction across industries for their ability to virtually replicate physical assets, there remains a critical gap in how organizations assess the quality and value of DT solutions, especially when services are procured from external vendors. This project aims to address the maturity, functionality, and alignment of DT solutions with their operational needs. The framework will serve as a decision-support tool for stakeholders to critically evaluate vendor offerings and make informed choices about DT implementation. Additionally, this project represents the initial phase in a broader effort to develop standardized guidelines and templates for DT assessment. These resources will support transparency, promote consistency, and reduce ambiguity in DT-related procurement and deployment processes. By providing a structured approach to DT evaluation, the project will empower organizations to better manage risks, ensure return on investment, and accelerate the adoption of high-quality DT solutions that align with their strategic goals.",
+    "responsibilities": [
+      "Lead the development of a structured framework for evaluating digital twin solutions, focusing on maturity, functionality, and alignment with strategic goals",
+      "Collaborate with interdisciplinary stakeholders, including industry partners, to gather insights and validate the framework",
+      "Design and validate assessment templates for digital twin procurement and implementation",
+      "Disseminate findings through guidelines, technical reports, conference presentations, and publications",
+      "Support in contributing to the long-term roadmap for establishing DT evaluation standards"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. degree in Computer Science, Engineering, Manufacturing, or a related field",
+      "Ability to understand, develop, and use applications related to Digital Twin solutions for buildings",
+      "In-depth understanding of current open-source tools and open standards related to buildings",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a nine-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Parastoo Delgoshaei (parastoo.delgoshaei@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Parastoo Delgoshaei",
+        "email": "parastoodelgoshaei@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Digital Twin Modeling Researcher",
+    "opportunity_number": "PREP0005221",
+    "level": "Post Degree",
+    "location": "Remote",
+    "work_type": "Part Time",
+    "mode": "Remote",
+    "duration": "9 Months",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Modelica Modeling in Support of a Building Digital Twin. NIST has several projects related to digital twins in the built environment. These projects are developing the infrastructure needed to ease the development and deployment of digital twins and inform existing and future standards. The Intelligent Building Agents Laboratory (IBAL) is being used in these efforts. A Modelica model was developed for the IBAL, but this model needs to be improved and updated so that it can be used to demonstrate the full physical-digital twin workflow. Guideline 36 controllers need to be added to the model, and the parameters that will be tuned to align the digital twin with the physical twin need to be identified. Some of these parameters are not tunable when the model is converted to an FMU for co-simulation, so some models will need to be modified or developed to make those parameters available after the FMU has been compiled.",
+    "responsibilities": [
+      "Review and understand the existing models",
+      "Identify the parameters that need to be tuned",
+      "Modify and develop new models as needed",
+      "Add Guideline 36 controllers to the model",
+      "Present results at internal meetings and occasional meetings with external stakeholders",
+      "Ensure that results, protocols, software, and documentation have been archived or otherwise transmitted to the larger organization"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Undergraduate degree in Computer Science or Engineering",
+      "Experience with Modelica modeling using the Buildings library",
+      "Preferred experience with Modelica modeling in OpenModelica",
+      "Preferred experience with FMUs and co-simulation in Python",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 20 hours a week",
+      "Location: the participant will work remotely.",
+      "Duration: this is expected to be a nine-month position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Amanda Pertzborn (amanda.pertzborn@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Amanda Pertzborn",
+        "email": "amandapertzborn@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Optical Sources Measurement Researcher",
+    "opportunity_number": "PREP0005223",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "NIST seeks a scientist with an interest in the precision measurement and characterization of optical sources and systems. Example areas of interest include LEDs, lasers, lamps, imaging systems, radiometry, photometry, and non-contact temperature measurement based on thermal radiation. A unifying principle of the work is the development of accurate optical measurement techniques that connect fundamental physical quantities to measurable optical signals. For example, one branch of interest is the radiometric and photometric characterization of LEDs and other solid-state light sources. The work may involve developing measurement systems to determine spectral power distributions, optical power, luminous intensity, luminance, and other photometric and radiometric quantities. Emphasis may be placed on understanding and reducing systematic effects associated with detectors, optical geometry, spectral response, source characteristics, and measurement environment. Another area of interest is the measurement and characterization of lamps and thermal radiation sources, including the development of non-contact temperature measurement techniques using optical radiometry. The work may involve spectroradiometric measurements of emitted radiation and the development of methods to relate observed optical radiation to source temperature and other physical properties. The working principle is to infer temperature from the thermal radiation emitted by an object, with the goal of developing accurate and traceable methods for temperature measurement without physical contact. The work may involve understanding spectral emissivity, detector response, optical system characteristics, and other factors that limit the accuracy of radiation thermometry, with the broader goal of advancing radiometric techniques and standards for temperature and optical source characterization. A further area of interest is the optical characterization of imaging systems. The work may involve developing quantitative methods to measure spatial response, resolution, contrast, sensitivity, radiometric performance, and other characteristics of imaging systems. Measurements may combine calibrated optical sources, detectors, imaging sensors, and computational analysis to establish accurate and reproducible performance metrics. The scientist will have an opportunity to develop new experimental methods, design and build optical measurement systems, perform precision measurements, quantify measurement uncertainty, analyze experimental data, and investigate the physical limitations of existing measurement techniques. The work will involve close interaction between experiment, instrumentation, modeling, and data analysis, with the goal of advancing the accuracy and capabilities of optical measurement science.",
+    "responsibilities": [
+      "Conduct research and development to advance optical measurement science, including the development, evaluation, and validation of novel measurement methods, instrumentation, and analytical",
+      "Instrumentation of apparatus, including optical, electrical, mechanical, and control automation",
+      "Instrument control, data acquisition and curation, and final analysis all performed in python",
+      "Publishing results of research to relevant journals and presentation at conferences"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in Physics, Optical Engineering, Electrical Engineering, or a closely related field",
+      "Strong understanding of optical measurement principles, including radiometric and photometric quantities, spectral measurements, and detector characterization",
+      "Experience with spectroradiometers, photodetectors, integrating spheres, optical power meters, imaging systems, or related instrumentation",
+      "Demonstrated ability to design and conduct experiments, analyze experimental data, and evaluate measurement uncertainty and sources of error",
+      "Strong programming and data-analysis skills using tools such as Python, MATLAB, or equivalent scientific computing environments"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Maria E. Nadal (maria.nadal@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Maria E. Nadal",
+        "email": "marianadal@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Heterogeneous Integration Security Researcher",
+    "opportunity_number": "PREP0005231",
+    "level": "Graduate Student",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Part Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Security Evaluation and Mitigation of Cross-Chiplet Vulnerabilities in Heterogeneous Integration. This project directly addresses the semiconductor industry\u2019s need for secure and trustworthy heterogeneous integration, aligning with national security priorities and trusted microelectronics goals. Research on threats to security of heterogeneous integration, including formal threat modeling, metrics for evaluating security leakage and mitigation effectiveness, and attack simulations. Research and develop a security evaluation framework for identifying and characterizing vulnerabilities across chiplets, inter-chiplet interfaces, shared interconnects, memory controllers, and other system-level resources. Engage stakeholders across industry, academia, and government to align security requirements, research priorities, evaluation methods, and adoption pathways, incorporating insights from workshops and ongoing collaborations. Focus on emerging areas such as advanced packaging and chiplet-based systems, developing actionable countermeasures and publishing findings for industry use. Identify, research, and document methods to support secure and interoperable security assessment across heterogeneous integrated systems, including benchmarks, test methodologies, metrics, and machine-readable reporting formats suitable for large-scale deployment.",
+    "responsibilities": [
+      "Develop a security evaluation and mitigation framework for heterogeneous integration, with an initial focus on multi-tenant computing platforms",
+      "Address emerging vulnerabilities across chiplets, interposers, interfaces, and integrated components, while enabling trusted, scalable, and privacy-preserving communication within heterogeneous systems",
+      "Develop and evaluate practical mitigation techniques that reduce security leakage while preserving system performance, scalability, and design flexibility across different chiplet architectures, interconnect topologies, and integration configurations",
+      "Document results and developing publishable material for consumption by semiconductor engineers",
+      "Present results at internal meetings, and occasional meetings with external stakeholders"
+    ],
+    "qualifications": [
+      "U.S. citizen preferred",
+      "Enrolled in a Ph.D. program in Computer Engineering, Computer Science, Electrical Engineering, or a related field",
+      "Familiarity with integrated circuit design and threat analysis methodologies",
+      "Strong technical expertise in general-purpose programming languages, including C/C++, Python, and MATLAB, as well as hardware description languages widely used in the semiconductor industry, such as Verilog HDL",
+      "Expertise in open-source computer architecture and interconnect simulation tools, including gem5, Noxim, Sniper, and LegoSim, as well as leading commercial design and verification tools from Cadence and Synopsys, such as Cadence Innovus and Synopsys Design Compiler",
+      "Knowledgeable in Cybersecurity tenets",
+      "Ability to integrate information from diverse sources effectively and efficiently",
+      "Strong oral and written communication skills"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 20 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Kostas Amberiadis (kostas.amberiadis@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Kostas Amberiadis",
+        "email": "kostasamberiadis@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Immersion Cooling Materials Researcher",
+    "opportunity_number": "PREP0005233",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "Research Title: Long-Term Materials Durability in Immersion Cooling. PREP Researcher associate will continue to conduct research on failure analysis and degradation mechanism study of polymer exposed to accelerated laboratory testing environments and operation conditions. Understanding the degradation mechanism of polymeric components used in immersion cooling during service is critical to the development and assurance of AI physical Infrastructure. In this study, non-destructive and destructive techniques will be developed for the failure analysis and degradation mechanisms of polymeric components in aged samples after accelerated multi-stress testing.  The mechanisms of chemical, physical, and mechanical degradation will be studied using spectroscopic, microscopic, and mechanical techniques, such as attenuated total reflection Fourier-transform infrared spectroscopy (ATR-FTIR), micro-IR, laser scanning confocal microscopy, and a tensile tester.  The results will be used to understand the root causes of polymer failure, providing a scientific basis for test method development, material selection, and product quality assurance AI physical Infrastructure.",
+    "responsibilities": [
+      "Design and develop a testbed for accelerated multi-stress testing of materials used in immersion cooling systems, including thermal, chemical, mechanical, electrical, and hygrothermal cycling",
+      "Conduct chemical, physical, and mechanical characterization of polymer components used in immersion cooling systems during accelerated multi-stress testing",
+      "Evaluate the long-term durability and reliability of immersion cooling systems and develop service-life prediction models for various polymer components",
+      "Analyze and interpret experimental data; present research findings; and prepare test protocols, technical standards, reports, and peer-reviewed journal publications"
+    ],
+    "qualifications": [
+      "U.S. Citizen preferred",
+      "Master\u2019s degree in materials science and engineering, mechanical, or chemical engineering background, with at least 3 years of relevant professional experience",
+      "3+ years of research experience in multilayer failure analysis, surface/interface characterization, and polymer durability assessment",
+      "3+ years of experience applying machine learning, deep learning, and other AI methods to polymer degradation and service-life prediction",
+      "Extensive hands-on experience with characterization of multilayer polymeric materials, including microscopy (confocal microscopy, AFM), spectroscopy (ATR-FTIR, Raman, UV-Vis), and mechanical and adhesion properties",
+      "Proven ability to develop predictive models for the degradation, durability, and service-life performance of polymer components",
+      "Advanced proficiency in Python, R (including package development), and Origin for end-to-end data management, processing, visualization, and modeling",
+      "Familiarity with international testing standards (e.g., ASTM, ISO, IEEE) for polymers, with demonstrated ability to develop, validate, and document new or modified test methods"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Xiaohong Gu (xiaohong.gu@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Xiaohong Gu",
+        "email": "xiaohonggu@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Robotics And Perception Systems Engineer",
+    "opportunity_number": "PREP0005239",
+    "level": "Post Degree",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Intelligent Systems Division at NIST is investigating the performance of 3D vision systems for various manufacturing and automation applications. The research will focus on conducting experiments and analyzing data to understand the performance of these systems. This will support the development of performance metrics for these systems for various industrial applications.",
+    "responsibilities": [
+      "Conduct experiments to realize several existing and novel test methods for 3D vision systems",
+      "Research the effects of various physical properties of an object and sensor settings on the test metrics",
+      "Program collaborative robot arms for conducting various automation tasks",
+      "Use metrology systems (e.g., laser trackers, CMMs, etc.) for establishing reference measurements",
+      "Use analysis software (e.g., Python, MATLAB, Spatial Analyzer, Polyworks, Excel, etc.) to interpret results and produce visualizations",
+      "Write reports and contribute to peer-reviewed publications",
+      "Work with commercial bin-picking systems",
+      "Assist in the development of demonstrations for trade shows and conferences",
+      "Assisting in performing market research for purchases required for the laboratories",
+      "Using CAD software to design parts, end-of-arm tooling, and fixtures",
+      "Working with NIST and/or external resources to have parts fabricated",
+      "Recording knowledge and best practices to help improve efficiency and productivity",
+      "Write reports and contribute to peer-reviewed publications"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Engineering majors with bachelor\u2019s/master\u2019s degree, or in final or penultimate years of bachelor\u2019s/master\u2019s degree",
+      "Experience with working on robotic systems such as robot arms, mobile manipulators, etc",
+      "Experience with CAD software such as SolidWorks",
+      "Experience using MATLAB and Python",
+      "Basic understanding of using PyTorch, TensorFlow",
+      "Programming experience in one or more of the following computer languages: C++, Java",
+      "Experience using 3D printers",
+      "Basic understanding of 3D sensors such as LiDAR or RGBD cameras",
+      "Basic understanding of the Unix/Linux operating systems",
+      "Working knowledge of 3D point cloud data processing techniques, CloudCompare, or other similar tools"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Prem Rachakonda (prem.rachakonda@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Prem Rachakonda",
+        "email": "premrachakonda@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "GenAI Computer Scientist",
+    "opportunity_number": "PREP0005263",
+    "level": "Post Degree",
+    "location": "Hybrid",
+    "work_type": "Part Time",
+    "mode": "Hybrid",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "This position involves providing development support for various activities in the Information Access Division at the National Institute of Standards and Technology (NIST). Specifically, the work will support NIST GenAI evaluation series (https://ai-challenges.nist.gov/genai). The candidate will contribute to the development of AI evaluations that support evaluation series in various modalities (such as text, voice, image, video, and code) under the NIST GenAI program. This role includes contributing to implementation of an evaluation infrastructure, designing a database schema, and performing related evaluation tasks. The candidate will also provide technical expertise in activities related to deepfakes (image, audio, and video), which include creating a project plan, developing and distributing specialized tools, generating evaluation data, and conducting evaluation series. Additionally, they will contribute to reports that align with the program's objectives. The candidate will actively participate in NIST measurement science and engage in cutting-edge research and evaluation in the field of Generative AI technologies.",
+    "responsibilities": [
+      "Install, develop and deploy software for executing AI and ML based systems, with a large dataset on a GPU-accelerated cluster",
+      "Conduct image/audio/video evaluation series in advancing generative AI technologies",
+      "Conduct experimental design and dataset curation",
+      "Develop baseline algorithms in generative AI",
+      "Upgrade, maintain, and continuously develop existing NIST GenAI software and evaluation infrastructure",
+      "Manage data, such as querying and translating data formats/specifications",
+      "Design and deploy agentic AI evaluation metrics and frameworks to assess agent performance, dynamic planning, tool use accuracy, and error recovery behaviors in complex multi-step workflows as well as multi-agent systems",
+      "Develop standardized baseline agent architectures to serve as control benchmarks within the NIST GenAI framework"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Bachelor's Degree",
+      "Strong proficiency in a mainstream programming language used in scientific and networking domains such as Python, Java, Java Script, ruby, R, C, C++ or Rust.",
+      "Basic proficiency with networking technologies and REST based applications",
+      "Proficiency in shell scripting (Bash, Zsh, etc.)",
+      "Basic proficiency with virtualization and cloud technology stacks (f.e. docker, compose, kubernetes, AWS)",
+      "Computer Vision and Signal Processing fundamentals (f.e. audio preprocessing, morphological filters)",
+      "Scientific Data Visualization and Analysis fundamentals",
+      "Practical experience with agentic design patterns and modern orchestration frameworks",
+      "Familiarity with structured output enforcement (JSON Schema), dynamic tool interfaces, and emerging interoperability standards (e.g., Model Context Protocol / MCP)",
+      "Familiarity with agentic evaluation frameworks and benchmarks for autonomous performance",
+      "Mastery of the principles, practices, methods in a specialty of a technical professional field (in science, computer science, software engineering, information technology, mathematics, or related field)"
+    ],
+    "other_details": [
+		"Part-time: the participant is expected to work 20 hours a week"
+		"Location: the participant will work at the NIST Gaithersburg Campus and telework."
+		"Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds."
+
+	],
+    "contacts": [
+	  {
+        "name": "Dr. Kay Peterson",
+        "email": "kay.peterson@nist.gov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+	]
   }
 ]
