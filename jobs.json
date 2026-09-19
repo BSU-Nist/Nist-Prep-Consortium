@@ -569,7 +569,7 @@
     "location": "NIST Gaithersburg Campus",
     "work_type": "Full Time",
     "mode": "In Person",
-    "duration": "1 Year",
+    "duration": "1+ Years",
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
     "description": "Quantum sensing based on optically active spin defects in semiconductors (color center spins) is an emerging opportunity to deploy SI-traceable measurements in widespread application areas, including transportation, medicine, and resource exploration. The Nanoscale Spectroscopy Group seeks a research physicist to conduct optically and photoelectrically detected spin resonance sensing of magnetic fields for such applications. The successful candidate will study the physics and control of color center spins using a combination of metrologies, including optical and magnetic spectroscopies, advanced microscopies, and simulations to develop quantum sensing platforms. With limited supervision, the candidate will develop high-resolution spectral characterization of NV centers in diamond and other color center spins; investigate promising new color center spins in systems such as GaN, Si, and SiC, etc.; use judgment and literature precedents to research, interpret, and apply available guiding principles to characterize nanoscale optical and spin measurements of color centers, including single-defect emission, time-resolved detection, stroboscopic and spectroscopic methods, and nanoscale magnetometry using diverse readout schemes. The candidate will also integrate Bayesian algorithms for efficient measurements and develop automated measurement systems. The candidate will undertake numerical modelling of spin dynamics to understand device performance and improve on sensor design. The work impacts the goals of the nanoscale spectroscopy program to advance the development of engineered artificial atoms for nanoscale sensing and quantum applications. The candidate will interact with a broader team consisting of spectroscopy and materials chemistry expertise. The candidate will disseminate research results through open literature publication and technical talks at conferences.",
     "responsibilities": [
@@ -975,53 +975,6 @@
       {
         "name": "Dr. Dr. Nikolai N. Klimov",
         "email": "nklimov@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
-    "title": "Temperature Metrology Senior Researcher",
-    "opportunity_number": "PREP0004097",
-    "level": "Senior Researcher",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "The NIST Temperature and Humidity Group seeks a Senior Research Scientist with a doctorate in the physical sciences to lead advanced research and development in temperature metrology. This position is based in the NIST Standard Platinum Resistance Thermometer Calibration Laboratory (SPRTCL), the United States\u2019 primary facility for the realization of the kelvin under the International Temperature Scale of 1990 (ITS-90), achieving the lowest temperature measurement uncertainties nationally. The successful candidate will bring extensive professional experience in temperature metrology, including deep expertise in the development and analysis of temperature uncertainty budgets. Working with a high degree of scientific independence, the Senior Researcher will conduct original research aimed at advancing temperature realization, with a particular emphasis on the development of novel non-metal fixed points to support future temperature scales. The role also includes improving the measurement capabilities, performance, and scientific output of the SPRTCL. This position requires scientific leadership in defining research directions, serving as primary author on peer-reviewed publications, and representing NIST research through invited presentations, tutorials, and workshops in temperature metrology. The Senior Research Scientist is expected to contribute to the broader metrology community through technical leadership, knowledge dissemination, and engagement in national and international collaborations.",
-    "responsibilities": [
-      "Conduct and lead independent research in temperature metrology supporting the realization of the kelvin",
-      "Develop and maintain temperature uncertainty budgets for primary standards and calibrations",
-      "Design and implement novel non-metal fixed points to advance future temperature scales",
-      "Improve measurement capability and uncertainty performance of the SPRT Calibration Laboratory",
-      "Author and publish peer-reviewed scientific papers and technical reports",
-      "Lead technical tutorials, workshops, and invited presentations in temperature metrology",
-      "Provide scientific leadership and represent NIST in national and international collaborations",
-      "Mentor and guide technical staff, postdoctoral researchers, and visiting scientists as needed"
-    ],
-    "qualifications": [
-      "U.S. citizenship may be required for this position",
-      "Ph.D. in physics, physical sciences, or a closely related field",
-      "Extensive professional experience in temperature metrology at a senior level",
-      "Demonstrated expertise in developing and evaluating temperature uncertainty budgets",
-      "In-depth knowledge of primary temperature realization using SPRTs and the International Temperature Scale of 1990 (ITS-90)",
-      "Proven ability to conduct independent research and serve as primary author of peer-reviewed scientific publications",
-      "Demonstrated ability to provide scientific leadership in a research laboratory environment",
-      "Strong written and oral communication skills for technical documentation and presentations"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Dr. Maria E. Nadal (maria.nadal@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Dr. Maria E. Nadal",
-        "email": "marianadal@nistgov"
       },
       {
         "name": null,
@@ -3399,47 +3352,6 @@
     ]
   },
   {
-    "title": "Magnetic Materials Metrology Researcher",
-    "opportunity_number": "PREP0004687",
-    "level": "Postdoc",
-    "location": "NIST Gaithersburg Campus",
-    "work_type": "Full Time",
-    "mode": "In Person",
-    "duration": "1 Year",
-    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
-    "description": "Metrology for Integration of New Magnetic Materials. Development and evaluation of models of magnetic material behavior in microelectronic applications at frequencies from 1MHz to 100 GHz, with applications in power electronics and communications.",
-    "responsibilities": [
-      "Develop methods linking micromagnetic models to device-scale experimental measurements",
-      "Implement these methods in computer code",
-      "Present results at internal meetings and occasional meetings with external stakeholders",
-      "Ensure results, protocols, software, and documentation are archived or otherwise transmitted to the larger organization"
-    ],
-    "qualifications": [
-      "U.S. Citizen Preferred",
-      "Ph.D. in Applied Mathematics, Physics, or a related field",
-      "Familiarity with ODEs, PDEs, stiff systems, and Maxwell's equations",
-      "Experience coding in C++, MATLAB, and Python",
-      "Ability to work with experimentalists",
-      "Strong oral and written communication skills"
-    ],
-    "other_details": [
-      "Full-time: the participant is expected to work 40 hours a week",
-      "Location: the participant will work at the NIST Gaithersburg Campus.",
-      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
-      "For questions related to the research project or the nature of the work in this position, please contact Dr. Michael J. Donahue (michael.donahue@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
-    ],
-    "contacts": [
-      {
-        "name": "Dr. Michael J. Donahue",
-        "email": "michaeldonahue@nistgov"
-      },
-      {
-        "name": null,
-        "email": "msu-nistprep@morganedu"
-      }
-    ]
-  },
-  {
     "title": "Nanocalorimetry Sensor Researcher",
     "opportunity_number": "PREP0004704",
     "level": "Postdoc",
@@ -4213,6 +4125,50 @@
     ]
   },
   {
+    "title": "Research Software Engineer",
+    "opportunity_number": "PREP0005031",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The Data Science and Artificial Intelligence group (DSAI) in the NIST Material Measurement Laboratory is  seeking a Research Software Engineer (RSE) to help build sustainable software infrastructure for AI enabled materials and chemical science. The successful candidate will provide both leadership and hands on engineering support for the development, maintenance, deployment, and long-term sustainability of  critical research software, databases, workflows, and public scientific infrastructure. In this role you will work as an embedded technical team member across multiple DSAI projects,  participating in project planning, code review, architecture discussions, reproducibility efforts, and  deployment decisions. You will have the opportunity to shape software practices in a growing AI for  science group, contribute to public scientific datasets and benchmarks, and help translate research  prototypes into reliable software tools, simulation and benchmarking workflows, and measurement  capabilities used by NIST researchers and the broader community to accelerate development and  deployment of new materials technologies. The successful candidate will help prioritize engineering work  across projects in consultation with DSAI scientists, balancing near-term research needs with long-term  software sustainability.",
+    "responsibilities": [
+      "Design and deploy scientific databases supporting active research and public datasets. \u25aa Build and maintain infrastructure for self-driving laboratory projects, including ongoing  work on an autonomous metal-organic framework synthesis platform and high-speed  synchrotron characterization project.",
+      "Refactor, profile, test, and package prototype research code for long-term maintainability  and performance.",
+      "Support scientific machine learning workflows, benchmark suites, and reproducible ML  evaluation pipelines.",
+      "Develop a user-friendly, intuitive website for unique scientific datasets, for example  DSAI\u2019s newly curated quantum transport database of semiconductor interfaces."
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. in a STEM field, computer science, software engineering, or equivalent  professional experience.",
+      "Software Engineering Practice: Library and API design and release management, documentation  for scientific users and developers, automated testing and continuous integration, code review  and maintainability practices.",
+      "Collaborative Leadership: The ability to work alongside researchers in adopting modern,  collaborative software development workflows (e.g., git-based collaboration, issue tracking,  lightweight project management).",
+      "Data Engineering: Experience building data pipelines and reproducible workflows, for example  designing SQL-backed data storage and provenance systems to support computational research. \u25aa Scientific Computing: Demonstrated software engineering experience handling numerical and  scientific data, with deep familiarity with the Python numerical computing ecosystem \u25aa Documentation: Experience creating tutorials, examples, API documentation, or other user facing materials for scientific software.",
+      "Machine Learning Operations: Experience evaluating and deploying ML systems in  reproducible research or production environments, with specific proficiency in PyTorch. o Open-source software: the ideal candidate will have a track record of contributions to  open-source projects and community engagement.",
+      "Computational materials science: Familiarity with databases and workflows. o Performance Engineering: A track record of optimizing code for speed and efficiency,  with experience using profiling and debugging tools.",
+      "GPU Computing: Familiarity with GPU-based packages, particularly those relating to  machine learning interatomic potentials.",
+      "Web Development: Experience building and deploying robust web applications using  frameworks such as FastAPI, Django, or similar."
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Francesca Tavazza (francesca.tavazza@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Francesca Tavazza",
+        "email": "francescatavazza@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
     "title": "Research Engineer Assistant",
     "opportunity_number": "PREP0005038",
     "level": "Post Degree",
@@ -4537,6 +4493,94 @@
     ]
   },
   {
+    "title": "Software Engineer",
+    "opportunity_number": "PREP0005099",
+    "level": "Undergraduate/Graduate Student",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Part Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "We are seeking a senior undergraduate or graduate student with strong software engineering skills to support the Guardians of Forensic Evidence Initiative\u2014an effort to strengthen the scientific reliability of AI-based deepfake detection systems used in forensic and judicial contexts. This role emphasizes AI related software development, evaluation pipeline implementation, AI system benchmarking infrastructure, and web platform development. The selected candidate will contribute directly to the development of the Deepfake Challenge Kit, including dataset management systems, scoring packages, and a secure evaluation website with user authentication and leaderboard functionality.",
+    "responsibilities": [
+      "Deepfake and Synthetic Data Generation and Automated Benchmarking Dataset Pipeline Development, including but not limited to: developing automated or semi-automated state-of-the-art deepfake image/audio generation pipelines; implementing metadata handling and dataset validation tools; building infrastructure for deepfake media benchmarking; etc.",
+      "Deepfake Analytic AI System Implementation: Implement baseline deepfake detection algorithms; design modular, well-documented, and maintainable codebases; deploy deepfake detection tools on Linux servers and GPU clusters; ensure reproducibility and performance optimization; maintain cross-platform compatibility (Linux, macOS, Windows); implement containerized solutions (Docker-based workflows) as needed.",
+      "Scoring Package & Evaluation Infrastructure: Implement evaluation metrics (ROC curves, AUC, confusion matrices, robustness analysis); develop reproducible evaluation pipelines; conduct quantitative performance analysis across different data subsets.",
+      "Web Platform Development: Design, implement, and maintain a secure, scalable evaluation web platform that includes a user authentication system (login, registration, role-based access control), a dataset release portal with controlled access, and an admin dashboard for dataset and user management. The technology stack may include (but is not limited to) Python, React or modern JavaScript frameworks, PostgreSQL, Docker, and Linux-based deployment environments."
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "GPU programming or AI model development experience",
+      "Experience with web development (HTML, CSS, JavaScript)",
+      "Experience developing backend services (Flask, Django, FastAPI, Node.js, etc.)",
+      "Previous experience with generative AI tools, including deepfake technologies and large language models",
+      "Experience in cross-platform software development (Linux, macOS, Windows)",
+      "Experience or interest in machine learning and AI system testing and evaluation",
+      "Experience with database management (e.g., PostgreSQL)",
+      "Experience with Jupyter Notebooks, R, Shiny, and interactive data visualization"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 20 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Haiying Guan (haiying.guan@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Haiying Guan",
+        "email": "haiyingguan@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "opportunity_number": "PREP0005100",
+    "level": "Undergraduate/Graduate Student",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Part Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "We are seeking a senior undergraduate or graduate student with strong software engineering skills to support the Guardians of Forensic Evidence Initiative\u2014an effort to strengthen the scientific reliability of AI-based deepfake detection systems used in forensic and judicial contexts. This role emphasizes AI related software development, evaluation pipeline implementation, AI system benchmarking infrastructure, and web platform development. The selected candidate will contribute directly to the development of the Deepfake Challenge Kit, including dataset management systems, scoring packages, and a secure evaluation website with user authentication and leaderboard functionality.",
+    "responsibilities": [
+      "Deepfake and Synthetic Data Generation and Automated Benchmarking Dataset Pipeline Development, including but not limited to: developing automated or semi-automated state-of-the-art deepfake image/audio generation pipelines; implementing metadata handling and dataset validation tools; building infrastructure for deepfake media benchmarking; etc.",
+      "Deepfake Analytic AI System Implementation: Implement baseline deepfake detection algorithms; design modular, well-documented, and maintainable codebases; deploy deepfake detection tools on Linux servers and GPU clusters; ensure reproducibility and performance optimization; maintain cross-platform compatibility (Linux, macOS, Windows); implement containerized solutions (Docker-based workflows) as needed.",
+      "Scoring Package & Evaluation Infrastructure: Implement evaluation metrics (ROC curves, AUC, confusion matrices, robustness analysis); develop reproducible evaluation pipelines; conduct quantitative performance analysis across different data subsets.",
+      "Web Platform Development: Design, implement, and maintain a secure, scalable evaluation web platform that includes a user authentication system (login, registration, role-based access control), a dataset release portal with controlled access, and an admin dashboard for dataset and user management. The technology stack may include (but is not limited to) Python, React or modern JavaScript frameworks, PostgreSQL, Docker, and Linux-based deployment environments."
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "GPU programming or AI model development experience",
+      "Experience with web development (HTML, CSS, JavaScript)",
+      "Experience developing backend services (Flask, Django, FastAPI, Node.js, etc.)",
+      "Previous experience with generative AI tools, including deepfake technologies and large language models",
+      "Experience in cross-platform software development (Linux, macOS, Windows)",
+      "Experience or interest in machine learning and AI system testing and evaluation",
+      "Experience with database management (e.g., PostgreSQL)",
+      "Experience with Jupyter Notebooks, R, Shiny, and interactive data visualization"
+    ],
+    "other_details": [
+      "Part-time: the participant is expected to work 20 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. Haiying Guan (haiying.guan@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. Haiying Guan",
+        "email": "haiyingguan@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
     "title": "AI-Ready Publishing Systems Researcher",
     "opportunity_number": "PREP0005125",
     "level": "Post Degree",
@@ -4574,6 +4618,56 @@
       {
         "name": "Dr. Connie LaSalle",
         "email": "connielasalle@nistgov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+    ]
+  },
+  {
+    "title": "Polymer Durability Researcher",
+    "opportunity_number": "PREP0005158",
+    "level": "Postdoc",
+    "location": "NIST Gaithersburg Campus",
+    "work_type": "Full Time",
+    "mode": "In Person",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "The PREP Researcher will conduct laboratory accelerating weathering exposure experiments on various polymer systems used in infrastructure applications, which will include building envelope materials, protective coatings, crack repair materials, and fiber reinforced polymer composite (FRP) retrofits. The PREP Researcher will help to identify select polymeric infrastructure materials in widespread use based on current limitations of these materials, identified research gaps, and identified durability issues. Accelerated weathering experiments will primarily take place on the state-of-the-art NIST SPHERE (Simulated Photodegradation via High Energy Radiant Exposure) device which allows precise control of temperature and relative humidity while exposing samples to highly uniform ultraviolet (UV) exposure. Other weathering exposure experiments in humidity chambers, a freeze/thaw chamber, a corrosion chamber, commercial UV-weathering devices, or at two outdoor weathering fields may be conducted. The PREP researcher will collect material property change data resulting from degradation and develop test configurations and methods to measure performance changes of an infrastructure material with respect to its given application (e.g., increased water penetration of a building envelope material). Alongside structural engineers, weathering data criteria will be collaboratively incorporated into design equations and structural models.",
+    "responsibilities": [
+      "Review literature and sample degradation results from previous SPHERE and outdoor weathering experiments",
+      "Help identify a select few polymeric infrastructure materials for durability assessment that will have a high impact for stakeholders. Identification efforts should involve literature reviews, stakeholder engagement, and market research. Building envelope materials will be highest priority",
+      "Conduct accelerated weathering exposure on the NIST SPHERE and on other weathering devices, as appropriate",
+      "Characterize the chemical, optical, and mechanical property changes of weathered infrastructure polymer samples using techniques such as ATR-FTIR, Raman, UV-Vis, color and gloss tests, DSC, TGA, pull-off testing, three-point bending tests, moisture absorption tests, infrared thermography, and microscopy",
+      "Develop test configurations and test methods to measure performance changes of a material within a given infrastructure application. This may include water vapor transmission tests, corrosion tests, tensile tests, impact and tear resistance tests, etc",
+      "Maintain the NIST SPHERE in collaboration with NIST technicians: this includes collecting, recording, and analyzing irradiance data",
+      "Construct a UV-degradation database for correlating materials-structure-performance properties. Contribute to a NIST SPHERE metadata database",
+      "Present results within the group and other related meetings, write protocols, technical reports, and prepare manuscripts for high impact, peer-reviewed publications",
+      "Ensure that results, protocols, software, and documentation have been archived"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Ph.D. degree in Materials or Chemical Engineering, Mechanical Engineering, Environmental Engineering, Chemistry, or a related polymer science field",
+      "The ideal candidate will possess a deep background in materials science, strictly focused on the fundamental degradation of polymers in outdoor service environments",
+      "Demonstrated hands-on laboratory experience with at least four of the following techniques: tensile tests, DMA, nanoindentation, DSC, TGA, FTIR spectroscopy, Raman spectroscopy, UV-Vis spectroscopy, color and gloss tests, optical microscopy, scanning electron microscopy, infrared thermography, pull-off tests, three-point bending tests, moisture absorption tests",
+      "Experience evaluating long-term degradation of polymeric materials and/or the use of accelerated weathering techniques in prior research efforts",
+      "Experience using analysis software (e.g., Excel, Origin, SolidWorks)",
+      "Experience using R or Python for database development and data analysis is a plus",
+      "Ability to work with real-time event data at-scale",
+      "Ability to develop prototypes of tools needed to analyze data",
+      "A strong record of scientific productivity, evidenced by publications in peer-reviewed journals"
+    ],
+    "other_details": [
+      "Full-time: the participant is expected to work 40 hours a week",
+      "Location: the participant will work at the NIST Gaithersburg Campus.",
+      "Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds.",
+      "For questions related to the research project or the nature of the work in this position, please contact Dr. David Goodwin (david.goodwin@nist.gov). For questions related to the online application or NIST PREP more generally, please contact msu-nistprep@morgan.edu."
+    ],
+    "contacts": [
+      {
+        "name": "Dr. David Goodwin",
+        "email": "davidgoodwin@nistgov"
       },
       {
         "name": null,
