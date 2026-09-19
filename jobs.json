@@ -5173,6 +5173,57 @@
   },
   {
     "title": "GenAI Computer Scientist",
+    "opportunity_number": "PREP0005262",
+    "level": "Post Degree",
+    "location": "Hybrid",
+    "work_type": "Full Time",
+    "mode": "Hybrid",
+    "duration": "1 Year",
+    "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSfk0vKuAFov0XrQRLr7fotXcRaU9cYLuIujudjkCmx-suDUdg/viewform",
+    "description": "This position involves providing development support for various activities in the Information Access Division at the National Institute of Standards and Technology (NIST). Specifically, the work will support NIST GenAI evaluation series (https://ai-challenges.nist.gov/genai). The candidate will contribute to the development of AI evaluations that support evaluation series in various modalities (such as text, voice, image, video, and code) under the NIST GenAI program. This role includes contributing to implementation of an evaluation infrastructure, designing a database schema, and performing related evaluation tasks. The candidate will also provide technical expertise in activities related to deepfakes (image, audio, and video), which include creating a project plan, developing and distributing specialized tools, generating evaluation data, and conducting evaluation series. Additionally, they will contribute to reports that align with the program's objectives. The candidate will actively participate in NIST measurement science and engage in cutting-edge research and evaluation in the field of Generative AI technologies.",
+    "responsibilities": [
+      "Install, develop and deploy software for executing AI and ML based systems, with a large dataset on a GPU-accelerated cluster",
+      "Conduct image/audio/video evaluation series in advancing generative AI technologies",
+      "Conduct experimental design and dataset curation",
+      "Develop baseline algorithms in generative AI",
+      "Upgrade, maintain, and continuously develop existing NIST GenAI software and evaluation infrastructure",
+      "Manage data, such as querying and translating data formats/specifications",
+      "Design and deploy agentic AI evaluation metrics and frameworks to assess agent performance, dynamic planning, tool use accuracy, and error recovery behaviors in complex multi-step workflows as well as multi-agent systems",
+      "Develop standardized baseline agent architectures to serve as control benchmarks within the NIST GenAI framework"
+    ],
+    "qualifications": [
+      "U.S. Citizen Preferred",
+      "Bachelor's Degree",
+      "Strong proficiency in a mainstream programming language used in scientific and networking domains such as Python, Java, Java Script, ruby, R, C, C++ or Rust.",
+      "Basic proficiency with networking technologies and REST based applications",
+      "Proficiency in shell scripting (Bash, Zsh, etc.)",
+      "Basic proficiency with virtualization and cloud technology stacks (f.e. docker, compose, kubernetes, AWS)",
+      "Computer Vision and Signal Processing fundamentals (f.e. audio preprocessing, morphological filters)",
+      "Scientific Data Visualization and Analysis fundamentals",
+      "Practical experience with agentic design patterns and modern orchestration frameworks",
+      "Familiarity with structured output enforcement (JSON Schema), dynamic tool interfaces, and emerging interoperability standards (e.g., Model Context Protocol / MCP)",
+      "Familiarity with agentic evaluation frameworks and benchmarks for autonomous performance",
+      "Mastery of the principles, practices, methods in a specialty of a technical professional field (in science, computer science, software engineering, information technology, mathematics, or related field)"
+    ],
+    "other_details": [
+		"Full-Time: the participant is expected to work 40 hours a week",
+		"Location: the participant will work at the NIST Gaithersburg Campus and telework.",
+		"Duration: this is expected to be a one-year position. Extensions are sometimes granted depending on the availability of funds."
+
+	],
+    "contacts": [
+	  {
+        "name": "Dr. Kay Peterson",
+        "email": "kay.peterson@nist.gov"
+      },
+      {
+        "name": null,
+        "email": "msu-nistprep@morganedu"
+      }
+	]
+  }
+  {
+    "title": "GenAI Computer Scientist",
     "opportunity_number": "PREP0005263",
     "level": "Post Degree",
     "location": "Hybrid",
